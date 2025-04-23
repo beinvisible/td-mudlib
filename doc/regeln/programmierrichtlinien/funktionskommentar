@@ -1,0 +1,26 @@
+/**************************************************************************
+Beschreibung:
+  Die Funktion laesst den Spieler eine Beere pfluecken.
+Parameter:
+  string str - der Eingabestring des Spielers
+Rueckgabewert:
+  int - 0 wenn fehlerhafter Aufruf
+      - 1 wenn erfolgreich
+Aufrufer:
+  AddCmd(({"pfluecke","pflueck"}),"pfluecken_func");
+  aus der create()
+**************************************************************************/
+int pfluecken_func(string str)
+{
+  if(str == .....)
+  {
+  .
+  .
+  .
+    return 1;
+  }
+  else
+  {
+    return 0;
+  }
+}

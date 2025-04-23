@@ -1,0 +1,122 @@
+* Text *
+========
+
+Text ist ja fast alles im Tamedhon, angefangen bei den Anzeigen fuer die
+Spieler, ueber diverse Hilfeseiten, die Zeitung, bis hin zum letzten
+Schnipsel Sourcecode.
+Wichtig ist es folgendes zu verinnerlichen:
+
+a) Kommentare
+
+I. Kopfkommentare
+Jede Sourcedatei sollte einen Kopfkommentar enthalten um einen schnellen
+Ueberblick darueber zu gewaehren, worum es in dieser File ueberhaupt geht
+und was wann geaendert wurde.
+Im einzelnen sollten folgende Dinge enthalten sein:
+- nochmals der Dateiname
+- kurze Beschreibung des Objektes oder der Headerfile
+- Datum des Erstellens
+- Name des Erstellers(Magiername des Urhebers)
+- History(Wann hat Wer Was geaendert an der Datei?) ab dem Datum des
+  Anschlusses
+Ein Beispiel findet ihr unter 'man kopfkommentar'.
+
+II. Funktionskommentare
+Auch die einzelnen Funktionen in einem Objekt sollten durch einen Kommentar
+beschrieben werden.
+Folgende Dinge sind dabei zu dokumentieren:
+- Funktionsbeschreibung
+- Parameter
+- Rueckgabewert
+- ggf. den Aufrufer
+Ein Beispiel findet ihr unter 'man funktionskommentar'.
+
+
+b) Zeilenlaenge und Tabulatoren
+
+I. Wir haben nur begrenzten Platz von 80 x 25 Zeichen in einem Telnet-
+fenster. Und Telnet ist nun mal die unterste Form eines Mudclients. Rechnet
+man danach noch eine Zeile fuer die Eingabe ab und nochmals 2 Zeichenreihen
+vertikal fuer das Standardprompt, bleiben noch 78 x 24. Das stellt die
+maximal dastellbare Anzeigeflaeche dar und sollte nie ueberschritten
+werden. Jeder Text sollte spaetestens nach 75 Zeichen umgebrochen werden,
+egal, ob Ausgabe an den Spieler oder Quellcode. Auch Quellcode muss in
+Notfaellen im 'ed' geaendert werden koennen, dabei waere ein schlecht
+umgebrochener Programmtext sehr schwer zu lesen, geschweigedenn zu aendern.
+
+II. Tabulatoren sollten dringend in Leerzeichen gewandelt werden. Jeder
+Magier benutzt seine persoenliche Einstellung der Tabulatorenlaenge, der
+eine benutzt nur 1 oder 2 Zeichen, ein anderer 4 und der Dritte 6. Wenn nun
+ein Magier mit sehr kurz eingestellten Tabulatoren ein Projekt einspielt
+verschieben sich die Tabulatoren im 'ed' auf standardmaessige 8 Zeichen,
+damit wird der gesammte Text wieder unleserlich und schwer zu warten.
+
+
+c) Formate
+
+Text wird im Tame nicht nur zur Anzeige gebracht, sondern muss auch dann
+und wann gespeichert werden. Grundsaetzlich ist das im UNIX-Format zu tun.
+Folgende Formate(Extensionen) sind gebraeuchlich:
+
+I. Ohne Extension
+Textdateien ohne Extension sollten ausschliesslich in der Dokumentation
+verwendet werden im Verzeichnis /doc. Spielerhilfe, Manuals und Anleitungen
+sind dort zu finden.
+
+II. .C
+Mit .c enden alle Programmdateien im Tamedhon. Die meisten befinden sich in
+den Verzeichnissen /d und /std.
+
+III .H
+Headerfiles enden mit .h und stellen Deklarations und Definitionsdateien
+die Programmdateien dar. Die wichtigsten Header-Dateien im Verzeichnis /d
+sind zweifelsohne die def.h. In ihnen befinden sich die wichtigsten Pfad-
+definitionen fuer die einzelnen Projekte.
+
+IV. .TXT
+Die Extension TXT ist wie unschwer zu erkennen ist fuer Textdateien vorge-
+sehen, nur das im Tamedhon so ziemlich alles Text ist. Vorzugsweise ist
+diese Endung zu nutzen, wenn die Datei laengeren erklaerenden Text enthaelt
+(ausser den Manuals und Hilfetexten), wenn der Text dazu da ist, dem
+Spieler mit 'more' angezeigt zu werden oder eine Einordnung in die anderen
+Punkte nicht moeglich ist.
+
+V. .ASC
+Ascii-Karten werden mit dieser Extension gekennzeichnet. Meist liegen sie
+in den Wurzelverzeichnissen der Projekte, um Darueber aufschluss zu geben,
+wie das Gebiet gestaltet ist. Ausserdem wird diese Dateiendung fuer Ascii-
+Arts verwendet, die dem Spieler ggf. mit More angezeigt werden koennen.
+
+VI. .MAP
+Diese Endung ist _AUSSCHLIESSLICH_ fuer die Dateien des Extralogin Karte
+vorgesehen. Sie befinden sich in einem Projektverzeichnis im Unterordner
+'MAP' der paralell zum Ordner 'ROOM' existieren sollte.
+
+VII. .LOG
+Logdateien tragen meist diese Extension. Sie werden oft automatisch
+befuellt und dokumentieren alle moeglichen Ereignisse chronologisch.
+
+VIII. .REP
+...ist im Thamedhon wohl eine der am wenigsten geliebten Endungen. Sie wird
+fuer die Replik-Dateien verwendet, die mit allerlei Details, Typos und Bugs
+von den Spielern befuellt werden. Meist im Verzeichnis /log/report.
+
+IX. .BUG
+Aehnlich wie in .REP stehen hier Repliken drin, allerdings nur die Buggs.
+
+X. .TYPO
+Analog zu .BUG mit Typos.
+
+XI. .DET
+Analog zu .BUG mit Details.
+
+XII. .IDEA
+Analog zu .BUG mit Ideen.
+
+XIII. .INFO
+Analog zu .BUG gefuellt mit fehlenden NPC-Infos.
+
+XIV. .O
+Object-Files: In ihnen werden Objekte abgelegt. Spieler, Mails, Security-
+Objekte und noch einiges mehr. Die Objekt-Dateien liegen meistens in sehr
+schwer zugaenglichen Verzeichnissen.

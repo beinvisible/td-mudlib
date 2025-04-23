@@ -1,0 +1,21 @@
+KOMMANDO:
+        ausgabe
+        ausgabe screenreader|normal
+        ausgabe grafik aus|ein
+        ausgabe prompt loeschen|setzen
+
+FUNKTION:
+        Ueber diesen Befehl koennen Optionen gesetzt werden, die die
+        Darstellung fuer Sprachausgabe-Software optimieren. Momentan ist
+        es moeglich, ASCII-Grafiken zu vermeiden, das Promptzeichen zu
+        loeschen, die Kampfmeldungen fuer schwache Treffer auszublenden
+        und mehrere gleiche Objekte gruppiert darzustellen. Diese Optionen
+        koennen auch einzeln aktiviert oder deaktiviert werden.
+
+        Ohne Argumente werden die aktuellen Einstellungen angezeigt.
+
+        Zusaetzlich koennen ueber den kurz-Befehl die langen
+        Raumbeschreibungen beim Laufen deaktiviert werden.
+
+SIEHE AUCH:
+        kurz, einstellungen, kampf, anzeige

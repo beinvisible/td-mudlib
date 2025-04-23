@@ -1,0 +1,16 @@
+* Die Balancewerte *
+====================
+
+In den Balancewerten stehen Berechnungen zu XP und dergleichen, Waffen-
+werte, zulaessige Ruestungswerte, Tauschwerte von Geld und vieles mehr.
+
+Aus Platzgruenden ist das ganze aber in einzelne Dateien aufgespalten
+worden:
+
+    a) waffen
+    b) xp
+    c) ruestungen
+    d) geld
+    e) wearrestrictions
+
+Schaut Euch also bitte die einzelnen Manuals an um Naeheres zu erfahren.

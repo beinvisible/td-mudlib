@@ -1,0 +1,20 @@
+///////////////////////////////////////////////////////////////////////////
+// Azrael azrael.c
+// Er ist die boese Miezekatze von Gargamel und QuestNPC zu folgenden
+// Quests:
+// - Rettet die Schluempfe
+// - Schlumpfbeerensuppe
+//
+// - Magiername -
+// 03.05.2000
+//
+// - Aenderungen -
+// Mit 03.05.2000       Saxxon    - Jetzt kratzt Azrael waerend des Kampfes
+// Son 07.05.2000       Phain     - Azrael wurde das Fliegen beigebracht
+//                                  Funktion Fliegen()
+//                                  AddCmd() "Tritt Azrael wie einen
+//                                  Fussball"
+//
+// Tag tt.mm.jjjj       WER       - WAS WURDE GEAENDERT
+//
+

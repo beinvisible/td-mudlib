@@ -1,0 +1,45 @@
+---------------------------------------------------------------------------
+        Ruestungen
+---------------------------------------------------------------------------
+ Die Ruestungen in /p/armour sind ok, nur von Erzmagier fuer Balance
+ neue zu erstellen.
+ Der Regionsmagier hat darauf zu achten, dass Ruestungen mit
+ unterschiedlichen Staerken ausgewogen ueber die Region verteilt sind.
+
+ - Schutz gegen nicht-magischen Schaden
+
+   Ruestklasse	Obergrenze	Richtwert
+
+   AT_ARMOUR		40	30
+   AT_HELMET		15	10
+   AT_RING       	 5	 3
+   AT_GLOVE     	10	 7
+   AT_CLOAK     	10	 7
+   AT_BOOT      	10	 7
+   AT_TROUSERS  	10	 7
+   AT_SHIELD    	30	20
+   AT_AMULET     	 5	 3
+   AT_BELT       	 5	 3
+   AT_BRACERS   	10	 7
+   AT_MISC       	 0	 -
+
+ Folgende Dinge sind genehmigungspflichtig:
+ - Ruestungen, die den Richtwert ueberschreiten
+ - Ruestungen, die gegen magische Schaeden schuetzen
+ - Sonderfunktionen, wenn durch eine Sonderfunktion die Obergrenze
+   ueberschritten wird, muss stark eingeschraenkt werden.
+   Ausnahme ist hier ein Bonus, der nur fuer NPC gilt
+ - Schutz gegen Temperatur
+ - Attributveraenderungen
+
+ Restriktionen:
+ - Nicht-genehmigungspflichtige Ruestungen sollten ohne Restriktionen
+   auskommen.
+ - Wird die Obergrenze erreicht, muss stark eingeschraenkt werden.
+   Ausnahme ist hier ein Bonus, der nur fuer NPC gilt
+ - Ab wann Seher, wieviel Geschick?
+ - Ab wann darf es nicht mehr im Laden verkauft werden?
+   (Wenn genehmigungspflichtig?)
+
+ Tabelle/Formel: Schutz  Gewicht Wert Haltbarkeit
+

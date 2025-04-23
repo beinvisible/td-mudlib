@@ -1,0 +1,27 @@
+KOMMANDO:
+        gebet <gebet>
+
+ARGUMENTE:
+        <gebet> Ein schon erlerntes Gebet:
+        Heilung        Schenkt Dir kurzzeitig zusaetzliches Leben.
+        Gesundheit     Schenkt Dir gute Augen und Ohren und erfrischt.
+        Staerke        Schenkt Dir kurzzeitig zusaetzliche Staerke.
+        Ausdauer       Schenkt Dir kurzzeitig zusaetzliches Leben.
+        LetztesGefecht Laesst Dich kurzzeitig ueber den Tod hinaus kaempfen,
+                       fordert nach Ablauf der Zeit aber seinen Tribut!
+
+FUNKTION:
+        Gebete an Atal bitten um koerperliche Hilfe. Sie duerfen nicht
+        zu oft ausgesprochen werden, um Atal nicht zu erzuernen. Der
+        Report im Amulett zeigt an, wann die Gebetspause zuende ist.
+
+KOSTEN:
+        Das Gebet kostet 25 Magiepunkte. Gebet Heilung ist ab
+        Spielerstufe 20 bei Tto'Jeen erlernbar. Weitere Gebete sind mit
+        hoehrer Stufe erlernbar.
+
+SIEHE AUCH:
+        Gilden, Atalai, Atalai.Faehigkeiten, Trophaee, Identifiziere,
+        Schaetze, Funyuu, Tunyuu, Donnerknall, Naturwiderstand,
+        BoeserBlick, Vergifte, Gebet, Seelenwanderung, Gedankenkontrolle,
+        Schmerz, Furcht, Lebensentzug, VooDoo.

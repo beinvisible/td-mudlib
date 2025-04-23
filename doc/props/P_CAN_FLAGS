@@ -1,0 +1,25 @@
+NAME:
+    P_CAN_FLAGS                   "can_flags"
+
+DEFINIERT IN:
+    /sys/player/base.h
+
+BESCHREIBUNG:
+    Flags, die anzeigen, was der Spieler alles kann.
+    Bitmaske aus:
+
+    01 CAN_EMOTE     Spieler kann emote
+    02 CAN_ECHO      Spieler kann echo
+    04 CAN_REMOTE    Spieler kann remote
+    08 CAN_PRESAY    Bei Magiern wird das Presay bei der Kommunikation
+                     (sag, teile mit, ruf, fluestern) mit angezeigt.
+    16 CAN_ERZ       Spieler ist Erzseher
+    Die Werte addiert ergeben die realen Fähigkeiten.
+
+BEISPIELE:
+    if (this_player()->QueryProp(P_CAN_FLAGS) & CAN_ERZ == 0)
+        // this_player() ist kein Erzseher
+    else
+        // this_player() ist Erzseher
+
+

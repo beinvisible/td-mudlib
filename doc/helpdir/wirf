@@ -1,0 +1,21 @@
+KOMMANDO:
+	wirf <gegenstand> weg
+	wirf alles | waffe(n) | ruestung(en) weg
+        wirf <waffe> auf <gegner>
+
+ARGUMENT:
+	<gegenstand>    Ein Gegenstand, den Du bei Dir traegst.
+			Mit "wirf alles weg" entledigst Du Dich all
+			Deines Besitzes.
+        <waffe>         Eine werfbare Waffe. Zumeist der Klasse Messer,
+			Keule, Speere uae.
+                        Nicht jede Waffe ist werfbar!
+        <gegner>        Opfer der Wurfwaffe.
+FUNKTION:
+	"wirf weg" ist das allgemeine Kommando, um Gegenstaende
+	aus Deinem Besitz abzulegen.
+        Im Kampf wird eine Waffe auf den Gegner geworfen.
+	Trifft man den Gegner, wird ein hoeherer Schaden verursacht.
+
+SIEHE AUCH:
+	"stecke", "nimm", "zuecke"

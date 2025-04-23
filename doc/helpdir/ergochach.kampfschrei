@@ -1,0 +1,28 @@
+
+ERGOCHACH.KAMPFSCHREI
+
+KOMMANDO
+	 kampfschrei
+	 kampfschrei <gegner>
+
+ARGUMENTE
+	 <gegner> Ein beliebiger Gegner 
+	
+FUNKTION
+	 Als Priester kann man, unter Anwendung dieser Fähigkeit, versuchen,
+	 einen seiner Gegner mächtig zu beeindrucken und ihn damit aus 
+	 seinem Kampfstil zu bringen.
+	 Um dies zu tun, benötigt man eine gute Waffe, 30 Magiepunkte und
+	 einen Level von 25. 
+	
+SIEHE AUCH
+
+ergochach, ergochach.flammensphäre, ergochach.berserkertum, 
+ergochach.knieschlag,ergochach.doppelschlag, ergochach.entgifte, 
+ergochach.fußtritt, ergochach.schätz, ergochach.identifiziere, 
+ergochach.zerfleische, ergochach.erwürge, ergochach.schlag,
+ergochach.ramme, ergochach.wüte
+
+ÄNDERUNGEN
+
+10.01.2002 Gralkor

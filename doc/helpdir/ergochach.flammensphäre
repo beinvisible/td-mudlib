@@ -1,0 +1,35 @@
+
+ERGOCHACH.FLAMMENSPHÄRE
+
+KOMMANDO
+	 flammensphäre
+	 flammensphäre <gegner>
+
+ARGUMENTE
+	 <gegner> Wer soll denn nun brennen ???
+
+FUNKTION
+	 Mit diesem brutalen Kampfzauber kann man den Gegner sprichwörtlich
+	 in Flammen aufgehen lassen.
+	 Das ist natürlich nicht nett, und Feuer hat Nachteile, gerade
+	 wenn man es nicht so gut unter Kontrolle halten kann, wie ein
+	 Ergochach-Priester.
+	 So kann es passieren, dass das Feuer auch mal den Priester, der es
+	 auf sein unschuldiges Opfer warf, ankokelt.
+	 Trotzdem ist es ein Bild für Harodak, wenn der Gegner für nur
+	 100 Magiepunkte in Flammen aufgeht.
+	 Ab Level 35 kann der Priester dies tun, wenn er beide Hände
+	 benutzt.
+
+SIEHE AUCH
+
+ergochach, ergochach.entgifte, ergochach.berserkertum, 
+ergochach.knieschlag, ergochach.doppelschlag, ergochach.schlag, 
+ergochach.fußtritt, ergochach.schätz, ergochach.identifiziere, 
+ergochach.zerfleische, ergochach.erwürge, ergochach.kampfschrei,
+ergochach.ramme, ergochach.wüte
+ 
+
+ÄNDERUNGEN
+
+18.01.2001 Gralkor

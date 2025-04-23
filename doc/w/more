@@ -1,0 +1,21 @@
+SYNTAX: more <datei> [...]
+
+ARGUMENTE:
+        <datei> -- Dateiname (... bedeutet, es kann auch mehr als einer sein)
+
+BESCHREIBUNG:
+        Zeigt eine Datei stueckchenweise an. Nach jeder ausgegebenen Seite
+        wird gestoppt und es koennen verschiedene Aktionen durchgefuehrt
+        werden: *** more: q,x,d,u,b,/regexp,n ***
+        q -- Abbrechen der Anzeige der aktuellen Datei
+        x -- dito
+        d -- 10 Zeilen zurueck blaettern
+        u -- 20 Zeilen zurueck blaettern
+        b -- eine Seite zurueck
+        / -- Angabe eines regulaeren Ausdrucks, nach dem gesucht werden soll
+        n -- naechste Seite anzeigen (wie Return)
+
+BEISPIELE:
+        more /std/npc.c
+        more *.h
+

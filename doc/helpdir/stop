@@ -1,0 +1,12 @@
+KOMMANDO:
+	stop
+
+ARGUMENTE:
+	keine
+
+FUNKTION:
+	Du hoerst auf, ein fliehendes Monster zu verfolgen. Allerdings kann
+	man nicht aufhoeren, verfolgt zu werden.
+
+SIEHE AUCH:
+	"toete"

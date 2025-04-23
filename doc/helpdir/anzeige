@@ -1,0 +1,29 @@
+KOMMANDO:
+        anzeige
+        anzeige gruppieren <ja|nein>
+        anzeige spalten <ein|aus|auto>
+
+ARGUMENTE:
+        gruppieren  Konfigurieren der Gruppierung
+        spalten     Konfigurieren der Spalten
+
+FUNKTION:
+        Ohne Argumente: Zeigt Deine aktuellen Einstellungen an.
+
+        gruppieren: Du kannst Gegenstaende in Deinem Inventory oder
+        auch in Raeumen gruppieren lassen, wenn Du willst, das bedeutet,
+        es werden gleiche Gegenstaende zusammengezogen und in Klammern
+        wird die Anzahl der Objekte angezeigt, z.B. "Eine Rose (4)".
+        Die Einstellung bezieht sich sowohl auf Dein Inventory als auch
+        auf Raeume.
+
+        spalten: Es ist moeglich, Gegenstaende (so es der Platz
+        zulaesst) in Spalten (tabellenartig) anzuzeigen. Dies betrifft
+        wieder sowohl Gegenstaende in Raeumen als auch Gegenstaende in
+        Deinem Inventory. Die Einstellung "ein" aktiviert die
+        tabellarische Anzeige, "aus" deaktiviert sie, und "auto"
+        bedeutet, dass erst bei mehr als 6 Gegenstaenden in Spalten
+        ausgegeben wird.
+
+SIEHE AUCH:
+        "i", "schau", "ersetzungsanzeige"

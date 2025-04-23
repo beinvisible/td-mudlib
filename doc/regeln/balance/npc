@@ -1,0 +1,43 @@
+---------------------------------------------------------------------------
+        NPC
+---------------------------------------------------------------------------
+ - es sollte immer create default_npc() oder create default_XXX()
+   verwendet werden. Damit sind HP, XP, BODY und Handschaden korrekt
+   gesetzt. Auf das explizite Setzen von HP, XP, BODY und Handschaden
+   sollte gaenzlich verzichtet werden
+ - wenn moeglich /p/npc-Defaults nutzen, wenn es eine Klasse nicht
+   gibt, Erzmagier bauen die gern ein
+ - Informationen, sollten auch AddLibrary nutzen, wenn moeglich
+ - Schaden wenn moeglich durch Waffen verursachen. Dabei ist darauf
+   zu achten, dass die Waffe dem NPC angemessen ist und ihn nicht
+   abschwaecht. Der Waffenschaden sollte dem Handschaden des NPCs
+   dieser Stufe entsprechen. Der Handschaden berechnet sich 10*level.
+   immer bedenken: Schaden/10 sind die echten Schaeden, magische
+   Angriffe ignorieren Ruestungen!
+ - Maximalschaden von Spells am Waffenschaden/Handschaden orientieren
+ - Uebersteigt der Waffen- oder Spellschaden den Handschaden, so ist
+   dies immer genehmigungspflichtig!
+ - Unterschreitet der Waffenschaden den Handschaden deutlich, sollte
+   eine staerkere Waffe verwendet werden
+ - Ruestwerte, moeglichst durch normale Ruestungen erstellen!
+ - Staerken/Schwaechen, jeder NPC, der besondere Staerken hat, braucht
+   auch Schwaechen
+ - Sollte HP, XP, BODY und Handschaden explizit gesetzt/veraendert
+   werden ist dies immer genehmigungspflichtig!
+   (Zur XP-Berechnung siehe Excel-File unter /players/gralkor/useful/)
+
+   level 1- 5: Insekten, Wuermer, Maeuse, Gegner im Anfaengerpark
+         6- 9: Kinder und Kleingetier wie Hasen, Voegel, Ratten
+        10-15: Tiere wie Reh, Schlange oder Fuchs
+               normale Humanoide, zB Einwohner, Haendler
+        16-20: groessere Tiere und Raubtiere wie Wolf, Hirsch
+               staerkere Humanoide, zB Stadtwache, Haendler
+        21-25: grosse Raubtiere wie Tiger oder Baer
+               humanoide Kaempfer, zB Torwache
+        25-30: die staerksten Tiere wie Mammut, Elefant
+               humanoide Anfuehrer, zb Offiziere, Hauptmaenner
+        31-40: humanoide Veteranen, maechtige Zauberer
+               kleinere Drachen, Daemonen, magische Monster
+        41-49: Drachen, starke Daemonen, Riesen
+          50+: Gildenoberhaeupter, die staerksten Drachen,
+

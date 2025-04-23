@@ -1,0 +1,41 @@
+KOMMANDO:
+	lege <gegenstand> in <behaelter>
+	lege <gegenstand> ab
+
+ARGUMENTE:
+	<gegenstand>, <behaelter>    Gegenstaende
+
+FUNKTION:
+	"lege (in)" ist das allgemeine Kommando, um Gegenstande in
+	einem Behaelter zu deponieren. Behaelter koennen nicht alles
+	aufnehmen, aber meist ist es leichter, schwere Gegenstaende in
+	einem Behaelter zu transportieren.
+
+	"lege ... ab" ist das allgemeine Kommando, um Gegenstande aus
+	Deinem Besitz abzulegen.
+
+	Statt eines spezifischen Gegenstandes koennen folgende Gruppierungen
+	benutzt werden:
+	alle Gegenstaende           "alles"
+	alle Waffen                 "waffen" oder "alle waffen"
+	alle Ruestungen             "ruestungen" oder "alle ruestungen"
+	nicht Waffe und Ruestung    "sonstiges" oder "verschiedenes"
+	alles Essen                 "essen" oder "alles essen"
+	alles                       "behaltenes" oder "alles behaltene"
+
+	Ausserdem koennen beliebige gleiche Gegenstaende mit "alle" oder
+	"jede" zusammengefasst werden.
+	Mehrere Gegenstaende oder Gruppen von Gegenstaenden kann man auch mit
+	"und" zusammenfassen. Ausschliessen kann man mit "ausser".
+
+	ABER: Mit den allgemeinen Befehlen kann man zwar vieles, aber
+	      nur selten alles erreichen.
+
+BEISPIELE:
+	lege essen in beutel
+	lege ruestungen und waffen ausser behaltenes in beutel
+	lege hose und jacke und hut ab
+	lege alles ausser behaltenes und ruestungen ab
+
+SIEHE AUCH:
+	"hole", "nimm", "wirf", "stecke", "gib"

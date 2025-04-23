@@ -1,0 +1,210 @@
+
+			WIE ERSTELLT MAN EINE KARTE?
+
+Wiefolgt sollte ein .map-file aussehn.
+(es ist uebrigens VOELLIG egal, wie die Kartendatei heisst, solange sie im
+richtigen Verzeichnis liegt und ein .map als Endung hat)
+natuerlich gehoeren die '------' nicht dazu.
+
+----------------------------------------
+karte
+[MAPID]
+uniquemapidentificationstring
+[ROOMLIST]
+x,y,raumname
+[CUR]
+[ACUR]
+[MORIGIN]
+0,0
+----------------------------------------
+
+DIE ASCII KARTE
+
+An die stelle 'karte' gehoert die gezeichnete ASCII-Karte.
+(siehe Beispiel Karte)
+
+			    HINWEIS:
+			    ~~~~~~~~
+Die 'erste' VERWENDBARE Koordinate (wenn '[MORIGIN]' 0,0 ist) ist 1,1
+(erstes Zeichen, erste Zeile) (x==spalte, y==zeile).
+
+			    ACHTUNG!:
+			    ~~~~~~~~~
+Bitte darauf achten, dass Leerzeilen MINDESTENS ein (Leer)Zeichen enthalten,
+ansonsten (wenns nur ein \n (enter) ist) wird die Zeile nicht beachtet!
+
+
+[MAPID]
+
+Unter dem Punkt '[MAPID]' muss ein moeglichst einzigartiger Identifkations-
+string angegeben werden. Dieser dient zur Ueberpruefung, ob das dazu gehoerige
+Kartenteil schon gefunden wurde, und somit zur Entscheidung, ob diese Karte
+dem jeweiligen Spieler gezeigt werden soll, oder nicht.
+Dieser String sollte beim erstellen der Karte wohl ueberlegt gewaehlt werden
+und danach (aber spaetestens nach dem ersten Testen der Karte im Tamedhon!)
+NICHT mehr geaendert werden! Ansonsten kann es zu erheblichen Schwierigkeiten
+kommen, da dieser String beim ersten Verwenden dieser Karte in den KartenMaster
+eingetragen wird.
+
+[ROOMLIST]
+
+Hier folgt, gemaess der Beispiel Karte, eine liste der Raeume die auf der
+Karte dargestellt sind und den entsprechenden Koordinaten auf der ASCII-Karte,
+wobei diese Angaben relativ zum 'obersten linken Punkt', ( 0,0 falls unter dem
+Punkt '[MORIGIN]' nicht anders vermerkt ), also dem Anfang der Datei, anzugeben
+sind.
+Pro Zeile steht immer nur EINE Raumangabe, in der Form:
+
+		x-Koordinate,y-Koordinate,Raum(datei)name(OHNE '.c'!)
+
+[CUR]
+
+Wenn gewuenscht kann hier, passend zur eigenen Karte, der Positionszeiger
+(das Ding, das auf der Karte die aktuelle Position anzeigt) definiert werden.
+Wird hier nichts angegeben, wird der Standartzeiger ( ^G^IX^N ) benutzt.
+
+			    ACHTUNG!
+			    ~~~~~~~~
+Auch wenn dort ein LEERzeichen angegeben wird, ist das ein neuer
+Positionszeiger, und wird statt dem Standartzeiger benutzt!
+
+[ACUR]
+
+Falls man einen eigenen Positionszeiger definiert hat, kann man hier das
+'Gegenstueck' dazu angeben, das heisst, den String, mit dem der Positionszeiger
+auf der Karte im alten Raum ueberschrieben wird, wenn sich Spieler in einen
+anderen Raum bewegt. Voreinstellung hier ist ein Leerzeichen.
+
+[MORIGIN]
+
+Sind die Koordinaten im Punkt '[ROOMLIST]' NICHT relativ zur 'obersten linken
+Ecke' (dem Dateianfang) angegeben (durch nachtraegliches Entfernen oder
+Hinzufuegen von (Leer)Zeilen am Dateianfang), ist hier der Punkt (x,y relativ
+zum Dateianfang (0,0)) zu definieren, der als 'linke obere Ecke' fuer die
+Koordinaten der '[ROOMLIST]' angesehen werden soll.
+
+WAS ZU BEACHTEN IST:
+
+Karten sollten maximal so gross sein, dass sie auf einen 'normalen
+Textbildschirm' passen, soll heissen maximal 80x25 (da aber dann KEIN "\n"
+(enter) mehr in der letzten Zeile. Also am besten 79x24 oder kleiner.
+Es sollte ja kein problem darstellen, die Karten entsprechend zu teilen.
+Karten einer region, die 'zusammen' gehoeren (also, die als EIN gefundenes
+Kartenteil angesehen werden sollen) bekommen logischer Weise die selbe
+'[MAPID]'.
+
+Die Karten werden vom Kartenobject IMMER in einem Verzeichnis '../map' relativ
+zum aktuellen Raum (also dem Raum in dem sich der Spieler gerade befindet)
+gesucht. Soll heissen, Raeume die in:
+
+    /d/unterwelt/serii/eingang/room/
+
+liegen, muessen in einer Karte aufgefuehrt werden, die in:
+
+    /d/unterwelt/serii/eingang/map/
+
+liegt!
+
+
+TRANSPORTER:
+~~~~~~~~~~~~
+Transporter werden von der Karte automatisch unterstuetzt. Sie brauchen
+(sollten) nicht in die Raumliste mit eingetragen werden. Haelt ein
+Transporter in einem Raum, der auf einer Karte ist, wird der Spieler dort
+automatisch angezeigt.
+
+
+TIPS&TRICKS:
+
+Hier eine Moeglichkeit fuer z.b. geheime Raeume, die auf der Karte nur
+erscheinen, wenn man sich in selbige(m/n) befindet:
+Ist man in einer Region mit geheimen Raumen, werden diese einfach GARNICHT
+mit in diese Karte aufgenommen. Weder tauchen die Raeume in der ASCII-Karte
+auf, noch werden sie im Punkt '[ROOMLIST]' 'erwaehnt'.
+Fuer diese Raeume wird dann eine Karte der Region angefertigt, die genau
+der 'anderen' Karte (der OHNE die geheimen Raeume) entspricht, nur mit dem
+Unterschied, dass dort nun diese Raeume mit eingezeichnet sind.
+Die EINZIGEN Eintraege im Punkt '[ROOMLIST]' dieser Karte sind dann die
+geheimen/versteckten Raeume!
+
+Ein Beispiel hierfuer ist die Karte des Daemonendorfes, auf der der Gilden-
+raum der Finsternis nur eingezeichnet ist, wenn man sich in selbigem befindet.
+
+FARBEN:
+
+Sobald eine Karte VOLL FUNKTIONSTUECHTIG ist (entsprechend vorhergehender
+Beschreibungen) kann damit begonnen werden, die Karte anderweitig
+zu gestalten (z.B. evtl. Beschriftungen, wobei hier beachtet werden muss,
+dass sich, durch das einfuegen der Schrift, die Koordinaten der Raeume nicht
+aendern). Leerzeichen zwischen/vor/hinter Raeumen z.B. koennten gegen Zeichen
+ausgetauscht werden, die der Umgebung entsprechen (z.b. ^ fuer Baeume etc.).
+
+Ist dies auch getan sollte die Karte passend eingefaerbt werden (z.B. die ^
+gruen etc.). Hierzu stehen diverse Farbcodes zur Verfuegung:
+
+^R = rot      |    ^G = gruen      |    ^B = blau      |    ^Y = gelb
+^W = weiss    |    ^D = grau       |    ^P = lila      |    ^C = cyan
+^S = schwarz  |    ^I = invers     |    ^F = blinkend  |    ^N = normal
+
+WIE KANN EIN SPIELER EIN KARTENTEIL FINDEN?
+
+Also mein Vorschlag waere das sinvoller Weise ueber Specialdetails
+(AddSpecialDetail) oder bestimmte Aktionen die der Spieler in dem Raum aus-
+fuehren muss/kann (AddCmd) zu erledigen.
+So in etwa koennte ein entsprechender Raum aussehen:
+
+    .
+    .
+void create()
+{
+    .
+    .
+AddCmd(({"wisch","wische"}),"c_wisch");
+}
+
+int c_wisch(string str)
+{object mob;
+_notify_fail("Was willst Du wischen?\n");
+  if(str=="staub")
+  {
+    mob=deep_present("\nxloginkarte",this_player());		//MUSS
+    if((mob)&&(mob->RegisterMap("einzigartigekartenid")>0))	//MUSS
+    {
+      write(break_string("Du wischst etwas Staub und findest ein Kartenteil,"
+            " welches Du sofort an deiner alten, kaputten Karte befestigst,"
+	    " um sie etwas mehr zu vervollstaendigen."));
+    }
+    else
+    {
+      write("Du wischst hier etwas Staub.\nPuh. Das war aber echt mal"
+            " noetig!\n");
+    }
+    return 1;
+  }
+  return 0;
+}
+    .
+    .
+
+So oder so aehnlich sollte das dan aussehen.
+Die beiden Zeilen mit den '//MUSS' sollten auf keinen Fall geaendert werden
+(bis auf den String 'einzigartigekartenid' - dort muss natuerlich die Id einge-
+tragen werden, die die Karte unter dem Punkt [MAPID] notiert hat, die ihr den
+Spieler gerade habt finden lassen!),
+aber welcher Text erscheint und was fuer ein Detail oder welche Aktion das
+Kartenteil zu Tage foerdert bleibt natuerlich voll und ganz euch ueberlassen :)
+
+							    Serii - 23.03.2003
+				   (Bei Fragen||Problemen an  ^  wenden)
+
+SIEHE AUCH:
+  karten.stufe1, karten.stufe2, karten.stufe3, AddSpecialDetail()
+  
+( stufe1 : nur die Karte
+  stufe2 : Karte etwas 'ausgemalt'
+  stufe3 : Karte mit Farben
+
+um zu sehen wie das dann aussieht - die drei Beispiele (wenns auch nicht
+wirkich das huebscheste ist, was moeglich ist. Bin mir sicher, ihr kriegt doch
+viel schoenere hin :) ) sind die Karte der Unterwelt, zwischen Garos und dem
+unterirdischen See.)

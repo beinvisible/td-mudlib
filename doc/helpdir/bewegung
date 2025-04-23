@@ -1,0 +1,26 @@
+KOMMANDOS:
+	s(ueden), w(esten), n(orden), o(sten), ob(en), u(nten),
+	n(ord)w(esten), ...
+
+ARGUMENTE:
+	keine
+
+FUNKTION:
+	Mit diesen Kommandos kann man den Raum in eine bestimmte 
+	Richtung verlassen. Jede der Himmelsrichtungen kann durch
+	ein (oder zwei) Buchstaben abgekuerzt werden.
+
+	ABER: Manchmal muss man einen Weg finden, der nicht in eine
+	      bestimmte Himmelsrichtung fuehrt.
+HINWEIS: 
+	Jede Rasse fuehlt sich in verschiedenen Regionen wohler.
+	So koennen Zwerge beispielsweise von Hoehlen und gepflasterten 
+	Strassen nicht genug bekommen, im Freien kostet sie alles mehr
+	Energie. Sollte diese (nicht sichtbare) Energie verbraucht sein,
+	wird eine Meldung, dass man sich besser konzentrieren muss, 
+	ausgegeben. In diesem Falle kann man vor Ort rasten.
+	Dies setzt den Koerper in eine Heiltrance, der diese 
+	Bewegungsenergie reguliert. Naeheres siehe: "raste"-Befehl.
+
+SIEHE AUCH:
+	"schau (an)", "kurz", "ausgaenge", "klettere", "raste"

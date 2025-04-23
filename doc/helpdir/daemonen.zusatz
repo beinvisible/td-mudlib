@@ -1,0 +1,13 @@
+DAEMONEN.ZUSATZ
+
+	    Als Daemon hat man 2 zusaetzliche Befehle zur Verfuegung:
+	    
+	    'drufe'    	 :
+			    Damit kann man allen Daemonen etwas mitteilen.
+
+	    'dhist <nr>' :
+			    Zeigt die letzten <nr> Zurufe an.
+
+
+SIEHE AUCH:
+daemonen, drufe, dhist

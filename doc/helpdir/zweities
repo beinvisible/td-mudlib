@@ -1,0 +1,25 @@
+ZWEITIES:
+
+	Was sind Zweities?
+	Zweities sind Charaktere, die von einem bereits existierenden
+	Spieler eingeloggt werden, also quasi Nebencharaktere.
+
+	Im Tamedhon sind beliebig viele Zweities erlaubt, diese muessen
+	zwingend namentlich markiert sein. Wer damit nicht klarkommt oder
+	nicht klarkommen will, muss sich auf eine Figur beschraenken.
+	Es ist nicht gestattet, mehr als zwei Spieler gleichzeitig
+	eingeloggt zu haben.
+
+	Markieren kannst Du Deinen Zweitie beim Buergermeister von
+	Gidhrog. Frage ihn einfach nach 'Zweitie'.
+
+	Dort ist es auch moeglich, sich unsichtbar zu markieren.
+	Die Syntax dafuer lautet: 'verstecke mich bis stufe <stufe>'
+	Dabei ist <stufe> entweder 'Spieler', 'Seher', 'Magier' oder
+	'Regionsmagier'.
+	Alle Spieler, die diese Stufe oder darueber hinaus haben, koennen
+	sehen, um wessen Zweitspieler es sich handelt. Alle anderen
+	Spieler sehen nur, dass es ein Zweitie ist.
+
+SIEHE AUCH:
+	regeln

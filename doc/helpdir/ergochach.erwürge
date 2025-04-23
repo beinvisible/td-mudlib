@@ -1,0 +1,28 @@
+
+ERGOCHACH.ERWÜRGE
+
+KOMMANDO
+	 erwürge
+	 erwürge <gegner>
+
+ARGUMENTE
+	 <gegner> Ein beliebiger Gegner 
+	
+FUNKTION
+	Ein Priester der Stufe 30 und höher kann sich voller Wut
+	auf sein Opfer stürzen und es würgen. Dabei drückt es ihm
+	die Luft ab. Außerdem müssen zwei freie Hände (zum Würgen)
+	und 40 MP übrig sein.	
+
+SIEHE AUCH
+
+ergochach, ergochach.flammensphäre, ergochach.berserkertum, 
+ergochach.knieschlag,ergochach.doppelschlag, ergochach.entgifte, 
+ergochach.fußtritt, ergochach.schätz, ergochach.identifiziere, 
+ergochach.zerfleische, ergochach.schlag, ergochach.kampfschrei,
+ergochach.ramme, ergochach.wüte
+ 
+
+ÄNDERUNGEN
+
+10.01.2002 Gralkor

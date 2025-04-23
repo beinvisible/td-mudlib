@@ -1,0 +1,19 @@
+KOMMANDO:
+	ort [<wohnort> | loeschen]
+
+ARGUMENT:
+	<adresse> der neue Wohnort, darf beliebiger Text sein
+
+FUNKTION:
+	Ohne Argumente gibt ort den Ort an, von wo Du gerade kommst,
+	bzw. den Text, denn Du selber dafuer eingestellt hast. Wenn es
+	sich um einen realen Ort handelt, der sich nicht in Oesterreich
+	befindet, dann gib bitte in Klammern das Kurzzeichen Deines
+	Landes an, von wo Du kommst.
+
+	Mit den Befehl 'ort loeschen' kannst Du Deine persoenliche
+	Ortsangabe entfernen und durch den Standort Deiner IP-Adresse
+	ersetzt.
+
+SIEHE AUCH:
+	einstellungen

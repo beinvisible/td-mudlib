@@ -1,0 +1,9 @@
+#0:0
+properties (["sp":5635;64,"frog":0;64,"hp_store":0;64,"align_string":0;64,"ghost":0;64,"repairs":100;64,"gender":1;64,"hp":2500;64,"align":-800;64,"poison":0;64,"drink":0;64,"food":0;64,"sp_store_percent":0;64,"wimpy":0;64,"alcohol":0;64,"hp_store_percent":0;64,"hands":({" mit seinen maechtigen Klauen",165,"rip",});64,"mv":0;64,"xp":302532;64,"sp_store":0;64,])
+vwr 0
+age 5258257
+attributes (["int":750,"str":45,"con":65,"dex":65,])
+attributes_modifier ([])
+infos (["\ndefault info":"knurrt nur veraergert.\n";0;0,])
+libraries ([])
+known_rooms ({"/d/elfenwald/querolin/room/mroom-d-05",})

@@ -1,0 +1,30 @@
+KOMMANDO:
+	zeige SPIELER OBJEKT
+
+FUNKTION:
+	Damit kann man Spielern (auch NPC, aber denen ist es voellig egal)
+	Sachen zeigen, die man dabei hat.
+
+	Im Laden hat 'zeige' eine weitere Bedeutung:
+	Man kann sich den Warenbestand zeigen lassen.
+	zeige			zeigt die gesamte Liste
+	zeige rue		zeigt nur Ruestungen
+	zeige waf		zeigt nur Waffen
+	zeige 1ha		zeigt nur Einhaender
+	zeige 2ha		zeigt nur Zweihaender
+	zeige beh		zeigt nur Behaelter
+	zeige ver		zeigt die anderen Objekte
+	zeige guertel		zeigt alle Guertel
+	zeige helm		zeigt alle Helme
+	zeige schuhe		zeigt alle Schuhe
+	zeige panzer		zeigt alle Panzer
+	zeige umhang		zeigt alle Umhaenge
+	zeige hose		zeigt alle Hosen
+	zeige ring		zeigt alle Ringe
+	zeige amulett		zeigt alle Amulette
+	zeige handschuhe	zeigt alle Handschuhe
+	zeige schild		zeigt alle Schilde
+	zeige axt		zeigt alle Aexte
+
+SIEHE AUCH:
+     "laden", "behalte", "i", "ausruestung", "unt"

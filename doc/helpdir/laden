@@ -1,0 +1,22 @@
+LADEN:
+  In jedem groesseren Ort findest Du einen Laden, in dem Du Dinge kaufen
+  und verkaufen kannst. Diese Laeden bieten Dir in der Regel immer die
+  selben Funktionen.
+
+     Verfuegbare Befehle:
+     zeige             oder
+     zeige <was>       Gibt eine Uebersicht ueber das Angebot im Laden.
+     unt <nummer>      Gibt eine Beschreibung eines Gegenstands der Liste
+     kaufe <nummer>    oder
+     kaufe <etwas>     Du kaufst einen bestimmten Gegenstand.
+     verkaufe <etwas>  Du verkaufst einen Gegenstand, den Du bei Dir hast.
+     versetze <etwas>  Du verkaufst einen Gegenstand, egal wieviel der
+                       Haendler dafuer bezahlt.
+     schaetz <etwas>   Der Haendler sagt Dir, wieviel ihm ein Gegenstand
+                       wert waere, wenn Du ihn verkaufen wuerdest.
+
+  Du solltest trotzdem immer nach Schildern, Tafeln oder anderen Hinweisen
+  Ausschau halten, welche moeglicherweise Besonderheiten zeigen.
+
+SIEHE AUCH:
+     "zeige", "behalte", "i", "ausruestung", "unt"

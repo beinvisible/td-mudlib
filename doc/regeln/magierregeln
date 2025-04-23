@@ -1,0 +1,41 @@
+* Regelwerk fuer Magier *
+=========================
+
+Zunaechst ein kleiner Kommentar vorweg:
+Dies hier soll eine Zusammenfassung von Richtlinien darstellen und keine
+Gesetzessammlung sein. Dennoch waere es schoen, wenn ihr euch wenigstens
+grob an dieses kleine Einmaleins haltet.
+
+
+Die Magierwerdung
+-----------------
+
+Hierbei wird beschrieben, wie genau der Ablauf ist, wenn ein Spieler in
+den Stand eines Magiers erhoben werden moechte.
+
+siehe dazu:
+  /doc/regeln/magierwerdung/magierwerdung
+
+
+Programmierrichtlinien
+----------------------
+
+Darin wird der Projektaufbau, wichtige Definitionen, Grenzwerte,
+Textformatierung und allgemeine Hinweise beschrieben.
+
+siehe dazu:
+  /doc/regeln/programmierrichtlinien/programmierrichtlinien (*)
+
+
+Informationsregelungen
+----------------------
+
+Wann steht ein Magier in der Informationspflicht?
+
+siehe dazu:
+  /doc/regeln/informationsregelungen/informationsregelungen
+
+
+Saxxon@tamedhon.at
+
+(*) noch nicht fertig gestellt

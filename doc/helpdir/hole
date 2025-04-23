@@ -1,0 +1,15 @@
+KOMMANDO:
+	hole <gegenstand> aus <behaelter>
+
+ARGUMENTE:
+	<gegenstand>, <behaelter> Gegenstaende
+
+FUNKTION:
+	"hole" ist das allgemeine Kommando, um Gegenstaende aus einem
+	Behaelter herauszuholen.
+
+	ABER: Mit den allgemeinen Befehlen kann man zwar vieles, aber
+	      nur selten alles erreichen.
+
+SIEHE AUCH:
+	"stecke", "nimm"

@@ -1,0 +1,76 @@
+---------------------------------------------------------------------------
+                    Welche Dinge sind Balancerelevant?
+---------------------------------------------------------------------------
+
+Objekte im allgemeinen
+  - Gewicht
+  - Material
+  - Preis
+  - Haeufigkeit und Vorkommen
+
+Container
+  - Maximaler Inhalt
+  - Trageerleichterung
+
+Waffen
+  - Schaden
+  - Schadensart zu Waffentyp
+  - Sonderfunktionen
+  - HitFunc() (z.B.: Extraschaden)
+  - Tragerestriktionen
+  - Magie
+
+Ruestungen
+  - Schutz
+  - Sonderfunktionen
+  - Tragerestriktionen
+  - Magie
+
+Nahrung
+  - Erhaeltlichkeit
+  - Preis
+  - Heilung
+  - Saettigung
+  - Nebenwirkungen
+
+Raeume im allgemeinen
+  - Versteckte Tanken
+  - Schaden oder Tod durch Funktionalitaeten
+  - Detailfuelle
+
+Tanken (Kneipen)
+  - Menue (Passt das Menue zum Gebiet?)
+  - Preis
+  - Heilung
+  - Saettigung
+  - Nebenwirkungen
+
+Laeden
+  - Basisangebot
+  - Preis
+
+NPC
+  - Informationen
+  - XP
+  - Schaden
+  - Lebensenergie
+  - Spells
+  - Ruestwerte
+  - Staerken/Schwaechen
+
+Questen/Gimmicks
+  - Syntaxhinweise
+  - Syntaxhilfen
+  - Spielbarkeit
+  - Punkte
+
+Gilden/Skills
+  - Ausgewogenheit zu den anderen Gilden/Skills
+  - Lernen
+  - Steigern
+
+ALLES betreffend
+  - Passt es ins Tame?
+  - Hat es einen ausreichend hohen Wiederspielwert?
+  - Ist es mit ALLEN Gilden spielbar?
+  - Detailreichtum in ALLEN Dingen ausreichend? (copy'n'paste)

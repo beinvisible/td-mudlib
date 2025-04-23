@@ -1,0 +1,41 @@
+---------------------------------------------------------------------------
+        Waffen
+---------------------------------------------------------------------------
+ Die Waffen in /p/weapon sind ok, nur von Erzmagier fuer Balance
+ neue zu erstellen.
+ Der Regionsmagier hat darauf zu achten, dass Waffen mit
+ unterschiedlichen Staerken ausgewogen ueber die Region verteilt sind.
+
+ - Schaden von nicht.magischen Waffen
+
+   Waffenklasse		Richtwert
+
+   Handschaden:		30
+   Einhand:     	80
+   Zweihand:   		150
+
+   Obergrenze:    	200
+   Maximalgrenze:	300!
+
+ Folgende Dinge sind genehmigungspflichtig:
+ - Waffen, die den Richtwert ueberschreiten
+ - Schadensart ist abhaengig von Waffentyp, besitzt die Waffe 2 oder
+   mehr Schadensarten, so ist die Waffe genehmigungspflichtig
+ - Waffen mit magischem Schaden
+   (am Besten nur an den Killer uebergeben (Beispiel die Schwerter der
+   Schwerterquest)
+ - Alle Sonderfunktionen (P_HIT_FUNC)
+   Ausnahme ist hier ein Bonus, der nur fuer NPC gilt
+ - Attributveraenderungen
+
+ Restriktionen:
+ - Nicht-genehmigungspflichtige Waffen sollten ohne Restriktionen
+   auskommen.
+ - Wird die Obergrenze erreicht, muss stark eingeschraenkt werden.
+   Ausnahme ist hier ein Bonus, der nur fuer NPC gilt
+ - Ab wann Seher, wieviel Geschick?
+ - Ab wann darf es nicht mehr im Laden verkauft werden?
+   (Wenn genehmigungspflichtig?)
+
+ Tabelle/Formel: Schaden Gewicht Wert Haltbarkeit
+

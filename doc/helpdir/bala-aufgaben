@@ -1,0 +1,157 @@
+===========================================================================
+
+                             B A L A N C E
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+                               Aufgaben
+---------------------------------------------------------------------------
+Die Balance ist das Organ im Tamedhon, welches das Spielgleichgewicht
+halten soll. Dazu gehoert im einzelnen:
+
+- das Testen neuer Projekte
+- das Testen balancerelevanter Aenderungen an bereits bestehenden Projekten
+- Replikmeldungen an den zustaendigen Magier
+
+
+---------------------------------------------------------------------------
+                    Welche Dinge sind Balancerelevant?
+---------------------------------------------------------------------------
+
+Objekte im allgemeinen
+  - Gewicht
+  - Material
+  - Preis
+  - Haeufigkeit und Vorkommen
+
+Container
+  - Maximaler Inhalt
+  - Trageerleichterung
+
+Waffen
+  - Schaden
+  - Schadensart zu Waffentyp
+  - Sonderfunktionen
+  - HitFunc() (z.B.: Extraschaden)
+  - Tragerestriktionen
+  - Magie
+
+Ruestungen
+  - Schutz
+  - Sonderfunktionen
+  - Tragerestriktionen
+  - Magie
+
+Nahrung
+  - Erhaeltlichkeit
+  - Preis
+  - Heilung
+  - Saettigung
+  - Nebenwirkungen
+
+Raeume im allgemeinen
+  - Versteckte Tanken
+  - Schaden oder Tod durch Funktionalitaeten
+  - Detailfuelle
+
+Tanken (Kneipen)
+  - Menue (Passt das Menue zum Gebiet?)
+  - Preis
+  - Heilung
+  - Saettigung
+  - Nebenwirkungen
+
+Laeden
+  - Basisangebot
+  - Preis
+
+NPC
+  - Informationen
+  - XP
+  - Schaden
+  - Lebensenergie
+  - Spells
+  - Ruestwerte
+  - Staerken/Schwaechen
+
+Questen/Gimmicks
+  - Syntaxhinweise
+  - Syntaxhilfen
+  - Spielbarkeit
+  - Punkte
+
+Gilden/Skills
+  - Ausgewogenheit zu den anderen Gilden/Skills
+  - Lernen
+  - Steigern
+
+ALLES betreffend
+  - Passt es ins Tame?
+  - Hat es einen ausreichend hohen Wiederspielwert?
+  - Ist es mit ALLEN Gilden spielbar?
+  - Detailreichtum in ALLEN Dingen ausreichend? (copy'n'paste)
+
+
+---------------------------------------------------------------------------
+                 Wann ist ein Projekt anschlussfertig?
+---------------------------------------------------------------------------
+
+- Die NPC, Raeume und Gegenstaende sind realistisch gehalten.
+  Besonderheiten sind bekannt und werden als fair eingestuft.
+
+- Das Gebiet ist sehenswert und besteht nicht nur aus copy'n'paste-Raeumen.
+  Die Beschreibungen sind detailliert und fehlerarm. Einzelne Typos sind
+  kein Grund des Ablehnens, sollten aber vor Anschluss behoben werden.
+
+- Der Wiederspielwert ist vorhanden. Das bedeutet: Die Spieler haben einen
+  Grund, wieder in dieses Gebiet zu kommen. Das kann sein: es gibt hier
+  besonders interessante Gegenstaende (zB MI/UI), viele NPC zum Metzeln,
+  spannende Herausforderungen und/oder einen Reparatur-Schmied oder ein
+  NPC, der MI erklaert.
+
+- Das Gebiet passt ins MUD.
+
+
+---------------------------------------------------------------------------
+                               Vorgehen
+---------------------------------------------------------------------------
+
+Ein Magier(Projektmagier [PM]) moechte ein Projekt balancieren/testen
+lassen.
+
+Das betreffende Projekt wurde vorher vom zustaendigen Regionsmagier (RM)
+geprueft und es wurde fuer testbereit(typoarm, bugarm, vollstaendig)
+befunden. Jetzt wird es vom Balance-Erzmagier(BE) nach Aufforderung in der
+Balanceoffice eingehaengt.
+
+Der BE ernennt einen erfahrenen Balance-Spieler(BS) (oder -magier)(BM) zum
+Projektleiter. Dieser ist alleinverantwortlich fuer die Abnahme des
+Projektes. Er kann sich einen oder mehrere (optimal sind zwei!) Spieler der
+Balance ins "Team" holen, die ihn dabei unterstuetzen und teilt es dem PM
+via Mudmail mit.
+
+Die BS schauen sich das Projekt unter dem Gesichtspunkt der Balancerelevanz
+durch. Typos und Ideen sind ein Bonus, aber nicht Pflicht.
+Der BE (eventuell unterstuetzt durch einen oder mehrere BM) schaut sich den
+Code an und ueberprueft diesen.
+
+Jeder involvierte BS schreibt einen ausfuehrlichen Bericht ueber das
+getestete Projekt an alle Balancer und den Einreicher.
+
+Anschliessend baut der Einreicher die Ideen etc ein. Ist das Projekt nicht
+anschlussfaehig (bugbehaftet, schlecht beschrieben, copy'n'paste etc) kann
+es auch zurueckgewiesen werden.
+
+Ein Projekt ist genehmigt, wenn alle der BS, die das Projekt getestet
+haben, zustimmen(Vetorecht). Im Anschluss wendet sich die Balance an den
+Regionsmagier, der das Projekt anhaengt.
+
+Der PM reicht eine FP-Vorschlagsliste an den Erzmagier fuer Forscherpunkte
+(derzeit Querolin) und meldet Questen an den Quest-Erzmagier(Querolin).
+Erst wenn er ein Feedback bekommen hat, das die FP/QP gesetzt sind, wird
+das Gebiet angeschlossen.
+
+letzte Aenderung:
+2007-01-20 : Gralkor und Saxxon

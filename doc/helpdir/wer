@@ -1,0 +1,50 @@
+KOMMANDO:
+  wer [-kva] [[mud] <mud-name>]
+
+ARGUMENTE:
+  <mud-name>      MUD-Name aus der "muds"-Liste,
+                  oder kein Argument.
+
+FUNKTION:
+  "wer"           Gibt eine Liste aller im Tamedhon
+                  eingeloggten Spieler aus.
+  "wer -a"        Sortiert die Liste alphabetisch anstatt
+                  nach Spieler- bzw. Magierlevel.
+  "wer -k"        Gib die kurze Liste aller im Tamedhon
+                  eingeloggten Spieler aus. (Dieser Befehl
+                  ist identisch zu 'kwer'.)
+  "wer -v"        Macht dasselbe wie 'wer -k'; es wird aber
+                  nicht nach Zeilen, sondern Spaltenweise sortiert.
+
+  Diese Optionen koennen auch in beliebiger Kombination verwendet
+  werden. Ausserdem koennen dieselben Filterkriterien wie bei
+  'kwer' auch verwendet werden (siehe Hilfeseite zu kwer).
+
+  "wer <mud-name> Gibt eine Liste aller eingeloggten Spieler des
+                  MUDs <mud-name> aus. Stellt man dem Mud-Namen
+                  ein 'mud ' voran, so kann man ein Nachschlagen
+                  in der Liste der MUDs erzwingen. Der Mud-Name
+                  darf, solange er eindeutig bleibt, abgekuerzt
+                  werden (Liste aller bekannten Muds: 'muds').
+
+  Die Optionen -a, -k und -v werden auch bei Anfragen an andere
+  und auch bei Anfragen von anderen MUDs unterstuetzt - leider
+  verstehen noch nicht alle MUDs die mitgesandten Optionen
+  (Beispiele fuer kompatible MUDs sind etwa Avalon, TAPPMud,
+  Gueldenland oder das Wunderland).
+  
+  Beschreibung der Abkuerzungen:
+  
+        s ... Spieler                S ... Seher
+        t ... Testspieler            T ... Sehertestspieler
+        z ... Zweitspieler           Z ... Zweitspieler(Seher)
+
+        r ... Magier im Ruhestand    m ... Neumagier
+        M ... Vollmagier             D ... Regionsmitarbeiter
+        Q ... Questmagier            X ... Magier fuer besondere Aufgaben
+        R ... Regionsmagier          W ... Weiser
+        E ... Erzmagier              e ... Erzmagier im Ruhestand
+  
+
+SIEHE AUCH:
+        "kwer", "kkwer", "muds", "teile (mit)", "zeilen"

@@ -1,0 +1,13 @@
+MAGIERKOMMANDO:
+	stat <name>
+
+ARGUMENTE: 
+	<name>    Spielername, Monstername
+
+FUNKTION:
+	Gibt den Status vom Spieler oder Monster 'name' aus.
+	Dieser Befehl ist in der 'Magier-Shell' definiert,
+	aber er wird von 'Sirs Teddy neu definiert'.
+
+SIEHE AUCH:
+

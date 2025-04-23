@@ -1,0 +1,33 @@
+/room/void
+/std/player/base
+/std/shells/erzmagier
+/p/daemon/routingd
+/p/daemon/lag-o-daemon
+/std/shells/elf
+/std/shells/human
+/std/shells/dwarf
+/std/shells/hobbit
+/secure/login
+/secure/mailer
+/secure/combat
+/obj/uhr
+/secure/questmaster
+/secure/explorationmaster
+/obj/money
+/std/gilde
+/std/gilden_ob
+/std/gilden_room
+/gilden/abenteurer
+# alles was nen channel kontrolliert
+/p/daemon/channeld
+# HINTER dieser zeile laden!
+/p/daemon/skillmaster/skillmaster
+/room/death/death_room
+/obj/tools/xtool
+/obj/tools/lupe
+/secure/udp_mail
+/secure/inetd
+/secure/awmaster
+/secure/libmaster
+/p/daemon/inews
+

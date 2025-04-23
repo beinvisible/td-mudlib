@@ -1,0 +1,11 @@
+KOMMANDO:
+	uptime
+
+ARGUMENTE:
+	keine
+
+FUNKTION:
+	Gibt Informationen ueber die Uptime des MUDs aus.
+
+SIEHE AUCH:
+	"uhrzeit", "reboot"

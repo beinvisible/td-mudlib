@@ -1,0 +1,19 @@
+KOMMANDO:
+	zeilen [<zahl>]
+
+ARGUMENTE:
+	<zahl>   eine ganze Zahl zwischen 0 und 100
+
+FUNKTION:
+       Mit dem Befehl 'zeilen <groesse>' kannst Du einstellen, wieviele 
+       Zeilen bei mehrseitigen Texten auf einmal ausgegeben werden. Die 
+       angegebene Groesse muss zwischen 0 und 100 liegen. Bei Groesse 0 
+       wird einfach alles ausgegeben (ohne Pause). Die Voreinstellung ist 
+       20 Zeilen.  
+       Mit 'zeilen abs[olut]' und 'zeilen rel[ativ]' kannst Du festlegen, 
+       ob im Prompt bei langen Texten die aktuelle Zeilennummer oder eine
+       prozentuale Angabe ausgegeben wird.
+
+SIEHE AUCH:
+	"wer"
+

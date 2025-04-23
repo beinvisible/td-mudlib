@@ -1,0 +1,19 @@
+KOMMANDO:
+        trete <lebewesen>
+
+ARGUMENTE:
+        <lebewesen> Ein beliebiges Lebewesen
+
+FUNKTION:
+        Mit dieser Faehigkeit trittst Du Deinem Gegner kraeftig gegen das
+        Schienbein. Kleine Gegner kann man damit auch zertreten.
+
+KOSTEN:
+        Diese Faehigkeit kostet 5 Wutpunkte und ist ab Gildenstufe 1
+        erlernbar.
+
+SIEHE AUCH:
+        Gilden, Schlachtenwueter, Trete, Identifiziere, Hieb, Schaetze,
+        Ansturm, Kopfnuss, Wuerge, AugeInAuge, Kampfschrei, Regeneriere,
+        Wille, Zerfetze, Demoralisiere, Zerreisse, Schlachtruf, Koepfe,
+        Wuete

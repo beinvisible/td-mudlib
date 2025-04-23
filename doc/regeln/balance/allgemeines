@@ -1,0 +1,26 @@
+---------------------------------------------------------------------------
+        Allgemeines
+---------------------------------------------------------------------------
+ Objekte im allgemeinen
+ - Gewicht
+ - Material
+ - Preis
+ - Haeufigkeit und Vorkommen je haeufiger, je wertloser und
+   irrelevanter (Beispiel die Blumen und Steine in der Steppe)
+
+ Raeume im allgemeinen
+ - Schaden oder Tod durch Funktionalitaeten, Tod sollte sehr begrenzt
+   sein (Scriptfallen), nur unter sehr beschraenkten Umstaenden!
+
+ Laeden
+ - Basisangebot, sollte immer /std/fackel, /std/schaufel, /std/seil
+   enthalten, andere Objekte bei Bedarf.
+ - Preis, wird immer durch P_VALUE in den Objekten bestimmt(gibt
+   maximal 1024Muenzen beim Verkauf!), und mit einem Multiplikator den
+   Verkaufswert bestimmt.
+
+ Container
+ - Maximaler Inhalt
+ - Trageerleichterung
+
+

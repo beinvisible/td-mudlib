@@ -1,0 +1,29 @@
+---------------------------------------------------------------------------
+        Heilung
+---------------------------------------------------------------------------
+ Tanken (Kneipen)
+ - Menue (Passt das Menue zum Gebiet?)
+ - Preis rund 5 Muenzen pro 1HP und 1MP
+ - Heilung rund 10*Saettigung
+   (sonst wird Massenmetzeln nicht mehr moeglich)
+ - Saettigung gibt es in drei Arten: Alcohol, Drink, Food
+   Bei Getraenken werden Alcohol und Drink addiert
+ - Nebenwirkungen sind immer lustig, alle sind genehmigungspflichtig!
+
+ Nahrung, oder jegliche Art von mitnehmbarer Heilung
+ - Die Portionen sind pro Reset einzuschraenken, insgesammt max 200HP/MP
+ - Preis etwa 10 Muenzen pro 1HP und 1MP
+ - Heilung rund 3*Saettigung
+
+ Versteckte Heilstellen
+ - Die Portionen sind pro Reset einzuschraenken, insgesammt max 200HP/MP
+ - Solten sparsam und nur abseits von Staedten/Kneipen eingebaut werden
+
+ Konstenpflichtige Heilstellen
+ - Preis etwa 15 Muenzen pro 1HP und 1MP
+ - Nur in abgelegenen Regionen fernab von Staedten/Kneipen
+ - sind genehmigungspflichtig!
+
+ Nebenwirkungen: Nebenwirkungen wie Vergiftung, Gegengift, Sucht und
+ "Verschiebung" von HP auf SP oder umgedreht sind genehmigungspflichtig!
+ (Beispiel: Vergiftung ist durch Ergochach und Apotheker heilbar)

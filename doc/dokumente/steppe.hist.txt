@@ -1,0 +1,306 @@
+
+Die Steppe erstreckt sich von den noerdlichen Auslaeufern des Elfenwaldes
+bis zu den Kuesten des Nordmeeres.
+Oestlich und westlich ist sie von Gebirgen begrenzt. 
+Insgesamt eine relativ oede und duenn besiedelte Gegend.
+
+humanoide Rassen in der Steppe:
+
+Orks
+- Ergochach, ein 'zivilisierter' Orkstamm, der einst (s. Geschichte) das
+  elfische Grossreich von Terisana zerschlug, in dem sie jahrhundertelang als
+  Sklaven gehalten worden waren.
+  Der Name bedeutet 'Elfenschlaechter'.
+  Die Ergochach leben in Ergoch und primaer von Jagd und partieller
+  Landwirtschaft. Aufgrund des Wassermangels in der Steppe ist die
+  Landwirtschaft nur untergeordnet.
+  Ergoch ist eine Zeltstadt, wo jede Kaste der Ergochach ein eigenes Zelt
+  bewohnt. Die Palisade, die Ergoch umgibt, ist gepflegt und wird gut
+  bewacht. Ergoch dient als Basis fuer einzelne Raubzuege in Richtung
+  Elfenwald. Die Ergochach sind fuer ihre Kampfkunst, die sie auch an 
+  verschiedene Nichtorks weitergeben, beruehmt. Die Suedgrenze des
+  Einflussgebietes der Ergochach ist seit Jahrhunderten die Waldgrenze des
+  Elfenwaldes. Oestlich lebt weit entfernt ein Goblinstamm, mit dem die
+  Ergochach nur wenig Kontakt haben, was rein religioese Gruende hat.
+  Westlich lebt der Orkstamm der Angrarach.
+  Noerdlich ist die Grenze zu den Charodakach, einem weiteren Orkstamm sehr 
+  vage. Die Beziehungen zu den Charodakach sind zwischen Waffenstillstand
+  und Grabenkrieg anzusiedeln.
+  
+- Charodakach, ein relativ unzivilisierter, rauher und wilder Orkstamm.
+  Die Charodakach (Hoehlenorks) leben noerdlich der Ergochach in und auf dem
+  Ogerzahn, einem einzeln stehenden Berg, der sich einsam in der Steppe
+  erhebt.
+  Die Charodakach leben von Ueberfaellen und der Jagd.
+  
+- Angrarach sind Vertreter der Orks, die stark von der Nachbarschaft einiger
+  Zwergensippen gepraegt sind.
+  Ihre Schmiedekunst ist weit beruehmt.
+  Ein intensiver Handel mit den Ergochach ist die Grundlage ihres Lebens.
+  Waehrend die Ergochach Fleisch und Felle liefern, kommen von den Angrarach
+  die beruehmten Karkhushi.
+  
+Goblins
+- Oestlich von Ergoch lebt der Goblinstamm der Ilsani.
+  Aufgrund ihrer stark matrialistisch gepraegten Religion leben sie relativ
+  isoliert in ihrem Gebiet.
+
+Oger
+- Es sollen einzelne Ogerfamilien in der Steppe leben. 
+  Jedoch sind sie nur ein Geruecht.
+
+Menschen
+- An den Kuesten des Nordmeeres gibt es mehrere menschliche Siedlungen.
+  Sie sind jedoch durch die Herrschaft der Orks in der Steppe mehr oder
+  weniger von den anderen menschlichen Siedlungen abgeschnitten.
+  Der Seeweg zu diesen Siedlungen ist sehr gefaehrlich, so dass sie sich
+  mehr oder weniger autonom entwickelt haben.
+
+andere Rassen
+- es leben, wenn man mal von einzelnen Einsiedlern absieht, keine anderen
+  Rassen in der Steppe.
+
+Landschaft:
+
+Im Sueden eine Grassteppe mit vereinzelten Baumgruppen, Uebergang zum
+Elfenwald.
+Zentral erhebt sich eine Hochebene und noerdlich davon der einzeln stehende
+Ogerzahn.
+In Richtung Meer verwandelt sich die Steppe in eine teilweise bewaldete
+Tundra. 
+In Richtung der Gebirge wird die Steppe von einzelnen Hoehenzuegen
+durchschnitten und gebirgig.
+
+Geschichte:
+
+Der Fixpunkt der Steppengeschichte ist der Fall Terisanas, der den Untergang
+des elfischen Imperiums, dass sich einst bis zum Ogerzahn erstreckte.
+Damals war die Steppe mehr oder weniger stark bewaldet.
+Achtung: 
+Die Geschichtsschreibung befasst sich nur mit den Steppengebieten.
+Andere Teile, gerade des terisanischen Grossreiches, werden nicht
+betrachtet. 
+
+5000 vTF: 
+Ein Aufstand der Orks erschuettert das elfische Grossreich.
+Eine Gruppe von Orks, angefuehrt von Woschra dem Grossen verlaesst Terisana
+in Richtung Norden. Hier ist der Ursprung der orkischen Religion zu suchen.
+
+4350 vTF:
+An den Kuesten des Nordmeeres bilden sich einzelne Aussenposten eines
+menschlichen Imperiums. Zwischen den Menschen und den Orks kommt es zu
+kleineren Scharmuetzeln, die weiter menschliche Siedlungsvorhaben
+unterbinden. Ausserdem wird der Nordmeerstaedtebund gegruendet.
+
+4000 vTF: 
+Die Gruendung von Kasahara.
+Von hier aus wurde der Nordmeerstaedtebund unterworfen und auch einzelne
+Gebiete suedlich von hier dem Reich einverleibt.
+
+3205 vTF:
+Thronfolger Bofaro von Kasahara putscht erfolglos gegen seinen Vater Tubago.
+Er wird daraufhin in die unterirdische Hoehle verbannt, die sich unter dem
+Ogerzahn befindet.
+Bofaro und seine Gefolgsleute gruenden dort unten die Stadt Poisopolis.
+
+2965 vTF: 
+In einem laengeren Krieg zerfaellt das Reich von Kasahara.
+Es wird erneut ein loser Staedtebund gegruendet.
+
+2430 vTF: 
+Im Verlauf eines Krieges zwischen den Elfen von Terisana und einer
+gemischten orkischen und zwergischen Streitmacht verlaeuft die Grenze des
+terisanischen Imperiums etwas noerdlich des Ogerzahns.
+Es kommt zum ersten Orkkrieg.
+Die Angrarach gruenden Angrar auf einer Waldlichtung und beginnen damit, 
+den Wald zu roden.
+
+2250 vTF: 
+Der zweite Orkkrieg besiegelt den Untergang Angrar.
+Die Ueberlebenden fluechten zu den Zwergen, wo sie auch Aufnahme finden.
+Zu dieser Zeit entwickeln die Angrarach ihre beruehmte Schmiedekunst.
+
+1950 vTF:
+Dividus von Kalka stirbt bei magischen Experimenten auf der Insel Kalka im
+Nordmeer, auf die er verbannt wurde. Er entfesselt einen magischen Wirbelsturm,
+um sich zu raechen. Jedoch verfehlt er die erhoffte Wirkung.
+Das Gebiet um die Insel wird magisch verseucht, so dass verschiedene
+Seemonster entstehen, die den Handel zwischen den Nordmeerstaedten und
+suedlicher liegenden Menschensiedlungen zur Einstellung zwingen, da sich kaum 
+noch ein Schiff das Meer zu durchqueren wagt.
+
+1730 vTF:
+Ein interner Krieg, ausgeloest von einem Schisma, schwaecht die Orks, 
+so dass Terisana seine alte Ausdehnung wieder erreicht.
+Waehrend dieses dritten Orkkrieges erobert eine terisanische Armee auch
+Teile des Staedtebundes.
+
+1545 vTF: 
+Terisanische Wissenschaftler entwickeln die Magietheorie.
+Nach dieser Theorie werden verschiedene Phaenomene der letzten 2000 Jahre
+erklaert. 
+Es scheint, als wuerde das Magieniveau langsam ansteigen und immer
+groesseren Teilen der humanoiden Wesen Zugang zur Manipulation ihrer Umwelt
+mit Hilfe der Magie ermoeglichen.
+Gleichzeitig wird in Terisana der 'Bund der Magie' gegruendet.
+
+1430 vTF: 
+Elfische Magier entwickeln eine Moeglichkeit zur Wachstumsbeschleunigung und
+Wachstumsmanipulation von Baeumen.
+Mit Hilfe dieser Kunst werden Baumsiedlungen nach heutigem Vorbild moeglich.
+Auch andere Rassen entwickeln massiv magische Faehigkeiten.
+
+1220 vTF:
+Im vierten Orkkrieg treffen orkische Schamanen und elfische Magier zum
+ersten Mal massiv aufeinander.
+Die magische Verseuchung des Kriegsschauplatzes und der intensive Einsatz
+von magischem Feuer fordert nach Ende des Krieges auf beiden Seiten viele
+Opfer. Im Endeffekt bleiben die Grenzen konstant.
+
+1005 vTF:
+Arvenor von Marna besteigt den Thron von Kasahara und befreit den Staedtebund
+von der mehr als siebenhundertjaehrigen elfischen Vorherrschaft.
+Versuche auch das Nordmeer von der Monsterseuche zu befreien schlagen fehl.
+Einzelne Kuestenabschnitte koennen nicht mehr besiedelt werden.
+
+975 vTF:
+Eine grosse Seuche, wohl ausgeloest durch magische Experimente, dezimiert
+die Bevoelkerung von Terisana und der menschlichen und orkischen Siedlungen.
+
+830 vTF: 
+Zum ersten Mal werden Drachen gemeldet, hochmagisch begabte Wesen, die
+flugfaehig sind und sich verschiedenen Elementen und Spielarten der Magie
+verschrieben zu haben scheinen.
+
+824-811 vTF:
+Im grossen Drachenkrieg bekaempfen sich die Drachen, die sich an
+verschiedenen Stellen des grossen Waldes niedergelassen haben, gegenseitig.
+Am Ende ziehen sich einzelne ueberlebende Drachen ueber das Meer zurueck.
+Jedoch sollen auch einzelne Drachen unterirdisch neue Kavernen geschaffen
+haben.
+
+800-756 vTF: 
+Im Verlauf des fuenften Orkkrieges kommt es zur Gruendung der Siedlungen
+Neu-Angrar und Charodak in ehemals elfischen Gebieten.
+
+755 vTF:
+Die Gilde 'Bund der Abenteurer' gruendet Rekrutierungsbueros mit  
+Versammlungssaal in verschiedenen elfischen Siedlungen. 
+
+630 vTF:
+Der 'eherne Bund wider die Spitzohren' wird zwischen Orks, Zwergen und
+Teilen des Nordmeerbundes in Neu-Angrar gegruendet.
+Er soll den Widerstand gegen die sich wieder ausbreitende Gefahr elfischer
+Eroberungslust organisieren.
+
+590 vTF:
+Der sechste Orkkrieg beginnt.
+Waehrend Neu-Angrar in elfische Hand geraet, wird das elfische Imperium von
+der Hochebene vertrieben.
+Die Hauptstadt Terisana liegt nunmehr nur noch wenige Meilen von der
+Waldgrenze entfernt.
+
+534 vTF:
+Im Friedensvertrag von Neu-Angrar wird die Grenze fuer ewige Zeiten
+festgeschrieben.
+
+522 vTF:
+Orkische Forscher treffen mit dem Koenig Towara XIV. von Poisopolis zusammen
+und beschreiben die poisopolische Hochkultur.
+
+311 vTF:
+Die elfische Invasion in Richtung der Hochebene laeutet den siebten Orkkrieg
+ein. Die Elfen koennen ihre verlorenen Gebiete zurueckerobern.
+Jedoch kommt es zu heftigen Protesten in Terisana gegen die Kriegerkaste des
+Imperiums.
+
+195 vTF:
+Terisana wird von inneren Unruhen erfasst, die zur Abdankung des elfischen
+Koenigs fuehren, und ein Gemeinwesen in der elfischen Gesellschaft
+etablieren, dass sich fuer ein friedliches Leben im Einklang mit der Natur
+einsetzt.
+
+119 vTF:
+Maraniol Goldhaar putscht gegen die terisanische Regierung und kroent sich
+selbst zum Kaiser Maraniol I., dem Herrscher ueber Terisana.
+
+43 vTF: 
+Der achte Orkkrieg beginnt. Terisanische Truppen erobern Kasahara und
+zerschlagen den 'ehernen Bund' endgueltig.
+
+21 vTF:
+Wildhal I. stirbt ohne einen Nachfolger bestimmt zu haben.
+In Terisana bricht ein Buergerkrieg aus, in dessen Verlauf sich der
+Nordmeerbund lossagt und neu gruendet.
+Ebenso Charodak und Angrar.
+
+3 vTF:
+Nach Beendigung des Buergerkrieges durch Namalion, der das Reich wieder
+eint, ohne jedoch die orkischen Gebiete, die inzwischen gerodet sind, und
+den Nordmeerbund in das Reich wieder einzugliedern.
+Jedoch wird Angrar dem Erdboden gleichgemacht und Charodak mit
+Tributzahlungen belegt.
+
+1 TF:
+Eine Gesandschaft Charodaks, die die Tributzahlungen neu verhandeln wollte,
+wird oeffentlich hingerichtet und die Leichen zurueck nach Charodak
+geschickt.
+Daraufhin zieht ein Heer aus Orks, das nachdem diese Nachricht wie ein
+Lauffeuer durch die Randprovinzen gegangen war, von Zwergen und Menschen
+sowie einzelnen Elfen verstaerkt wurde, nach Terisana.
+Durch den Opfertod des Orks Arbach kann die Stadt eingekreist und erobert
+werden.
+Nach der Schlacht um Terisana koennen die terisanischen Truppen den
+Aufstaendischen keinen Widerstand mehr entgegensetzen.
+Das Reich wird gepluendert und der gesamte Wald steht in Flammen.
+Etwas suedlich der alten Hauptstadt Terisana wird Ergoch gegruendet, eine
+Siedlung, die von Orkkriegern, die dafuer sorgen wollen, dass sich die Elfen
+diese Gebiete fortan meiden.
+Die Orks haben mehr als die Haelfte des alten Reiches gerodet und befestigen
+die Grenzen mit diversen Festungen.
+
+100 TF: 
+Diverse Festungen werden verlassen, da die Steppe eine solche Masse an Orks
+nicht mehr ernaehren kann.
+Es kommt zu diversen Auswanderungswellen, die Nachfolgestaaten des alten
+Terisana zerschlagen.
+Die Elfen wenden sich endgueltig von ihrer kriegerischen Vergangenheit ab
+und beginnen im Einklang der Natur ihr Refugium auszubauen.
+
+123-297 TF:
+Ein langer und blutiger Krieg der Orks untereinander um die Aussage, ob
+Byakka einer Goettin gleichzusetzen ist oder nicht, spaltet die orkische
+Gemeinschaft in die drei heute vorherrschenden Orkstaemme der Steppe.
+Die Charodakach sehen in Byakka nur die Lustsklavin Harodaks.
+Waehrend die Angrarach ihr Halbgoetterstatus als Frau Harodaks zusprechen,
+verehren die Ergochach sie als wichtigste Goettin nach Harodak.
+Dieses Schisma veraendert auch den Zusammenhalt in der Steppe.
+Die Charodakach, die aus ihrem Glauben ein starkes Patriarchat ableiten,
+sehen in Frauen, speziell auch in ihren Eigenen, nur Tiere und das Eigentum
+der maennlichen Vertreter ihrer Spezis.
+Die Angrarach sehen es aehnlich, jedoch erlauben sie ihren Frauen auch, dass
+Diese sich bekleiden duerfen und auch einen Mann zurueckweisen duerfen, wenn
+er sie nicht ernaehren kann.
+Im Gegensatz dazu sehen die Ergochach Frauen fast als gleichwertig an.
+Ihr oberstes Prinzip ist das Recht des Staerkeren.
+
+321 TF:
+Die Ergochach beginnen damit, auch nichtorkische Kaempfer in ihrer
+Kampfkunst auszubilden.
+Jedoch gelingt es keinem Nichtork diese Kunst zu perfektionieren.
+
+402 TF: 
+Der erste Zwerg, Artox mit Namen wird zum Meister der Kampfkunst der
+Ergochach.
+Daraufhin uebernimmt er die Ausbildung der neuen Schueler.
+
+404 TF:
+Okwach, ein junger, kraeftiger Ork setzt sich in einem Duell auf Leben und
+Tod gegen Jurach, den alten Orkhaeuptling durch und beerbt ihn als Fuehrer
+der Ergochach.
+
+Wir leben derzeit im Jahr 409 TF.
+
+
+
+ 

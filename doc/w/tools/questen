@@ -1,0 +1,27 @@
+Questtool:
+Mit dem Questtool können Erzmagier Questen/Abenteuer verwalten.
+Das Tool ist unter /obj/tools/ARCH/questtool zu finden.
+
+Befehle:
+  AddQ                          : Neuen Questeintrag einfuegen
+  RemoveQ     <quest>           : Questeintrag loeschen
+  ChangeQ     <quest>           : Questeintrag aendern
+  ReStoreQ                      : Zuletzt geloeschten oder geaenderten
+                                : Questeintrag restaurieren
+  SetQ        <spieler> <quest> : Quest als 'geloest' markieren
+  DelQ        <spieler> <quest> : Quest als 'nicht geloest' markieren
+  QueryQ      <quest>           : Questeintrag anzeigen
+  QueryK                        : Alle Keys und Indices anzeigen
+  QueryAllQ                     : Alle Eintraege vollstaendig anzeigen
+  ActiVateQ   <quest>           : Quest im Questmaster aktivieren
+  DeactiVateQ <quest>           : Quest im Questmaster deaktivieren
+
+  fuer <quest> kann der Index verwendet werden, den QueryK liefert!
+
+  (Alle Kommandos koennen abgekuerzt werden.)
+   -> Beispiel: DeactiVateQ == DVQ == dvq == deactivateq
+
+Todo: Dieses Tool soll in die Erzmagiershell wandern
+
+Letzte Änderung:
+2024-07-24	Gralkor

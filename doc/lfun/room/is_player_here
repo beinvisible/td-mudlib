@@ -1,0 +1,33 @@
+is_player_here
+
+FUNKTION:
+     int is_player_here();
+
+DEFINIERT IN:
+     /std/room.c
+
+ARGUMENTE:
+     keine
+
+BESCHREIBUNG:
+	Eindeutiges Erkennen von Spielern in Räumen.
+
+RÜCKGABEWERT:
+     1
+
+BEISPIEL:
+in einem NPC:
+void init()
+{
+
+ if(environment(this_object())->is_player_here() )
+{
+ // mache etwas, wenn spieler da sind
+}
+
+Diese einfache Abfrage schaut, ob in der Umgebung dieses Objektes (des NPC) 
+ein Spieler ist, und wenn ja, wird etwas gemacht.
+
+SIEHE AUCH:
+     /std/room.c, is_pub, is_guild, is_shop, is_post
+     

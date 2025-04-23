@@ -1,0 +1,15 @@
+MAGIERKOMMANDO:
+	do <cmd1>;<cmd2>;...
+
+ARGUMENTE:
+	mehrere Befehleszeilen durch Semikolon getrennt
+
+VORAUSSETZUNG:
+	Magierlevel 10 und 'mschau ein'.
+
+FUNKTION:
+	Mehrere Befehlszeilen koennen aneinandergereiht und
+	'in einem Rutsch' gesendet werden.
+
+SIEHE AUCH:
+	"alias", "ersetzungsanzeige"

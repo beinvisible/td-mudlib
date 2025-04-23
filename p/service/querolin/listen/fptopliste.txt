@@ -1,0 +1,75 @@
+Aktualisiert: Sat Jan 11 00:38:41 2025
+
+   ___ ______________________________________________________________________
+  /   \                                                                      \
+ |  O  |       D i e   e r f o l g r e i c h s t e n   F o r s c h e r        |
+  \___/|              Sortiert nach gefundenen Forscherpunkten                |
+       |  Rang:  Name:      Prozent:   Lvl:   Rasse:      Gilde:              |
+       |                                                                      |
+       |    1.  =Kati         100%      54    Mensch      Abenteurer          |
+       |    2.  =Hallgrim      98%      53    Hobbit      Abenteurer          |
+       |    3.  =Halligalli    96%      52    Hobbit      Abenteurer          |
+       |    4.  =Heiwar        89%      53    Elf         Bewahrer            |
+       |    5.  +Ron           82%      52    Brownie     Abenteurer          |
+       |    6.   Susalla       79%      32    Mensch      Bewahrer            |
+       |    7.  ~Hecsar        71%      55    Mensch      Abenteurer          |
+       |    8.  +Chastity      32%      28    Ork         Ergochach           |
+       |    9.  *Van           32%      47    Mensch      Ergochach           |
+       |   10.   Shyleen        9%       8    Mensch      Abenteurer          |
+       |   11.  +Ragnar         8%      27    Troll       Atalai              |
+       |   12.   Euronymus      4%      20    Mensch      Abenteurer          |
+       |   13.  *Arbach         1%      72    Ork         Ergochach           |
+       |   14.  +Itak           0%       1    Mensch      Abenteurer          |
+       |   15.   Werdasliest    0%       1    Ork         Ergochach           |
+       |   16.   Rtzhzss        0%       1    Elf         Abenteurer          |
+       |   17.   Dfgdfgdfdfg    0%       1    Elf         Abenteurer          |
+       |   18.   Asdasd         0%       1    Elf         Abenteurer          |
+       |   19.   Kramer         0%       1    Mensch      Abenteurer          |
+       |   20.   Abgtes         0%       3    Mensch      Ab_home             |
+       |   21.   Grettir        0%       1    Mensch      Abenteurer          |
+       |   22.   Blödi         0%       1    Elf         Abenteurer          |
+       |   23.   Frsra          0%       1    Troll       Atalai              |
+       |   24.   Novaja         0%       1    Elf         Abenteurer          |
+       |   25.   Novui          0%       1    Elf         Abenteurer          |
+       |   26.  =Nostromo       0%       1    Mensch      Abenteurer          |
+       |   27.   Invisible      0%       1    Elf         Abenteurer          |
+       |   28.   Taylor         0%       1    Mensch      Abenteurer          |
+       |   29.   Katara         0%       1    Elf         Abenteurer          |
+       |   30.   Danbi          0%       1    Ork         Ergochach           |
+       |   31.   Luana          0%       1    Elf         Abenteurer          |
+       |   32.  ~Serani         0%       1    Brownie     Abenteurer          |
+       |   33.   Nuvii          0%       1    Ork         Ergochach           |
+       |   34.   Sdffgdss       0%       1    Elf         Abenteurer          |
+       |   35.   Brobro         0%       1    Hobbit      Abenteurer          |
+       |   36.   Tzhfgsd        0%       1    Elf         Abenteurer          |
+       |   37.   Allpappa       0%       1    Mensch      Abenteurer          |
+       |   38.   Brapa          0%       1    Zwerg       Abenteurer          |
+       |   39.   Calv           0%       1    Elf         Abenteurer          |
+       |   40.   Sdfsdff        0%       1    Elf         Abenteurer          |
+       |   41.   Echolot        0%       1    Troll       Atalai              |
+       |   42.   Draconia       0%       1    Troll       Atalai              |
+       |   43.   Tomron         0%       1    Elf         Abenteurer          |
+       |   44.   Mjölnir       0%       1    Zwerg       Abenteurer          |
+       |   45.   Ghiodsf        0%       1    Elf         Abenteurer          |
+       |   46.   Sdfgdfgdfg     0%       1    Elf         Abenteurer          |
+       |   47.  =Brega          0%      37    Ork         Ergochach           |
+       |   48.   Quenglor       0%       1    Mensch      Abenteurer          |
+       |   49.   Damage         0%       1    Ork         Ergochach           |
+       |   50.   Meierhöfer    0%       1    Mensch      Abenteurer          |
+       |   51.   Pyrdakonia     0%       1    Elf         Abenteurer          |
+       |   52.   Pyrdakora      0%       1    Elf         Abenteurer          |
+       |   53.   Fghjsd         0%       1    Elf         Abenteurer          |
+       |   54.   Charlie        0%       1    Mensch      Abenteurer          |
+       |   55.   Zfdgdsss       0%       1    Elf         Abenteurer          |
+       |   56.   Zrtfsss        0%       1    Elf         Abenteurer          |
+       |   57.   Benteuer       0%       1    Mensch      Abenteurer          |
+       |   58.   Korra          0%       1    Elf         Abenteurer          |
+       |   59.   Alpharius      0%       1    Mensch      Abenteurer          |
+       |   60.   Wutiwut        0%       1    Ork         Ergochach           |
+       |   61.   Bertoldinio    0%       1    Mensch      Abenteurer          |
+       |   62.   Ttak           0%       1    Troll       Atalai              |
+       |                                                                      |
+       |   * Seher     = Erzseher    + Zweitspieler    ~ Magierzweitspieler   |
+       |                                                03/2003 by Querolin   |
+       \_____________________________________________________________________/
+

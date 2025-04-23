@@ -1,0 +1,22 @@
+MAGIERKOMMANDO:
+	pwho
+
+ARGUMENTE:
+	keine
+
+FUNKTION:
+	Gibt Informationen ueber alle Spieler aus.
+
+	Als Infomation erhaelt man:
+	 - den Level
+	 - den Namen
+	 - die Erfahrungspunkte
+	 - die Abenteuerpunkte (QP)
+	 - Intelligenz, Kraft, Geschicklichkeit, Ausdauer
+	 - Angriffsstaerke
+	 - Abwehrstaerke
+	 - Angriffsstaerke mit blossen Haenden
+	 - Lebenspunkte (aktuell und maximal)
+
+SIEHE AUCH:
+	people, stat

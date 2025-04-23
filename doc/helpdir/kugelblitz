@@ -1,0 +1,21 @@
+KOMMANDO:
+	kugelblitz <gegner>
+	kugelblitz
+
+ARGUMENTE:
+	<gegner> Das arme, unschuldige Opfer, das Du umbringen möchtest.
+		 Wenn man schon im Kampf ist, muss kein Argument angegeben
+		 werden.
+
+FUNKTION:
+	Mit diesem Spruch erschaffst Du einen Kugelblitz, 
+	ddr auf Deinen Gegner geschleudert wird. Dieser wird böse verletzt.
+	Dummerweise ist Magie nicht berechenbar, so daß Du Dich auch
+	selbst verletzen kannst.
+	Du benötigst etwas Zeit, um Dich auf diesen Spruch vorzubereiten.
+	Der Spruch kostet 40 Magiepunkte und ist ab Seherstufe 35
+	erhältlich.
+
+SIEHE AUCH:
+blitz, identifiziere, schätz, leuchtelicht, faustschlag, pfeil, ausweichen,
+feuerball, schnell, transport, giftschwall, wirbelwind, eisstrahl, zauberei

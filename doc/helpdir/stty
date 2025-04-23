@@ -1,0 +1,19 @@
+KOMMANDO:
+	stty <option>
+
+ARGUMENT:
+         dumb, vt100, ansi oder reset
+
+
+FUNKTION:
+	Ohne Argumente gibt 'stty' die aktuelle Einstellung aus.
+	Mit Argument wird dieses gestetzt.
+	
+SIEHE AUCH:
+
+        "farbe"
+
+LETZTE AENDERUNG:
+    
+	Querolin@Tamedhon, Mon 04 Jun 2001 
+

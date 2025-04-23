@@ -1,0 +1,131 @@
+Balance - Richtlinien, Werte, Vorgehensweisen
+Samtpfote@tamedhon.at, Sat Feb 23 12:59:20 2002
+----------------------------------------------------------------------
+
+Dieses Dokument beschreibt die Werte und Richtlinien, die die Balance
+bei den einzelnen zu genehmigenden Objekten anlegt.
+
+ALLGEMEIN ZU GENEHMIGENDE OBJEKTE
+- Objekt enthaelt eine Heilmoeglichkeit (zb Raum, Essen, etc).
+- Objekte mit irgendwelchen offensiven/defensiven Spezialfunktionen.
+- die 'besseren' Objekte muessen natuerlich entsprechend schwer zu 
+  erreichen sein, und auch ungefaehr dem 'Niveau' der Spieler angepasst sein,
+  dh niedrigstufige Spieler sollten auf keinen Fall genehmigungspflichtige
+  Objekte benutzen koennen, die fuer diese nicht gedacht sind! Das kann
+  entweder ueber eine Levelbeschraenkung oder Attributanforderungen 
+  realisiert werden.
+- Waffen oder Ruestungen, die einen nichtphysikalischen Schaden / Schutz
+  bieten.
+- Waffen, die mehr als zwei physikalische Schadensarten verursachen.
+
+'GROESSENKLASSEN'
+
+Es gibt sogenannte 'Groessenklassen', in welche die (NPC)-Voelker einsortiert
+sind. Das MUSS bei der Programmierung von Waffen und Ruestungen 
+beruecksichtigt werden, ebenfalls verschiedene kulturelle Unvertraeglichkeiten
+beim Material! 
+
+    Groesse	Volk, 'Rasse'
+    winzig	Brownie, Insekten, Kleintiere.
+    klein	Hobbit, Zwerg, Goblin, Rattenmensch, versch. Tiere.
+    normal	Mensch, Elf, Ork, versch. Tiere.
+    gross	Oger, Loewe, Tiger.
+    riesig	Titan, Riese, Drache, Elefant, Mammut.
+
+
+Bitte ueberlegt euch auch, welche Waffen und Ruestungen fuer eine Umgebung
+typisch sind und leitet davon entsprechende Waffengattungen und Ruestungs-
+arten ab, die da fuer das jeweilige Volk typisch ist.
+
+Das letzte Wort haben die zustaendigen Rassemagier.
+
+Diese 'Einschraenkungen' koennen entweder ueber eine WieldFunc() / WearFunc()
+bzw ein P_WIELD_RESTRICTIONS / P_WEAR_RESTRICTIONS realisiert werden. 
+    
+NPCs
+- wenn im /p/npc/ ein entsprechendes Standardobjekt vorliegt, MUSS es im
+  inherit auftauchen, sonst wird der NPC nicht genehmigt. Ausreden a la
+  'das ist ein mutierter <Rassename>' und aehnliches ist nicht gestattet,
+  immerhin ist er immer noch Mitglied des Volkes.
+- humanoide NPCs sollten entsprechend ihrer Beschreibung auch bekleidet 
+  und ausruestungsmaessig ausgestattet sein.
+- wenn NPCs speziellere Faehigkeiten haben, sollte im P_INFO (identifiziere)
+  ein (versteckter) Hinweis darauf sein.
+- ein paar Details beim NPC koennen nicht schaden.    
+
+WAFFEN
+
+Folgendes ist zu genehmigen:
+- einhaendige Waffen mit einen WC > 110
+- zweihaendige Waffen mit einen WC > 150
+- Waffen mit mehr als zwei Schadenstypen und/oder mit nichtphysikalische
+  Angriffsarten
+- HitFunc()
+- Wurfwaffen muessen std/th_weapon.c inheriten, wo die entsprechende 
+  Funktionalitaet bereits eingebaut ist.
+
+RUESTUNGEN
+
+Folgendes ist zu genehmigen:
+- Ruestungen mit einer DefendFunc()
+- magische Ruestungen bzw Ruestungen, die vor magischen Schaden schuetzen.
+
+Ruestungen, deren Wertebereich jeweils erreicht (dh wenn das Ruestungsteil
+diesen Wert bereits hat, muss es genehmigt werden!)
+
+    AT_ARMOUR		20
+    AT_HELMET		 7
+    AT_RING		 7
+    AT_GLOVE		 7
+    AT_CLOAK		 7
+    AT_BOOT		 7
+    AT_TROUSERS		 7
+    AT_SHIELD		16
+    AT_AMULET		 3
+    AT_BELT		 3
+    AT_BRACERS		 7
+    AT_MISC		 0	(AT_MISC darf NUR 0 sein!)
+    
+WERT UND GEWICHT
+
+Beim Einkauf im Laden muss man normalerweise das dreifache von P_VALUE 
+bezahlen. Fuer den Wert von Waffen gilt folgende Tabelle:
+
+    WC >= 250        etwa 20*WC Goldstuecke
+    WC >= 200        etwa 15*WC Goldstuecke
+    WC >= 130        etwa 10*WC Goldstuecke
+    101 < WC < 130   etwa  7*WC Goldstuecke
+    71 < WC < 100    etwa  5*WC Goldstuecke
+    50 < WC < 70     etwa  3*WC Goldstuecke
+    WC <= 50         etwa  2*WC Goldstuecke
+    
+    
+Bei zusaetzlichen Eigenschaften (etwa einer vom Standardwert abweichenden 
+P_WC_FIXFACTOR) muss der Preis natuerlich entsprechend angepasst werden.
+
+Das Gewicht selber wird hauptsaechlich durch das verwendete Material bestimmt
+und sollte einigermassen realistisch sein. Vielleicht ergibt sich mit der
+Zeit eine Tabelle mit verschiedenen Objekten, wo man sich dann orientieren 
+kann.
+
+SCHLUSSWORT
+
+Bitte versucht euch nicht bei den Spielern zu profilieren, indem ihr da stets
+Objekte schreibt, die immer haarscharf an die 'Genehmigungsgrenze' gehen oder
+so indirekt versuchen diese zu ueberschreiten. So etwas entwertet alle anderen
+normalen Waffen, die im Spiel benutzt werden und zum Schluss laufen die 
+Spieler nur noch in den besten magischen Sachen herum. Haltet euch bitte vor
+den Augen, dass damals im Mittelalter die normalen Personen, die Fuersten und
+auch viele der Helden in den Sagen und Geschichten auch zumeist 'normale'
+Ruestungen benutzt hatten. Die letzteren hatten oft auch magische Objekte, aber
+nur EINES. Manche besassen ein wenig mehr, aber auch nur fuer kurze Zeit, und
+nicht STAENDIG. 
+
+Die Balance wird ihr bestes versuchen, das Powergaming zu unterbinden und
+auf ein halbwegs niedriges Niveau zu halten.
+
+Die magischen Items (MI) sind dadurch, dass die ganzen Std-Objekte (/p/) 
+MI sind, relativ weit verbreitet, aber selten. Wenn moeglich nutzt die.
+
+Samtpfote@tamedhon.at						
+Gralkor@Fantasywelt.net

@@ -1,0 +1,20 @@
+KOMMANDO:
+	eisstrahl <gegner>
+	eisstrahl
+
+ARGUMENTE:
+	<gegner> Das arme, unschuldige Opfer, das Du umbringen möchtest.
+		 Wenn man schon im Kampf ist, muss kein Argument angegeben
+		 werden.
+
+FUNKTION:
+	Mit diesem Spruch erschaffst Du einen Eisstrahl, der auf Deinen	
+	Gegner geschleudert wird. Dieser wird böse verletzt.
+	Dummerweise ist Magie nicht berechenbar, so daß Du Dich auch
+	selbst verletzen kannst.
+	Der Spruch kostet 60 Magiepunkte und ist ab Seherstufe 45
+	erhältlich.
+
+SIEHE AUCH:
+blitz, identifiziere, schätz, leuchtelicht, faustschlag, pfeil, ausweichen,
+feuerball, schnell, transport, giftschwall, wirbelwind, kugelblitz, zauberei

@@ -1,0 +1,39 @@
+Das EP-Tool dient der Administration von Exploration Points.
+
+Das Tool ist unter /obj/tools/ARCH/eptool zu finden.
+
+Implementierte Kommandos (fuer Erzmagier++):
+  epa(dd) <objekt>:<typ>:<eps>:<keys>     Exploration Point(s) hinzufuegen
+  epc(hange) <objekt>:<typ>:<eps>:<keys>  Exploration Point(s) aendern
+  epd(el) <objekt>:<typ>                  EP entfernen
+  eps(how) <nummer> | <objekt>[:<typ>]    EP #x oder eines Objekts anzeigen
+  epi(nfo) [<spieler>]                    Diverse Infos anzeigen
+  epdump                                  Saemtliche EP anzeigen
+
+  npcs(et) <objekt>|<nummer>:<bonus>      NPC-Killerbonus hinzufuegen/aendern
+  npcp(ending)                            Bonus-Spielerqueue anzeigen
+  npcq(ueue) [<regexp>]                   Bonus-Queue anzeigen
+  npca(pprove) <dateiname>                Bonus bestaetigen
+  npcar <regexp>                          Bonus nach Regexp bestaetigen
+  npcr(emove) <dateiname>                 Eintrag aus der Queue loeschen
+  npcrr <regexp>                          Eintraege -"- nach Regexp loeschen
+  npcdump                                 Saemtliche NPC-Boni anzeigen
+
+<objekt> ist eine Objektangabe, wobei auch der Suffix 'im raum' bzw.
+'in mir' erlaubt ist, um genauer anzugeben, ob das Objekt im Raum oder
+im eigenen Inventory zu finden ist. Die Angabe 'hier' steht fuer den
+Raum selbst, in dem man grade steht.
+<typ> ist 'det' (Detail, Read-Detail, Special-Detail), 'sens' (ein raum-
+spezifischer Geruch oder Geraeusch (eines Raums, NICHT eines Objekts!))
+'exit' (Ausgang), 'cmd' (ein AddCmd-Kommand), 'info' (Infos von einem NPC)
+oder 'misc' (eigene GiveExplorationPoint()-Aufrufe im Objekt).
+<keys> sind, durch Kommas getrennt, saemtliche (!!) moegliche Schluessel,
+also das Detail, der Ausgang, das Kommando-Verb oder das Schluesselwort
+des NPCs. Dabei sind wirklich saemtliche moeglichen Schluessel anzugeben,
+zB. 'kletter' und auch 'klettere' ("kletter, klettere"), wenn beides
+dieselbe Aktion ausloest.
+
+Todo: Dieses Tool soll in die Erzmagiershell wandern
+
+Letzte Änderung:
+2024-07-24	Gralkor

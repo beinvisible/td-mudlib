@@ -1,0 +1,57 @@
+LEUCHT / dunkelsachen (Serii, 19. Jan 2004, 19:48:44):
+
+Werte Magier, die ihr da Leuchte- oder Dunkelsachen programmiert -
+mir ist aufgefallen, dass Spieler teilweise mit 10, sogar 20 Leuchteteilen
+in Rucksaecken rumlaufen, die anscheinend jedwede Dunkelheit aus den
+Ecken des Tamedhon vertreiben.
+Dunkelheit ist meiner Meinung nach ein Mittel um (eine bestimmte) Atmosphaere
+(im Tamedhon) zu verbreiten und Magier die Raeume programmieren die dunkel
+sind haben damit (groesstenteils zumindest) eine bestimmte Absicht.
+Nun traegt der gemeine Abenteurer Fackeln mit sich rum um auf derartige
+Situationen vorbereitet zu sein, doch - ist er zu lange in dem dunklen
+Gebiet und hat nicht vorrausschauend geplant *plopp* steht er im Dunkeln,
+weil die Fackel erlischt. Was fuer ein Spass. Solche Missgeschicke passieren
+einem doch dauernd im wahren Abenteurerleben!
+
+Nun kommt der Leuchteabenteurer daher, spazziert durch dunkle Gebiete als
+sei's nix, erkundet alles einfach so ohne Probleme und erstickt alle
+Dunkelheit im Keim weil er ja seinen bis in alle Ewigkeit leuchtenden
+Rucksack bei sich hat.
+
+
+Daher habe ich folgende bitte an alle Magier:
+
+
+Bitte aendert bestehende Leuchtgegenstaende dahingehend, dass sie NUR
+leuchten, wenn man sie TRAEGT (Ruestungen/Amulette/Ringe/etc) oder GEZUECKT
+hat (Waffen).
+
+Des weiteren sollten Leuchtgegenstaende eine AUSNAHME und daher auch eher
+SCHWER zu bekommen sein.
+
+Das Lichtlevel (P_LIGHT) sollte bei diesen Gegenstaenden lieber niedrig (<2)
+als zu hoch sein!
+Je hoeher das Lichtlevel, desto schwerer sollte der Gegenstand zu beschaffen
+sein.
+
+Der besagte Gegenstand sollte NICHT jedesmal ein Leuchte/Dunkelgegenstand
+sein, soll heissen, es sollte beim Clonen (oder evtl. beim Identifizieren)
+zufaellig entschieden werden ob er leuchtet oder nicht.
+
+
+
+Nocheinmal: Leuchtgegenstaende sollten eher die Ausnahme sein - Spieler
+sollten eher die 'konventionellen' Moeglichkeiten (Fackeln/Oellampen/etc)
+nutzen, um sich Licht zu verschaffen.
+
+Ich wuerde extreme Leuchtgegenstaende mit sogenannten 'Superwaffen' im MUD
+vergleichen, die, statt Monster beim ersten Schlag zu plaetten, einfach
+saemtliche Dunkelheit immer und ueberall plaetten.
+
+Also:
+
+   Regionsmagier - achtet darauf wenn solche Sachen zum Anschluss anstehen.
+   Balance - auch was fuer euch zum drauf achten! ;)
+
+
+Serii meint: Spieler solltens nicht ZU einfach haben :)

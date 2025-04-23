@@ -1,0 +1,20 @@
+KOMMANDO:
+        lebensentzug <gegner>
+
+ARGUMENTE:
+        <gegner> Ein Gegner mit dem Du kaempfst. Im Kampf selbst muss der
+                 Gegner nicht zwingend angegeben werden.
+
+FUNKTION:
+        Mit diesem Zauber entziehst Du Deinem Gegner Lebensenergie.
+        Wie bei allen Zaubern ist die Gesinnung 'voodoo' von Vorteil.
+
+KOSTEN:
+        Dieser Zauber kostet 35 Magiepunkte und ist ab Spielerstufe 45
+        bei Zan'Zash erlernbar.
+
+SIEHE AUCH:
+        Gilden, Atalai, Atalai.Faehigkeiten, Trophaee, Identifiziere,
+        Schaetze, Funyuu, Tunyuu, Donnerknall, Naturwiderstand,
+        BoeserBlick, Vergifte, Gebet, Seelenwanderung, Gedankenkontrolle,
+        Schmerz, Furcht, Lebensentzug, VooDoo.

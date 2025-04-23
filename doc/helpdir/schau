@@ -1,0 +1,38 @@
+KOMMANDO:
+	schau
+	schau <gegenstand> an
+	untersuche <gegenstand>
+	unt <gegenstand>
+
+ARGUMENTE:
+	<gegenstand>    ein Gegenstand
+
+FUNKTION:
+	"schau" ist das allgemeine Kommando, um Gegenstaende und Raeume zu
+	untersuchen. "schau" ohne Argumente gibt eine Beschreibung des
+	Raumes, in dem der Spieler sich befindet. Alle anderen Gegenstaende,
+	Monster und Spieler im selben Raum oder im eigenen Inventar koennen
+	mit "schau (an)" untersucht werden.
+
+	"schau" muss aber nicht unbedingt alle Geheimnisse des Gegen-
+	standes verraten.
+
+	"untersuche" bzw. "unt" macht genau dasselbe, ist aber manchen
+	vielleicht lieber.
+
+	"untersuche obj in mir", "untersuche obj im raum" geht jetzt auch.
+
+	Ausserdem kann man nun auch "alles", "waffe(n)" oder "ruestung(en)"
+	angeben, um saemtliche Gegenstaende oder aber saemtliche Waffen
+	bzw. Ruestungen genauer zu betrachten.
+	
+	"kschau" bzw "schau -k" zeigt die Kurzbeschreibung an.
+
+ACHTUNG:
+	Manche Raeume definieren Ihr "eigenes Verb": "untersuche". Hier
+	koennen "unt" und "untersuche" zu VERSCHIEDENEN Ergebnissen fuehren.
+	Meistens ergibt sich aus dem Kontext, ob man etwas untersuchen
+	soll - dann sollte man besser "untersuche" als "unt" verwenden.
+
+SIEHE AUCH:
+	"kurz", "ausgaenge"

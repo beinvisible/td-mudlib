@@ -1,0 +1,27 @@
+KOMMANDO:
+	typo <text>
+	  oder
+	typo <objekt>:<text>
+
+ARGUMENT:
+	<text>    eine Zeichenkette
+	<objekt>  ein Objekt, das neben Dir liegt oder in deinem
+		  Inventar ist.
+
+FUNKTION:
+	Speichert eine Mitteilung ueber einen Tippfehler. Die
+	Magier gehen allen Fehlermeldungen nach. Aber achte darauf,
+	dass Du die Fehlermeldung in dem Raum abgibst, in dem der
+	Fehler aufgetreten ist, nur dann kann der Magier den Fehler
+	genau lokalisieren.
+
+	Wenn Du weisst, dass der Tippfehler von einem Objekt verursacht
+	wird, kannst Du dieses angeben, damit der fuer das Objekt verant-
+	wortliche Magier die Meldung bekommt. Wenn kein solches Objekt
+	zu finden ist, wird die ganze Eingabe als Meldung aufgefasst.
+
+	Fehlermeldungen sind SEHR willkommen; zoegere also nicht, wenn
+	Du einen Tippfehler findest.
+
+SIEHE AUCH:
+	"fehler", "idee", "detail","loben"

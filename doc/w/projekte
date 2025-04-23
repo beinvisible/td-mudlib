@@ -1,0 +1,42 @@
+MAGIERHILFE
+Zustaendigkeiten fuer neue Projekte:
+
+- Es gibt je Region genau einen Regionsmagier (RM). Dieser ist verantwortlich
+    fuer Konzept, Entwicklung und Umsetzung in der entsprechenden Region.
+- Der RM ist Ansprechpartner fuer andere Magier (auch RM/EM), die in seiner
+    Region etwas bauen moechten. Er muss letztlich den Kopf hinhalten,
+    wie es in der Region aussieht und entscheidet darum innerhalb seiner
+    Region.
+- Konzepte fuer neue Projekte werden erst mit dem Regionsmagier abgesprochen
+    und dann in der Magierzeitung veroeffentlicht. Jeder Magier darf
+    kommentieren, der zustaendige RM muss verbindlich Ja oder Nein sagen.
+    Falls der Programmierer selbst RM der entsprechenden Region ist, muss
+    unbedingt ein Erzmagier zustimmen. Wenn sich ein Projekt ueber mehr als
+    eine Region erstreckt, muessen alle betroffenen RMs zustimmen. Bei
+    Ablehnung sind konkrete Gruende zu nennen, damit das Konzept
+    entsprechend angepasst werden kann, um den Anforderungen zu entsprechen.
+- Nachdem das Konzept fuer ein neues Projekt offiziell genehmigt ist, ist
+    der entsprechende RM dafuer verantwortlich, ggf. den Magier zu
+    unterstuetzen und Hinweise zu geben, falls es sich in eine falsche
+    Richtung entwickelt. Dies dient dazu, grobe Fehler schnellstmoeglich
+    zu beseitigen und somit Enttaeuschungen zu vermeiden. Falls der RM
+    selbst der Programmierer ist, ist er natuerlich bei der Umsetzung auf
+    sich allein gestellt. Alle RM sollten sich darum gegenseitig stets zur
+    Seite stehen, wenn jemand um Rat fragt.
+- Wenn der RM das fertige Projekt fuer anschliessbar und balancekonform
+    haelt, uebergibt er es der Balance zur Pruefung. Falls der Programmierer
+    selbst RM in dieser Region ist, muss vor der Balance ein Erzmagier die
+    Ueberpruefung vornehmen. Nach Abnahme durch die Balance wird es angehaengt
+    und damit fuer Spieler zugaenglich gemacht.
+- Bei kleinen Anpassungen an bestehenden Objekten im Rahmen der Pflege der
+    Region bedarf es keiner Konzeptvorstellung. Allerdings sind alle
+    Aenderungen, die die Balance betreffen, vorher dem Balanceteam zur
+    Pruefung anzuzeigen und nach Inkrafttreten ggf. die Spieler ueber die
+    Zeitung zu informieren.
+
+LETZTE AENDERUNG:
+	19.02.2010
+
+SIEHE AUCH:
+	hilfe zustaendigkeiten, hilfe balance,
+	man projekt, man schummelzettel.proggen

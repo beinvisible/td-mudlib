@@ -1,0 +1,159 @@
+
+                        WAS SIND MAGISCHE GEGENSTAENDE?
+
+Magische Gegenstaende sind Gegenstaende, die vorerst genau so sind wie alle
+Anderen Gegenstaende auch. Identifiziert man allerdings einen magischen
+Gegenstand, aendert er seine Eigenschaften zum Positiven oder aber auch zum
+Negativen.
+So wird z.B. aus einem 'alten Kettenhemd' ohne besondere Eigenschaften ein
+'leuchtendes Kettenhemd der Staerke' welches zum Einen leuchtet und ausserdem
+noch einen Bonus auf Staerke verleiht, wenn man es traegt.
+Es gibt zur Zeit (grob abgerundet) hunderte verschiedene moegliche
+Kombinationen von eigenschaften, die ein magischer Gegenstand bekommen kann.
+
+
+    WARUM GIBT ES MAGISCHE GEGENSTAENDE,UND WARUM SOLLTEN MOEGLICHST VIELE
+	     GEGENSTAENDE (ZUKUENFTIG) DAVON GEBRAUCH MACHEN?
+
+Das Ziel dieser Gegenstaende ist es, eine groessere Vielfalt von Gegenstaenden
+im Tamedhon zu erreichen, ohne Unmengen neuer Gegenstaende programmieren zu
+muessen. Des weiteren macht es das Spielgeschehen interessanter, wenn unter dem
+Haufen ermetzelter 'Standardruestung/Waffen/etc/' mindestens ein magischer
+Gegenstand dabei ist.
+Das ist auch genau der Grund (bzw. DIE Gruende) warum von dieser Moeglichkeit
+Gebrauch gemacht werden sollte!
+
+
+    WELCHEN GEGENSTAENDEN KANN ICH DIE MOEGLICHKEIT MAGISCH ZU SEIN VERLEIHEN?
+
+Im Prinzip allen!
+Im Speziellen: Ruestung (aller Art), Waffen und 
+               Container (Taschen,Rucksaecke etc), die in grossen Mengen
+	       geclont werden. (z.B. Ork-Ruestungsgegenstaende etc.)
+
+BALANCE-Hinweis: Gegenstaende die selbst schon etwas 'Besonderes' sind, wie
+~~~~~~~          z.B. Elrond's Axt, sollten diese Moeglichkeit NICHT nutzen,
+                 da sie schon besonders genug sind.
+
+Ausserdem sollten NUR Gegenstaende, die KEINE anderen Funktionen (abgesehen
+von create() ) definieren/beinhalten davon gebrauch machen!
+Sobald eine Funktion definiert ist (wenns auch nur fuer ein AddCmd() ist, oder
+ein ueberschriebenes reset() ) wird dieser Gegenstand bitte KEIN MI!
+
+(Darauf sollte die Balance vor Anschluss auch speziell achten!)
+
+Potentielle magische Gegenstaende MUESSEN vor dem Anschluss von der Balance
+abgenommen werden!!!              ~~~~~~~
+
+
+                       UND WIE GEHT DAS NUN?
+
+Am Einfachsten geht das zur Zeit mit Ruestungsteilen und Waffen, da hierfuer
+schon Standard-Dateien (vergleichbar mit /std/weapon oder /std/armour)
+existieren!
+Um z.B. eine Waffe (nicht werfbar!) zu erschaffen, die die Moeglichkeit hat
+magisch zu werden geht man wie folgt vor:
+
+Zuerst erstellt man die Waffe, wie gehabt. Einziger Unterschied (vorerst):
+
+statt:
+
+inherit "/std/weapon";
+
+wird verwendet:
+
+inherit "/p/MI/weapon";
+
+(Analog wird bei Ruestungen statt "/std/armour" "/p/MI/armour" verwendet)
+
+Der Rest sieht dann aus wie jede normale Waffe.
+
+Nun muss unsere zukuenftige magische Waffe nurnoch GANZ am Ende vom create()
+'scharf' gemacht werden. Das uebernimmt die Funktion 'AddMagic'.
+Das create() sollte dann ungefaehr so aussehen:
+
+.
+.
+.
+
+void create()
+{
+  ::create();
+   .
+   .
+   .
+
+  AddMagic(5);
+}
+
+Als Parameter (in diesem Falle 5) wird die Wahrscheinlichkeit angegeben, mit
+der der Gegenstand beim Identifizieren magisch wird.
+( 5 == ca. jeder fuenfte, 10 == ca. jeder zehnte etc.)
+Mit AddMagic(1); wird JEDER Gegenstand auf jeden Fall magisch - das sollte ohne
+besonderen Grund niemals der Fall sein!
+Generell sollte der Wert ungefaehr zwischen 6 und 15 liegen. Groesser ist
+natuerlich immer moeglich - kleiner nur mit besonderer Begruendung! 
+
+
+   Normaler std Gegenstand:		MI std Gegenstand:
+   ~~~~~~~~~~~~~~~~~~~~~~~~		~~~~~~~~~~~~~~~~~~
+
+   /std/weapon.c			/p/MI/weapon.c
+   /std/th_weapon.c			/p/MI/th_weapon.c
+   /std/armour.c			/p/MI/armour.c
+   /std/behaelter.c			/p/MI/behaelter.c
+
+
+   WIE IST DAS NUN MIT DEN GEGENSTAENDEN FUER DIE ES NOCH KEINE STD-INHERITS
+                                   GIBT?
+
+In dem Fall sieht die ganze Sache nicht viel anders aus.
+Der Gegenstand wird auch 'ganz normal' programmiert - geerbt wird wie folgt:
+
+ERST der 'normale' standard-Gegenstand aus /std/ z.B. /std/behaelter und DANN
+das allgemeine standard-Object fuer magische Gegenstaende /p/MI/magicitem:
+
+inherit "/std/behaelter";
+inherit "/p/MI/magicitem";
+
+Das create() ist dann wieder ganz normal, bis auf den ANFANG und das ENDE:
+
+void create()
+{
+  behaelter::create();
+  magicitem::create();
+
+  .
+  .
+  .
+
+  AddMagic(5);
+}
+
+void reset()			// das reset hier NICHT vergessen!
+{
+  magicitem::reset();
+  behaelter::reset();
+}
+
+Natuerlich gibts schon nen Standart-MI-Behaelter ;)
+
+Fuer AddMagic() gelten hier natuerlich die selben Bedingungen wie oben genannt!
+
+
+
+                            WICHTIG!!!
+			    ~~~~~~~~~~
+
+/*Definiert die Waffe bzw. die Ruestung eine eigene Wield-/Wear-/Hit-/Unwield-
+oder RemoveFunc muss in dieser AUF JEDEN FALL zuerst die geerbte Funktion
+(bei einer WearFunc z.B. "magicitem::RemoveFunc();" ) aufgerufen werden!*/
+
+Dieser letzte Paragraph entfaellt, da in diesem fall der Gegenstand garkein
+MI werden darf! Balance ueberprueft das ja hoffentlich ;)
+
+
+
+                                        Letzte Aenderung: Jan 26  2004
+					(Bei Fragen an Serii wenden!)
+

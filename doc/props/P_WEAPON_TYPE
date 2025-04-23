@@ -1,0 +1,49 @@
+NAME:
+     P_WEAPON_TYPE                "weapon_type"
+
+DEFINIERT IN:
+     /sys/weapon.h
+
+BESCHREIBUNG:
+     Um was fuer eine Waffe handelt es sich? Es stehen viele verschiedene
+     Typen zur Auswahl. Man sollte hier nur die in <combat.h> definierten
+     Konstanten verwenden.
+
+Es sind folgende Konstanten definiert:
+Nahkampf:
+
+WT_HANDS 	unbewaffneter Angriff, wird mit P_HANDS gesetzt
+WT_KNIFE 	alles, was ein Messer oder Dolch ist, bzw. so gefuehrt 
+		werden kann
+WT_AXE   	Aexte, Beile
+WT_SLASHING 	scharfe Hiebwaffen, alle Waffen, die nur eine Klinge haben,
+		und mit denen man eher zuschlaegt als sticht (Saebel)
+WT_CLUB 	stumpfe Hiebwaffen, also Knueppel, Keulen und andere
+		Wuchtwaffen
+WT_SWORD 	Schwerter und andere Waffen, die sowohl zum Stich als auch 
+		zum Schlag geeignet sind
+WT_INFANTRY 	Infantriewaffen, wie Hellebarde, Pike, ...
+WT_STAFF 	Kampfstaebe etc
+WT_SPEAR 	Speere
+WT_CHAIN 	Kettenwaffen, wie Nunchakus oder (Ketten)Morgenstern
+WT_THRUST 	Stichwaffen. Alle Fechtwaffen, die ueber einen Stich wirken.
+WT_WHIP 	Peitschen
+
+Fernkampf:
+
+WT_SLING 	Schleudern und aehnliche Waffen
+WT_BOW 		Boegen aller Arten
+WT_XBOW		Armbrueste
+WT_AMMU 	Munition
+
+Sonstiges:
+
+WT_MAGIC 	magische Waffenart
+WT_MISC 	sonstige Waffe, alles, was nicht in die obengenannten Waffen
+		faellt.
+
+Einhand- und Zweihandwaffen werden nach dem System gleich behandelt!
+
+SIEHE AUCH:
+     /std/weapon.c
+

@@ -1,0 +1,68 @@
+Nahkampf:
+
+WT_HANDS        unbewaffneter Angriff, wird mit P_HANDS gesetzt
+WT_KNIFE        alles, was ein Messer oder Dolch ist, bzw. so gefuehrt
+                werden kann
+WT_AXE          Aexte, Beile
+WT_SLASHING     scharfe Hiebwaffen, alle Waffen, die nur eine Klinge haben,
+                und mit denen man eher zuschlaegt als sticht (Saebel)
+WT_CLUB         stumpfe Hiebwaffen, also Knueppel, Keulen und andere
+                Wuchtwaffen
+WT_SWORD        Schwerter und andere Waffen, die sowohl zum Stich als auch
+                zum Schlag geeignet sind
+WT_INFANTRY     Infantriewaffen, wie Hellebarde, Pike, ...
+WT_STAFF        Kampfstaebe etc
+WT_SPEAR        Speere
+WT_CHAIN        Kettenwaffen, wie Nunchakus oder (Ketten)Morgenstern
+WT_THRUST       Stichwaffen. Alle Fechtwaffen, die ueber einen Stich wirken.
+WT_WHIP         Peitschen
+
+Fernkampf:
+
+WT_SLING        Schleudern und aehnliche Waffen
+WT_BOW          Boegen aller Arten
+WT_XBOW         Armbrueste
+WT_AMMU         Munition
+
+Sonstiges:
+
+WT_MAGIC        magische Waffenart
+WT_MISC         sonstige Waffe, alles, was nicht in die obengenannten Waffen
+                faellt.
+
++-------------------------------------------------------------------------+
+| NAHKAMPF                                                                |
++--------------------+--------------------------------------+-------------+
+| Waffentyp          | Beispiele                            | WT          |
++--------------------+--------------------------------------+-------------+
+| Haende             | Stadard im waffenlosen Kampf         | WT_HANDS    |
+| Messer*            | Messer, Dolch, Hirschfaenger         | WT_KNIFE    |
+| Aexte              | Axt, Beil, Hacke                     | WT_AXE      |
+| Scharfe Hiebwaffen | Saebel, Haumesser, Entermesser       | WT_SLASHING |
+| Stumpfe Hiebwaffen | Knueppel, Keule, Morgenstern         | WT_CLUB     |
+| Schwerter          | Schwert, Bindenhaender, Katana       | WT_SWORD    |
+| Infantriewaffen    | Hellebarde, Pike, Sense              | WT_INFANTRY |
+| Stabwaffen         | Magierstab, Kampfstab, Zweililien    | WT_STAFF    |
+| Speerwaffen*       | Speer, Spiess, Lanze, Dreizack       | WT_SPEAR    |
+| Kettenwaffen       | Kettenmorgenstern, Nunchaku          | WT_CHAIN    |
+| Stichwaffen        | Florett, Degen, Rapier               | WT_THRUST   |
+| Peitschen          | Peitsche, Gerte, Geissel             | WT_WHIP     |
++--------------------+--------------------------------------+-------------+
+| FERNKAMPF                                                               |
++--------------------+--------------------------------------+-------------+
+| Waffentyp          | Beispiele                            | WT          |
++--------------------+--------------------------------------+-------------+
+| Schleudern         | Schleuder, Bola, Catchie             | WT_SLING    |
+| Boegen             | Langbogen, Reiterbogen, Kurzbogen    | WT_BOW      |
+| Armbrueste         | Armbrust, Balliste, Kugelarmbrust    | WT_XBOW     |
+| Munnition          | Steine, Bleikugeln, Pfeile           | WT_AMMU     |
++--------------------+--------------------------------------+-------------+
+| SONSTIGES                                                               |
++--------------------+--------------------------------------+-------------+
+| Waffentyp          | Beispiele                            | WT          |
++--------------------+--------------------------------------+-------------+
+| Magiewaffen        | Blitzstab, Voodoopuppe               | WT_MAGIC    |
+| Sonstige           | Bombe, Diskus, Furz                  | WT_MISC     |
++--------------------+--------------------------------------+-------------+
+
+Messer und Speere koennen das Attribut

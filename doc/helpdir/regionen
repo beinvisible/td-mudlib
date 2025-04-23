@@ -1,0 +1,29 @@
+REGIONEN IM TAMEDHON
+
+	Die mit Stern (*) gekennzeichneten Regionen haben noch keine
+	fuer Spieler zugaengliche Gebiete angeschlossen, aber kuenftige
+	Projekte sind dort in Planung. Die Seherregion beinhaltet die
+	Seherhaeuser.
+
+	    Elfenwald
+	    Gebirge
+	    Gidhrog
+	    Grasland
+	    Nordmeer
+	    Steppe
+	    Tal
+	    Unterwelt
+	    Wueste
+	(*) Himmel
+	(*) Seenlandschaft
+	(*) Dschungel
+	    Seher
+
+	Wer sich darueber informieren will, welcher Spieler sich in
+	welcher Region aufhaelt, kann "(k)wer region <region>" benutzen.
+
+	Welcher Magier fuer die einzelnen Regionen zustaendig ist, steht
+	in "hilfe zustaendigkeiten".
+
+SIEHE AUCH:
+	zustaendigkeiten, wer, kwer, gilden, rassen

@@ -1,0 +1,26 @@
+ERGOCHACH.RAMME
+
+KOMMANDO
+	 ramme
+	 ramme <gegner>
+
+ARGUMENTE
+	 <gegner> Ein beliebiger Gegner 
+	
+FUNKTION
+	Als Priester der Stufe 45 kannst Du einen Gegner über den Haufen 
+	rammen. Dummerweise kann der Gegner dadurch etwas wütender werden,
+	und weniger schnell abhauen.
+	Außerdem kostet Dich das 50 MP.
+
+SIEHE AUCH
+
+ergochach, ergochach.flammensphäre, ergochach.berserkertum, 
+ergochach.knieschlag,ergochach.doppelschlag, ergochach.entgifte, 
+ergochach.fußtritt, ergochach.schätz, ergochach.identifiziere, 
+ergochach.zerfleische, ergochach.erwürge, ergochach.kampfschrei,
+ergochach.schlag, ergochach.wüte
+
+ÄNDERUNGEN
+
+16.01.2004 Gralkor

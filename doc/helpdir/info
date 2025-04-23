@@ -1,0 +1,37 @@
+KOMMANDO:
+	info
+	punkte
+
+ARGUMENTE:
+	keine
+
+FUNKTION:
+	Dieses Kommando gibt Deine aktuellen Charakterdaten aus.
+	Dazu gehoeren:
+		- Lebenspunkte und Magiepunkte,
+		- Erfahrungspunkte und Stufenpunkte,
+		- Stufe und Gildenstufe,
+		- Rasse und Gilde,
+		- Attribute und Attributpunkte,
+		- Abenteuerpunkte,
+		- Vorsicht,
+		- Ansehen/Gesinnung,
+		- Forscherpunkte
+	Zusaetzlich noch, falls beeintraechtigt:
+		- Tragfaehigkeit,
+		- Saettigung,
+		- Erschoepfung,
+		- Gift
+
+	'info' zeigt alle Daten an, 'punkte' nur die wichtigsten.
+
+	Um Aenderungen der Lebens- und Magiepunkte im Kampf zu
+	sehen, benoetigt man als Abenteurer ein Abzeichen.
+	Dieses wird von den Gildenmeistern ausgegeben, wenn man sie
+	danach fragt. Die Mitglieder der anderen Gilden bekommen von
+	ihren Gildenchefs ein aehnliches Helferlein.
+
+
+SIEHE AUCH:
+	"tod", "stufenpunkte", "gilden", "attribute", "forscherpunkte",
+	"abenteuer", "vorsicht", "temperatur"

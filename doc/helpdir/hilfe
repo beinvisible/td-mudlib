@@ -1,0 +1,19 @@
+KOMMANDO:
+	hilfe [<thema>]
+
+ARGUMENTE:
+	<thema>: Hilfethema (optional)
+
+FUNKTION:
+	Gibt Hilfeseiten ueber die Spielerbefehle aus.
+	Ohne <thema> wird eine Seite mit den Befehlen
+	angezeigt, zu denen es Hilfeseiten gibt.
+
+HINWEIS:
+	Ideen, Fehlermeldungen, Hinweise, Rechtschreibefehler
+	und Anregungen bitte per Tame-Mail an den zustaendigen
+	Magier senden. Wir bemuehen uns, alles derartige so
+	schnell wie moeglich umzusetzen oder zu beheben.
+
+SIEHE AUCH:
+	zustaendigkeiten, typo, fehler, idee, index

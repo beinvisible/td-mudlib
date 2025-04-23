@@ -1,0 +1,76 @@
+Aktualisiert: Sat Jan 11 00:38:41 2025
+
+   ___ ______________________________________________________________________
+  /   \                                                                      \
+ |  O  |              A l l g e m e i n e     T o p l i s t e                 |
+  \___/|                   Sortiert nach erreichtem Rang                      |
+       | Rng:  Name:      Spielerinfo:   FP:    GR:    QP:    EP:    Gesamt:  |
+       |                                                                      |
+       |   1. =Halligalli (52,Hob,Abe)   96%    84%    94%     3%  =  69.88%  |
+       |   2. =Hallgrim   (53,Hob,Abe)   98%   100%    61%     3%  =  66.14%  |
+       |   3. =Kati       (54,Men,Abe)  100%    97%    55%     6%  =  64.91%  |
+       |   4. =Heiwar     (53,Elf,Bew)   89%    46%   100%     7%  =  60.86%  |
+       |   5. +Ron        (52,Bro,Abe)   82%    86%    68%     5%  =  60.86%  |
+       |   6. ~Hecsar     (55,Men,Abe)   71%    86%    70%     2%  =  57.54%  |
+       |   7. *Arbach     (72,Ork,Erg)    1%    64%    21%   100%  =  46.88%  |
+       |   8. *Van        (47,Men,Erg)   32%    78%    69%     2%  =  45.71%  |
+       |   9.  Susalla    (32,Men,Bew)   79%    22%    46%     0%  =  37.35%  |
+       |  10. +Chastity   (28,Ork,Erg)   32%    50%    33%     0%  =  29.02%  |
+       |  11. =Brega      (37,Ork,Erg)    0%    53%    11%    24%  =  22.43%  |
+       |  12. +Ragnar     (27,Tro,Ata)    8%    27%    40%     0%  =  18.86%  |
+       |  13.  Euronymus  (20,Men,Abe)    4%    30%     5%     0%  =  10.37%  |
+       |  14.  Shyleen    ( 8,Men,Abe)    9%    10%     4%     0%  =   6.14%  |
+       |  15. +Itak       ( 1,Men,Abe)    0%     0%     0%     0%  =   0.45%  |
+       |  16.  Quenglor   ( 1,Men,Abe)    0%     0%     0%     0%  =   0.18%  |
+       |  17.  Abgtes     ( 3,Men,Ab_)    0%     0%     0%     0%  =   0.17%  |
+       |  18.  Asdasd     ( 1,Elf,Abe)    0%     0%     0%     0%  =   0.15%  |
+       |  19.  Kramer     ( 1,Men,Abe)    0%     0%     0%     0%  =   0.15%  |
+       |  20.  Blödi     ( 1,Elf,Abe)    0%     0%     0%     0%  =   0.15%  |
+       |  21.  Frsra      ( 1,Tro,Ata)    0%     0%     0%     0%  =   0.15%  |
+       |  22.  Werdasliest( 1,Ork,Erg)    0%     0%     0%     0%  =   0.15%  |
+       |  23.  Grettir    ( 1,Men,Abe)    0%     0%     0%     0%  =   0.15%  |
+       |  24.  Rtzhzss    ( 1,Elf,Abe)    0%     0%     0%     0%  =   0.15%  |
+       |  25.  Dfgdfgdfdfg( 1,Elf,Abe)    0%     0%     0%     0%  =   0.15%  |
+       |  26.  Taylor     ( 1,Men,Abe)    0%     0%     0%     0%  =   0.08%  |
+       |  27.  Danbi      ( 1,Ork,Erg)    0%     0%     0%     0%  =   0.08%  |
+       |  28. =Nostromo   ( 1,Men,Abe)    0%     0%     0%     0%  =   0.08%  |
+       |  29. ~Serani     ( 1,Bro,Abe)    0%     0%     0%     0%  =   0.08%  |
+       |  30.  Novaja     ( 1,Elf,Abe)    0%     0%     0%     0%  =   0.08%  |
+       |  31.  Katara     ( 1,Elf,Abe)    0%     0%     0%     0%  =   0.08%  |
+       |  32.  Novui      ( 1,Elf,Abe)    0%     0%     0%     0%  =   0.08%  |
+       |  33.  Luana      ( 1,Elf,Abe)    0%     0%     0%     0%  =   0.08%  |
+       |  34.  Invisible  ( 1,Elf,Abe)    0%     0%     0%     0%  =   0.08%  |
+       |  35.  Brobro     ( 1,Hob,Abe)    0%     0%     0%     0%  =   0.00%  |
+       |  36.  Tzhfgsd    ( 1,Elf,Abe)    0%     0%     0%     0%  =   0.00%  |
+       |  37.  Allpappa   ( 1,Men,Abe)    0%     0%     0%     0%  =   0.00%  |
+       |  38.  Brapa      ( 1,Zwe,Abe)    0%     0%     0%     0%  =   0.00%  |
+       |  39.  Calv       ( 1,Elf,Abe)    0%     0%     0%     0%  =   0.00%  |
+       |  40.  Sdfsdff    ( 1,Elf,Abe)    0%     0%     0%     0%  =   0.00%  |
+       |  41.  Echolot    ( 1,Tro,Ata)    0%     0%     0%     0%  =   0.00%  |
+       |  42.  Draconia   ( 1,Tro,Ata)    0%     0%     0%     0%  =   0.00%  |
+       |  43.  Tomron     ( 1,Elf,Abe)    0%     0%     0%     0%  =   0.00%  |
+       |  44.  Mjölnir   ( 1,Zwe,Abe)    0%     0%     0%     0%  =   0.00%  |
+       |  45.  Ghiodsf    ( 1,Elf,Abe)    0%     0%     0%     0%  =   0.00%  |
+       |  46.  Sdfgdfgdfg ( 1,Elf,Abe)    0%     0%     0%     0%  =   0.00%  |
+       |  47.  Meierhöfer( 1,Men,Abe)    0%     0%     0%     0%  =   0.00%  |
+       |  48.  Fghjsd     ( 1,Elf,Abe)    0%     0%     0%     0%  =   0.00%  |
+       |  49.  Damage     ( 1,Ork,Erg)    0%     0%     0%     0%  =   0.00%  |
+       |  50.  Zfdgdsss   ( 1,Elf,Abe)    0%     0%     0%     0%  =   0.00%  |
+       |  51.  Pyrdakonia ( 1,Elf,Abe)    0%     0%     0%     0%  =   0.00%  |
+       |  52.  Pyrdakora  ( 1,Elf,Abe)    0%     0%     0%     0%  =   0.00%  |
+       |  53.  Zrtfsss    ( 1,Elf,Abe)    0%     0%     0%     0%  =   0.00%  |
+       |  54.  Charlie    ( 1,Men,Abe)    0%     0%     0%     0%  =   0.00%  |
+       |  55.  Benteuer   ( 1,Men,Abe)    0%     0%     0%     0%  =   0.00%  |
+       |  56.  Alpharius  ( 1,Men,Abe)    0%     0%     0%     0%  =   0.00%  |
+       |  57.  Bertoldinio( 1,Men,Abe)    0%     0%     0%     0%  =   0.00%  |
+       |  58.  Korra      ( 1,Elf,Abe)    0%     0%     0%     0%  =   0.00%  |
+       |  59.  Nuvii      ( 1,Ork,Erg)    0%     0%     0%     0%  =   0.00%  |
+       |  60.  Wutiwut    ( 1,Ork,Erg)    0%     0%     0%     0%  =   0.00%  |
+       |  61.  Sdffgdss   ( 1,Elf,Abe)    0%     0%     0%     0%  =   0.00%  |
+       |  62.  Ttak       ( 1,Tro,Ata)    0%     0%     0%     0%  =   0.00%  |
+       |                                                                      |
+       |   FP - Forscherp  GR - GildenRating  QP - Questp  EP - Erfahrungsp   |
+       |   * Seher     = Erzseher    + Zweitspieler    ~ Magierzweitspieler   |
+       |                                                03/2003 by Querolin   |
+       \_____________________________________________________________________/
+

@@ -1,0 +1,99 @@
+Die Kampfmeldungen
+===========================================================================
+Die Kampfmeldungen werden Dir im Kampf angezeigt. Je staerker Du zu-
+schlaegst, desto weiter unten wirst du die passenden Meldungen in der Liste
+finden.
+
+KOMMANDO:
+        kampfmeldung <neu|alt>
+        kampfmeldungen <neu|alt>
+
+FUNKTION:
+        Auswahl welche Kampfmeldungen ausgegeben werden. Default sind die
+        neuen Kampfmeldungen gesetzt, wer jedoch aus irgendwelchen Gruenden
+        lieber die alten haben will kann dies hiermit einstellen.
+
+HINWEIS:
+        Als Betrachter von Kaempfen Dritter sieht man immer nur die
+        neuen Kampfmeldungen.
+
+NEU
+---------------------------------------------------------------------------
+Du verfehlst XYZ
+Du kitzelst XYZ am Bauch
+Du kratzst XYZ leicht
+Du kratzst XYZ etwas
+Du kratzst XYZ ziemlich
+Du zerkratzst XYZ
+Du zerkratzt XYZ leicht
+Du kratzst XYZ etwas
+Du kratzst XYZ ziemlich
+Du triffst XYZ gerade so
+Du triffst XYZ leicht
+Du triffst XYZ
+Du triffst XYZ staerker
+Du triffst XYZ haerter
+Du triffst XYZ hart
+Du triffst XYZ sehr hart
+Du triffst XYZ wirklich hart
+Du triffst XYZ ziemlich uebel
+Du triffst XYZ uebel
+Du triffst XYZ sehr uebel
+Du triffst XYZ extrem uebel
+Du triffst XYZ absolut superuebel
+Du triffst XYZ krachend
+Du triffst XYZ mit dem Krachen brechender Knochen
+Du triffst XYZ verheerend
+Du triffst XYZ extrem
+Du schlaegst XYZ
+Du schlaegst XYZ maessig
+Du schlaegst XYZ hart
+Du schlaegst XYZ sehr hart
+Du schlaegst XYZ wirklich hart
+Du schlaegst XYZ extrem hart
+Du schlaegst XYZ schon uebel
+Du schlaegst XYZ uebel
+Du schlaegst XYZ extrem uebel
+Du schlaegst XYZ ziemlich zusammen
+Du schlaegst XYZ zusammen
+Du schlaegst XYZ schwer zusammen
+Du schlaegst XYZ uebel zusammen
+Du schlaegst XYZ richtig uebel zusammen
+Du schlaegst XYZ wirklich richtig uebel zusammen
+Du zerschmetterst XYZ am Boden
+Du zerpflueckst XYZ in der Luft
+Du verletzst XYZ
+Du verletzst XYZ schwer
+Du verletzst XYZ lebensgefaehrlich
+Du verletzst XYZstoedlich
+Du haust XYZ von den Fuessen
+Du rammst XYZ ungespitzt in den Boden
+Du zerlegst XYZ in kleine Haeppchen
+Du haust XYZ zu Klump
+Du zerfetzst XYZ
+Du zerbroeselst XYZ
+Du pulverisierst XYZ    
+Du katapultierst XYZ in die Umlaufbahn  
+Du vernichtest XYZ
+
+ALT
+---------------------------------------------------------------------------
+Du verfehlst XYZ
+Du kitzelst XYZ am Bauch
+Du kratzt XYZ
+Du triffst XYZ
+Du triffst XYZ hart
+Du triffst XYZ sehr hart
+Du triffst XYZ extrem hart
+Du schlaegst XYZ mit dem Krachen brechender Knochen
+Du zerschmetterst XYZ in kleine Stueckchen
+Du schlaegst XYZ zu Brei
+Du pulverisierst XYZ
+Du haust XYZ zu Klump
+Du zerstaeubst XYZ
+Du zerfetzst XYZ in kleinste Teilchen
+Du zerbroeselst XYZ zu feinem Staub
+Du atomisierst XYZ
+Du schleuderst XYZ einmal rund ums Tamedhon
+Du katapultierst XYZ in die Umlaufbahn
+Du vernichtest XYZ

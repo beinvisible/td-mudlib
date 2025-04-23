@@ -1,0 +1,11 @@
+#3:2
+ratings ({1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,})
+levels ({72,54,69,52,35,46,53,55,25,53,30,28,37,32,30,20,42,17,27,16,20,11,12,22,10,37,9,})
+xp ({1019554927,69922483,436888122,55416971,17584121,32965266,76666661,27612516,690159,40291578,24419973,2165271,4274486,2211759,3268198,1251016,5408532,343344,679485,278370,267676,210990,26328,1063378,36509,252298469,41092,})
+qp ({153,388,641,486,487,627,705,495,209,436,334,233,600,330,354,42,610,67,283,135,315,108,97,145,41,78,25,})
+lxp ({256235417,119861629,52030721,24924882,18788630,17346633,16671050,16432372,8146065,7783957,2744930,2706496,2237957,2206448,1864622,1584659,884427,602217,547207,63001,53089,39724,30213,23875,10312,9489,4490,})
+deads ({77,64,10,15,16,26,11,31,27,18,4,13,18,4,8,10,4,4,2,1,2,2,3,1,1,1,2,})
+spieler ({"arbach","kati","thrand","ron","rocky","nemox","heiwar","hecsar","chuckylein","hallgrim","dragon","chastity","nicodemus","susalla","urendil","euronymus","preia","cairon","ragnar","kyara","ahriman","gwandor","niyak","markov","yasemin","brega","dragorius",})
+flags ({"Seher","Seher","Seher","Zweitspieler","Seher","Seher","Seher","Zweitspieler","Seher","Seher","Zweitspieler","Zweitspieler","Seher","Spieler","Seher","Spieler","Seher","Spieler","Zweitspieler","Spieler","Spieler","Zweitspieler","Spieler","Seher","Spieler","Seher","Spieler",})
+guilds ({"ergochach","abenteurer","bewahrer","abenteurer","bewahrer","bewahrer","bewahrer","abenteurer","abenteurer","abenteurer","bewahrer","ergochach","abenteurer","bewahrer","bewahrer","abenteurer","abenteurer","ergochach","atalai","abenteurer","bewahrer","abenteurer","abenteurer","abenteurer","abenteurer","ergochach","abenteurer",})
+races ({"ork","mensch","elf","brownie","elf","mensch","elf","mensch","mensch","hobbit","ork","ork","mensch","mensch","elf","mensch","elf","zwerg","troll","elf","mensch","elf","elf","mensch","mensch","ork","mensch",})

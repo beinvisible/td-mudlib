@@ -1,0 +1,33 @@
+
+ERGOCHACH.ENTGIFTE
+
+KOMMANDO
+	 entgifte <lebewesen>
+
+ARGUMENTE
+	  <lebewesen> Ein beliebiges Lebewesen
+
+FUNKTION
+	 Der Ergochach-Priester kann versuchen, ein beliebiges Lebewesen,
+	 also auch sich selbst, durch ein intensives Gebet zu Harodak zu
+	 entgiften.
+	 Werden die Gebete erhört, sinken die Auswirkungen des Giftes, bis
+	 es selbst sogar verschwunden sein kann.
+	 Um zu entgiften, muss Level 18 erreicht werden.
+	 Es müssen pro Entgiftungsversuch 35 Magiepunkte
+	 investiert werden und das 'Opfer' darf sich nicht im Kampf
+	 befinden.
+
+SIEHE AUCH
+
+ergochach, ergochach.flammensphäre, ergochach.berserkertum, 
+ergochach.knieschlag,ergochach.doppelschlag, ergochach.schlag, 
+ergochach.fußtritt, ergochach.schätz, ergochach.identifiziere, 
+ergochach.zerfleische, ergochach.erwürge, ergochach.kampfschrei,
+ergochach.ramme, ergochach.wüte
+
+ 
+
+ÄNDERUNGEN
+
+18.01.2001 Gralkor

@@ -1,0 +1,17 @@
+KOMMANDO:
+	ende, quit
+
+ARGUMENTE:
+	keine
+
+FUNKTION:
+	Verlaesst das Spiel sofort und auf der Stelle. Alle Gegenstaende
+	werden fallengelassen, nur autoladende Gegenstaende (z.B. Geld)
+	behaelst Du ueber das Spielende hinaus. Wenn Du Dich wieder
+	einloggst, startest Du an Deinem lokalen Startpunkt. 
+	Der aktuelle Spielstand wird vor dem Verlassen automatisch
+	abgespeichert.
+
+
+SIEHE AUCH:
+	"speichern", "schlaf"

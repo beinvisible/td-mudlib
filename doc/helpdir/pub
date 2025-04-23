@@ -1,0 +1,36 @@
+PUB:
+
+In jedem groesseren Ort und auch auf freier Flaeche kannst Du einen 
+oder mehrere Pubs oder Tavernen finden.
+Hier wird fuer Dein leibliches Wohl gesorgt.
+Diese bieten ein reichhaltiges Angebot von Speisen und Getraenken an.
+Ueblicherweise kann man dieselben Befehle benutzen, um seinen Magen 
+(und Blase) zu fuellen.
+
+	verfuegbare Befehle:
+	menue		- zeigt die Speisekarte
+	kaufe <was>	oder
+	bestelle <was>	- Du bestellst das Gericht oder Getraenk <was>
+	spendiere <was>	<wem>
+			- Du bestellst und bezahlst <was> fuer <wen>
+
+Hinweis:
+Jedes Gericht und Getraenk fuellt Deinen Magen, so dass Du nur so 
+lange essen und trinken kannst, bis Dein Hunger gestillt und Dein 
+Durst geloescht ist. Ebenso kann es sein, dass Gerichte oder Getraenke
+alkoholisch sind. Ebenso koennen bestimmte Gerichte bestimmte 
+Nebenwirkungen haben.
+
+Hinweis 2:
+Durch Essen und Trinken erhoehst Du die Heilung und Wiederherstellung von
+Lebens- und Magiepunken. Das heisst, wenn Du regelmaessig isst und trinkst,
+kannst Du hinterher einen Kampf fortsetzen. Das passiert jedoch nicht
+direkt, sondern ueber die Zeit, so dass Du auch fuer mehr Lebenspunkte
+essen und trinken kannst, da du im Kampf direkt die hinzugewonnenen
+Punkte wieder "verbrauchen" willst. Dies wird "Uebertanken" genannt,
+und hat keine Nachteile, ausser dass Du damit eben mehr Geld ausgibst, 
+als Du verbrauchen wuerdest, wenn Du im Kampf nicht so viele Lebenspunkte
+(und das gilt natuerlich auch fuer Magiepunkte!) verbrauchst.
+
+SIEHE AUCH:
+"laden"

@@ -1,0 +1,14 @@
+# CHANNELD MASTER TRUSTED OBJECTS FILE
+# <object> : <channels> : <name>
+/secure/master                            		::
+/secure/udp/channel                       		:IOAqPX:
+/secure/simul_efun                        		::
+/room/death/death_room                    		:T:
+/secure/questmaster                       		:b:
+/secure/heirat						:i:
+/std/corpse                               		:M:
+#/p/daemon/inews                          		:aqNX:DW
+#/p/daemon/inews                           		:N:RW
+/obj/infomaster                           		:i:
+/d/gidhrog/samtpfote/rathaus/npc/buergermeister	:i:
+/d/elfenwald/samtpfote/npc/kommandantin			:i:

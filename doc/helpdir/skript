@@ -1,0 +1,76 @@
+Skripten, Triggern und Mudclients im Tamedhon
+---------------------------------------------
+
+Zusammenfassung:
+
+Kurz gesagt, sind Skripte, Trigger und alles, was ein MUD-Client fuer einen
+Spieler automatisch macht, nicht legal mit der Ausnahme von *REINEN*
+Bewegungsskripten. Kampfmakros sind legal, aber werden nicht gerne gesehen.
+
+Warum? Spieler, die nicht ueber solche Mittel verfuegen, werden dadurch im
+Spiel benachteiligt. Nicht jeder verfuegt ueber das Wissen oder die Mittel,
+auch so etwas zu machen. Ausserdem versteht sich das Tamedhon nicht als
+Wettbewerb im Skript-Programmieren, sondern eine soziale Spielwelt, wo man
+auch miteinander interagiert. Dazu kommt noch, dass Skripte die Arbeit der
+Magier entwerten.
+
+Das MUD stellt selber genuegend Einrichtungen zur Verfuegung, um laengere
+Reisen oder unbequemere, sich wiederholende Handlungen abzukuerzen oder zu
+erleichtern. Sie liegen nicht immer offen auf und muessen sich eventuell
+auch verdient werden, was wiederum deine Spielfigur weiterbringt.
+
+
+Erlaeuterungen:
+
+Skript:
+    Ein Skript ist eine Abfolge von mehreren Befehlen, die gleichzeitig an das
+    MUD gesendet werden.
+    Dies kann (muss aber nicht) durch ein Kommando seitens eines MUD-Clienten 
+    passieren.
+    
+    Skripte sind NICHT erlaubt, egal welche Art 
+    (Ausnahme: Bewegungsskript, und Autologinskript).
+
+Bewegungsskript:
+    Ein Skript, das rein dazu dient, sich von einen Ort A bis zu einen Ort
+    B zu bewegen. Es beginnt mit 'ultrakurz', danach die Bewegungsbefehle
+    und endet mit 'lang'. In den Bewegungsbefehlen sind alle Befehle 
+    eingeschlossen, die einem den Raumwechsel erlauben. Das 'ultrakurz'
+    und 'lang' haben den Sinn, das MUD waehrend der schnellen Eingabe der
+    Befehle weniger zu belasten, denn wenn auf einen Mal sehr viele
+    Langbeschreibungen der Raeume ausgegeben werden, belastet das den
+    MUD-Rechner uebermaessig und produziert fuer andere Spieler moegliche
+    Verzoegerungen (Lag).
+
+Kampfmakro:
+    Eine kurze(!!) Befehlssequenz innerhalb des Kampfes, wo da fuer einen
+    Spruch oder eine spezielle Faehigkeit die Haende freigemacht werden und
+    gleich darauf wird die Waffe und ein moegliches Schild wieder angezogen.
+    Beispiel: steck schwert weg; feuerball monster; zueck schwert.
+
+    Kampfmakros sind legal, werden aber nicht gerne gesehen.
+
+Trigger:
+    Ein Trigger ist eine Aktion, die auf einen bestimmten Text reagiert, ohne
+    dass der Spieler etwas tun muss. Diese Aktion wird von MUD-Client
+    autonom ausgeloest, das bedeutet, dass hier nicht ein Spieler spielt!
+        
+    Trigger sind generell verboten, mit der Ausnahme von jenen, die nichts
+    ins MUD senden.
+
+Es wurden von Magierseite genuegend Vorkehrungen getrofffen, diese Skripte 
+und Trigger zu erkennen und abzufangen. Jeder Spieler und Magier, der solche 
+Dinge entdeckt, ist aufgerufen, sich an den Sheriff zu wenden, und den 
+Vorfall so schnell wie moeglich zu melden. 
+
+
+Wird ein Spieler beim Skripten erwischt, so bekommt er beim ersten mal eine
+Verwarnung. 
+
+Bei Uebungsskripten, Untersucheskripte und Metzelskripte werden die 
+entsprechenden Charakterstatistiken (Gildenskills, FPs, Erfahrungspunkte)
+ohne Vorwarnung auf Null gesetzt.
+
+Bei weiterem Auffallen werden dann Gegenmassnahmen ergriffen, die drastischer
+fuer die Spielfigur oder den Spieler ausfallen koennen.
+

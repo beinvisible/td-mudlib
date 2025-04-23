@@ -1,0 +1,172 @@
+
+Magiervertrag
+
+Zuallererst moechte ich ein Zitat von Mercedes Lackey anfuehren, dass den
+Kern des Magierseins im MUD meiner Meinung nach, am Besten umschreibt:
+
+"All those who would hold Magic's Power must then pay Magic's Price!"
+
+Als Magier hast Du die Moeglichkeit hinter die Kulissen des Tamedhon zu
+schauen. Diese Moeglichkeit hat allerdings auch ihre Schattenseiten in Form
+einer gewissen Portion Verantwortung.
+Diese werden in den folgenden Punkten (nicht abschliessende Aufzaehlung!)
+geregelt.
+
+Paragraph 1  
+	Der Magier darf nicht aktiv am Spielgeschehen teilnehmen.
+    	Er darf spezielle Fragen zu Gebieten nicht beantworten.
+    	Er darf den Spielern keine Werte und Syntaxen nennen.
+    	Falls kein Spieler anwesend ist, darf er Neulingen jedoch die
+    	Grundprinzipien des MUDs erklaeren.
+
+Paragraph 2  
+	Der Magier hat das Recht Zweitspieler und Testspieler zu besitzen.
+    	Ein Zweitspieler ist ein Spielcharakter, der am Spielverlauf teilnehmen
+    	darf, als waere der Spieler im Hintergrund kein Magier.
+    	Jedoch ist der Zweitspieler einigen Beschraenkungen unterworfen.
+    	1. Er ist zwingend zu markieren.
+       		Dies ist mit dem Setzen der Propertie P_SECOND auf einen String mit
+       		dem Namen des Magiers oder durch Spielermoeglichkeiten realisierbar.
+    	2. Er darf nur eingeloggt sein, wenn der Magier ausgeloggt ist.
+    	3. Er darf von dem Magier nicht manipuliert sein.
+    	4. Auch fuer den Zweitspieler eines Magiers gilt §4, im Speziellen
+           Punkt 6.
+    
+	Ein Testspieler ist ein Spielcharakter des Magiers, der als Testspieler
+    	markiert ist. Die entsprechende Propertie heisst P_TESTPLAYER und wird
+    	automatisch mit dem String mit dem Namen des Magiers versehen.
+    	Ein Testspieler ist (wie der Name schon sagt) ein Spieler, der zum Testen
+    	von nicht angeschlossenen Gebieten benoetigt wird.
+    	Er darf vom Magier nach Herzenslust manipuliert werden.
+    	Jedoch unterliegt er saemtlichen Regeln der Magier.
+
+Paragraph 3  
+	Es ist verboten, nicht angeschlossene Objekte in Spielerhaende gelangen
+    	zu lassen.
+    	Diese Objekte sind Objekte aus Gebieten, die noch nicht zum Anschluss
+    	durch den Regionsmagier freigegeben sind, selbstgeschriebene Objekte,
+    	die nur einzelnen Spielern oder nur einer beschraenkten Spielergruppe
+    	zugaenglich sind.
+    	Die einzige Ausnahme ist _EIN_ Objekt, dass jedoch keinen Einfluss in
+    	das Spielgeschehen haben darf, fuer das Seherhaus eines Sehers.
+    	Seher ist ein Spieler, der durch das Spiel den Status eines Sehers
+    	erreicht hat und damit besondere Vorrechte und neue Moeglichkeiten
+    	besitzt. Dieser Status steht jedem Spieler offen.
+    	Auch die Weitergabe von speziellen Magiertools ist verboten.
+
+Paragraph 4  
+	Es ist verboten, Spieler zu manipulieren.
+    	Somit sind beispielsweise verboten:
+    	1. ZAPpen des Spielers.
+    	2. Heilen, vergiften, verfroschen und andere Properties setzen.
+    	3. Objekte aus dem Spieler entfernen oder in ihn hineinbewegen.
+           Ausnahme ist der Austausch von fehlerhaften Objekten durch den
+           entsprechenden Magier oder entfernen von fehlerhaft programmierten
+           Questobjekten, die das Loesen einer Quest unmoeglich machen.
+    	4. Raeume resetten, um Spieler in den 'Genuss' verschiedener Objekte
+           oder NPC zu bringen.
+    	5. NPC manipulieren, um den Spieler zu toeten oder einem schweren NPC
+           die Gefaehrlichkeit zu nehmen, damit der Spieler in den Genuss von
+           Erstkillerpunkten und/oder speziellen Ausruestungsgegenstaenden
+           kommt.
+    	6. Explizite Kommandos verraten.
+
+Paragraph 5  
+	Es ist in folgenden Faellen erlaubt, §4 zu ignorieren:
+    	1. Es ist ein fehlerhafter Raum.
+           Dies geschieht haeufig, wenn der Magier sich nicht an die 'goldene
+           Raumformel'( Erst der Ausgang, dann das Monster, dann klappt es auch
+           mit den Spielern) haelt. Falls naemlich das Monster aus irgendwelchen
+           Gruenden nicht funktioniert, fehlt im entsprechenden Raum auch der
+       	   Ausgang.
+    	2. Der Spieler weiss, was er zu tun hat, jedoch kommt er nicht auf die
+           abwegige Formulierung (klassischerweise Dialektschwierigkeiten).
+           Dann jedoch sollte der Magier, der diese entsprechende Syntax
+       	   verbrochen hat, informiert werden.
+
+Paragraph 6  
+	Mit der Abgabe an die Balance, geht das Projekt in das Eigentum des 
+    	MUDs ueber. Selbstverstaendlich bleibt das Projekt das geistige Eigentum
+    	des Magiers und er behaelt, solange er aktiv ist, auch die Schreibrechte.
+    	Damit soll verhindert werden, dass Magier, die aus irgendwelchen 
+    	Gruenden dem MUD den Ruecken kehren, Projekte dem Spiel entnehmen und 
+    	somit dem MUD die Grundlage entziehen.
+    	Es gibt Ausnahmen, jedoch sollten diese zuvor mit der Fuehrungsebene des
+    	MUDs abgeklaert werden.
+
+Paragraph 7  
+	Eine balancemaessige Veraenderung von angeschlossenen Projekten ist nur
+    	nach Absprache mit dem Balance-Erzmagier und dem Regionsmagier erlaubt.
+    	Damit soll verhindert werden, dass NPC/Objekte ploetzlich ihr Verhalten
+    	aendern. Entfernen von Typos/Bugs und das Einarbeiten von Ideas ist
+    	davon ausgeschlossen, solange sie nicht die Balance betreffen.
+    	Groessere Aenderungen sind in der Zeitung geeignet anzukuendigen.
+
+Paragraph 8  
+	Das Tamedhon ist eine Fantasy-Welt, deren Kultur- und Technologielevel
+    	Ausgang des Hochmittelalters (also um 800 nChr auf der Erde in Europa)
+    	entspricht. Damit sind alle Objekte, die in einer frueheren Zeit
+    	moeglich waren erlaubt, jedoch sind Sachen wie Atombomben, U-Boote,
+    	Flugzeuge und Aehnliches nicht erlaubt.
+    	Jedoch spricht nichts dagegen, hier und dort solche Sachen einzubauen,
+    	diese sollten dann jedoch auch mechanisch/magisch erklaerbar sein.
+    	Das gilt analog auch fuer Kneipen.
+
+Paragraph 9  
+	Magier werden, sollten nach Moeglichkeit nur Spieler, welche in keinem
+    	anderen Mud aktiv als Magier mitwirken. Damit soll verhindert werden, 
+    	dass Streitereien zwischen den Muds um den begehrten Mitarbeiter 
+    	entstehen, weil dieser zwischenzeitlich mal fuer die Konkurrenz 
+    	gearbeitet hat ;-).
+    
+Paragraph 10 
+	Die Magier des Tamedhon verpflichten sich dazu, keine Projekte des
+    	Tamedhon zu kopieren oder auf sonstige Art und Weise an andere Muds 
+    	weiter zu geben, des weiteren tragen sie Sorge, das auch aus anderen 
+    	Muds keine Projekte in das Tamedhon einfliessen.
+
+Paragraph 11 
+	Das Herunterladen von Dateien, die nicht dem Magier gehören, ist 
+	grundsaetzlich verboten. 
+	Der Hintergrund ist Folgender: Es ist nicht nachvollziehbar, was damit
+	passiert, wenn diese Dateien das MUD verlassen haben. Diese Vorschrift 
+	befindet sich im Einklang der Paragraphen 9 und 10.
+	Ausnahmen sind _EINZELNE_ Dateien, jedoch nur nach vorheriger Absprache 
+	mit dem entsprechenden Mitarbeiter sowie dessen Fachvorgesetzten.
+	Dies sind grundsaetzlich der Regionsmagier, die Weisen und die 
+	Erzmagierschaft.
+	Von dieser Vorschrift sind Downloads aufgrund der Bugbehebung von Magiern,
+	die in dem entsprechenden Verzeichnis Schreibrechte haben, (normalerweise 
+	die Fachvorgesetzten) ausgeschlossen.
+
+Paragraph 12 
+	Aus einem Gesellenstueck, welches der Balance vorgestellt werden soll,
+    	erwaechst kein Anspruch auf eine Magierwerdung. Es entscheidet hierueber
+    	die charakterliche Eignung des Spielers, welche eingehend geprueft
+    	werden muss, und die Mehrheit der derzeit aktiven Magierschaft.
+    	Ein letztes Veto steht dem Magiervater zu, da dieser sich am intensiv-
+    	sten mit seinem Schuetzling auseinandersetzen muss.
+    	Ob das Gesellenstueck trotz einer Ablehnung des Anwaerters, dem Tamedhon
+    	zur Verfuegung gestellt wird, obliegt der Entscheidung des Anwaerters,
+    	auch nach der Abgabe an die Balance.
+    
+Paragraph 13 
+	Eine Telefonnummer des Magiers und eine valide E-Mail-Adresse sind bei
+    	der Erzmagierschaft zu hinterlegen, damit der Magier bei Problemen 
+    	schnell erreichbar ist.
+
+Paragraph 14 
+	Der Vertrag erhebt keinen Anspruch auf Vollstaendigkeit. Ergaenzungen
+    	sind jederzeit legitim jedoch an einen mehrheitlichen Beschluss der
+    	aktiven Magierschaft gebunden.
+
+Paragraph 15 
+	Sollte eine oder mehrere Bestimmungen dieses Vertrages ganz oder 
+    	teilweise rechtsunwirksam sein, so wird dadurch die Gueltigkeit der 
+    	uebrigen Bestimmungen nicht beruehrt. An die Stelle der unwirksamen 
+    	Bestimmungen tritt rueckwirkend eine inhaltlich moeglichst gleiche 
+    	Regelung, die dem Zweck der gewollten Regelung am naechsten kommt.
+
+Noch ein Schlussatz:
+Wenn Du ueberlegst, ob Du eine bestimmte Sache machen darfst oder nicht,
+mach sie einfach nicht. Damit kannst Du nichts Falsches tun.

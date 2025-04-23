@@ -1,0 +1,12 @@
+KOMMANDO:
+	drufe <text>
+
+ARGUMENT:
+	eine Zeichenkette
+
+FUNKTION:
+	Die uebergebene Zeichenkette wird an alle Daemonen im Tamedhon
+	weitergegeben.
+
+SIEHE AUCH:
+dhist, daemonen.zusatz

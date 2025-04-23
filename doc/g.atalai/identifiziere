@@ -1,0 +1,20 @@
+KOMMANDO:
+        identifiziere <gegenstand>
+
+ARGUMENTE:
+        <gegenstand> Ein beliebiger Gegenstand, der untersucht werden soll.
+
+FUNKTION:
+        Mit der Identifiziere wendest Du Dein Wissen ueber die Natur auf
+        einen Gegenstand an. Falls der Gegenstand versteckte Informationen
+        besitzt, koennen diese mit Identifiziere entdeckt werden.
+
+KOSTEN:
+        Das Ritual kostet 8 Magiepunkte und ist ab Spielerstufe 4
+        bei T'Kelah erlernbar.
+
+SIEHE AUCH:
+        Gilden, Atalai, Atalai.Faehigkeiten, Trophaee, Identifiziere,
+        Schaetze, Funyuu, Tunyuu, Donnerknall, Naturwiderstand,
+        BoeserBlick, Vergifte, Gebet, Seelenwanderung, Gedankenkontrolle,
+        Schmerz, Furcht, Lebensentzug, VooDoo.

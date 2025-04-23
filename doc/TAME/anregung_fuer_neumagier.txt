@@ -1,0 +1,126 @@
+
+Ein paar Tipps und Anregungen fuer Neu-Magier im Tamedhon:
+---------------------------------------------------------------------------
+
+Das Tamedhon ist ein Phantasy-Mud welches etwa in der Zeit des Mittelalters
+anzusiedeln ist. Vielleicht sogar noch eine Spur frueher, aber das bleibt
+eher eurer Phanatasie ueberlassen. 
+Im Tamedhon sind die verschiedensten Rassen anzutreffen: Menschen, Hobbits,
+Zwerge, Elfen und Brownies tummeln sich in der ganzen Gegend herum.
+Natuerlich ist nicht ausgeschlosse, dass irgendwann und irgendwo neue Rassen
+entdeckt werden, bzw deren Doerfer entdeckt werden.
+
+Damit ihr nun auch selbt das Tamedhon erweitern koennt solltet ihr einige
+kleine Dinge beachten, damit ihr nicht vergeblich viel Arbeit investiert und
+dann euer Gebiet oder eure Quest nicht angenommen wird:
+
+1) Die Zeit sollte beachtet werden:
+
+   Also bitte keine Waffen die es in dieser Zeit nicht gab, bzw keine
+   die einfach nicht hierher passen. Wobei dies natuerlich immer relativ zu
+   sehen ist. Jedoch passen Phaserwaffen oder Schusswaffen mit Schiesspulver 
+   und dergleichen eher oder nur schwer ins Tamedhon.
+
+   Auch die Wesen die hier leben werden von der Zeit beeinflusst. Was sie alles
+   wissen, welche Kleidung sie tragen, in welchen Behausungen sie wohnen etc.
+
+   Ebenso die Doerfer und Wege. Eine Asphaltstrasse gabs zu dieser Zeit
+   bestimmt nicht. Auch das aussehen der Haeuser war zu dieser Zeit bestimmt
+   nicht gleich dem aussehen heutzutage. Es wird sicherlich schwer erklaerbar
+   sein wie man mehrstoeckige Haeuser ohne Kran baut. 
+
+   Was natuerlich nicht heissen soll, dass solche Dinge nicht vorkommen
+   duerfen! Wenn jemand ein Gebiet hat wo soetwas hineinpasst und auch den
+   Spielern gegenueber plausibel klingt dass es dort so ist, dann spricht
+   selbstverstaendlich nichts dagegen.
+
+
+2) Raeume und Gebiete im Allgemeinen:
+
+   Neben den vorhin schon erwaehnen zeitlichen Einschraenkungen sollten auch 
+   noch einige andere Aspekte beruecksichtigt werden:
+
+   Desto mehr Details ein Raum aufweist desto interessanter ist es meisst
+   fuer den Spieler dieses zu durchsuchen. Natuerlich kann man hier schwer
+   eine Zahl nennen. Waehren auf einem Weg schnell 20-35 Details ausreichen,
+   sollten es in einem Dorf oder in einem Haus schon einige mehr sein.
+
+   Um ein Gebiet anhaengen zu koennen ist selbstverstaendlich ein Weg zu
+   einem bestehenden Gebiet einzuplanen. Wenn ihr also zb ein kleines Haus
+   fuer eine Quest mit eineigen Raeumen umher habt solltet ihr auch bedenkten
+   von wo und wie der Spieler dorthin kommt. Manchmal ist es moeglich soetwas
+   an einen bestehenden Weg anzuhaengen, aber meistens sollte doch die Variante
+   einen kleinen Weg zu schreiben vorgezogen werden. 
+   Dadurch wird nicht nur das Gebiet grosser, sondern auch das Forschen und
+   die Phantasie des Spielers angeregt.
+   Deste groesser euer neues Gebiet ist desto laenger sollte auch der Weg
+   dorthin sein.
+
+   Am besten ihr besprecht eure Vorhaben mit dem zustaendigen Regionsmagier
+   oder postet einen Artikel in der Zeitung.   
+
+
+3) Objecte (Ausruestung Waffen etc):
+
+   Bei Objecten ist (abgesehen von der zeitlichen Einschraenkung) es wichtig,
+   dass Sie nicht zu Stark und auch nicht zu Schwach ausgelegt werden. Ein 
+   Schwert mit dem man schlechter zuschlagen kann wie mit einem Holzknueppel
+   ist meisst nur schwer zu erklaeren.
+
+   Auch hierfuer gilt. Am besten bei einem erfahrenen Magier nachfragen,
+   da ansonsten spaetestens beim Ueberpruefen der Gegenstaende durch die
+   Balance ein Aendern der Werte unumgaenglich ist.
+
+   Und was fuer Raeume gilt, das gilt auch fuer andere Objecte:
+   Je mehr Details und je ausgereifter die Funktionenen sind, desto mehr
+   wird es den Spieler interessieren.
+
+
+4) Neue Rassen oder auch NPC's die neue Rassen darstellen:
+
+   Bevor ihr einen neue Rasse plant diese am besten mit den Erzmagiern
+   besprechen. Auch wenn der Spieler diese Rassen nicht waehlen kann, sondern
+   nur NPCs geplant sind die einer anderen Rasse angehoeren sollten diese
+   zuvor besprochen werden. 
+   Dies gilt vorallem fuer Rassen wie 'Menschenfresser', 'Amphibienzwerg' oder
+   'Drachenmenschen'.
+   Gegen eine kleine Abwandlung der momentan bekannten Rassen wie zb. 
+   'Hoehlenzwerg' oder 'Grauelf' spricht freilich nichts.
+   Fuer Rassen die auch spieler waehlen koennen muss unbedingt mit den
+   Erzmagiern (Goettern) gesprochen werden, da diese natuerlich auch ins 
+   Konzept passen muessen und in vielen anderen Teilen des Muds erst 
+   aufgenommen werden muessen. (-> WWW-Seiten, Doku, Beschreibungen etc.)
+
+
+Was zum Anhaengen von Gebieten sonst noch zu sagen ist:
+
+  Gebiete duerfen grundsaetzlich nur vom zustaendigen Regionsmagier nach
+  dessen Kontrolle und nach Kontrolle durch die Balance angehaengt werden.
+  Nachtraegliches Aendern von Objecten sollte zumindest dem RM gemeldet werden.
+
+  Damit die Balance und der RM auch das neue Gebiet gut durchsehen koennen 
+  solltete ihr eine karte des gebietes ablegen.
+  Als Beispiele koennen hier '/d/grasland/querolin/suedweg/suedweg.asc' sowie
+  '/d/tal/querolin/brownies/waldweg.asc' herangezogen werden.
+  
+  Fuer Quests sollte eine Beschreibung der kompletten Quest als File fuer jeden
+  Magier zu lesen sein, damit falls in einem Jahr Bugs auftreten diese auch 
+  schnell entfernt werden koennen.
+  Als gutes Beispiel waere hier '/d/grasland/querolin/hof/hof.asc' zu nennen.
+  (Wobei dieses File natuerlich schon _sehr_ genau beschreibt was wo und wie
+  gemacht werden muss)
+
+  Des weitern sollte noch eine Liste mit _moeglichen_ Forscherpunkten 
+  zusammengestellt werden und dem jeweils zustaendigen Magier (dzt. Querolin)
+  uebergeben werden. Diese Liste sollte etwa pro Raum 1-2 Details/Gerueche/
+  Geraeusche oder Befehle enthalten, aus dann die besten ausgewaehlt werden 
+  und als echte Forscherpunkte eingetragen werden.
+
+Wenn ihr alle diese Dinge ein wenig beruecksichtigt, dann denke ich werdet ihr
+hier im Tamedhon viel Spass haben und auch eine Menge machen koennen.
+
+Fuer Fragen stehen euch die Erzmagier (resp. Goetter) natuerlich auch jederzeit
+zur Verfuegung.
+
+                                                       Querolin fuer Tamedhon
+                                                            im September 2000

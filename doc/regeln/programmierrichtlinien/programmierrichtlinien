@@ -1,0 +1,31 @@
+* Programmierrichtlinien *
+==========================
+
+Die Programmierrichtlinien sollen eine Anleitung fuer den 'Schoenen Stil'
+bei Magiern darstellen, dabei gehe ich vor allem auf folgende Themen und
+Unterthemen ein:
+
+1. Text
+    a) Kommentare
+    b) Zeilenlaenge und Tabulatoren
+    c) Formate
+
+2. Projektaufbau
+    a) Verzeichnisse
+    b) Defines
+
+3. Balance-Werte
+    a) Waffen
+    b) XP
+    c) Ruestung
+    d) Geld
+    e) Wear-restrictions
+
+Wie gesagt, es soll eine Anleitung sein, kein Diktat. Jedoch macht ein
+'Schoener Stil' die Wartung eurer Projekte fuer eure moeglichen Nachfolger
+um ein Vielfaches leichter. Und gute Balancwerte foerdern den Spielspass
+sowie die Kuerze der Durchflusszeit durch die Balance, wenn eines eurer
+Projekte abgenommen werden soll.
+
+SIEHE AUCH:
+balancewerte, projektaufbau, text, magierregeln

@@ -1,0 +1,434 @@
+
+K O N Z E P T E
+---------------
+
+Hier steht alles drin, von dem man als ausgewachsener Coder ausgeht, dass es
+alle anderen Coder auch wissen, was aber, wie sich allzuoft zeigt, nicht der
+Fall ist.
+
+0. Inhalt
+=========
+
+Konzepte
+0.   Inhalt
+I.   Allgemeine Konzepte
+  1.   Raeume
+  2.   Lebewesen
+  3.   Gegenstaende
+II.  Grossprojekte
+III. Sourcen
+
+
+I. Allgemeine Konzepte
+======================
+
+
+1. Raeume
+=========
+
+Ein Raum ist im allgemeinen ein Ort, an dem sich ein oder mehrere Spieler
+aufhalten koennen.
+
+a) Beschreibung
+---------------
+
+Der Raum liefert den Spielern eine Beschreibung seines Aussehens.
+Diese besteht aus einem Text, der den Raum im allgemeinen beschreibt, der
+dessen Inhalt kurz wiedergibt, und der einen Hinweis auf Ausgaenge gibt und
+wohin diese fuehren.
+
+Ein Raum sollte unbedingt in das Gefuege der umliegenden Raeume passen.
+Beschreibt ein Raum eine Stadtmauer im Osten, so sollte der Raum im Osten
+tatsaechlich auch zu einer Stadtmauer gehoeren.
+
+Ein schoenes Raumgefuege erhaelt man, wenn man von einem Raum schon die
+wesentlichen Eigenschaften eines anderen sehen kann.
+Also beispielsweise von einem Zimmer in einem Haus durch ein Fenster hinaus
+auf die Strasse sehen zu koennen, und auch *umgekehrt* von der Strasse
+aus das Haus mit Fenstern sehen zu koennen.
+
+Man sollte achtgeben die Beschreibung des Raums nicht zu sehr zu ueberladen,
+so dass der Spieler beim Betreten nicht gleich mit Details ueberschuettet
+wird, die ihn im ersten Augenblick des Betretens ja gar nicht interessieren,
+oder die er eh uebersehen wuerde bei ersten Betrachten.
+
+Man macht also nur eine grobe, aber schoen formulierte Beschreibung des Raums
+und seine Details, und ergaenzt dann die Details.
+
+Der Spieler kann dann, nur wenn er Lust hat, diese Details mit seinen Sinnen
+untersuchen.
+
+b) Details
+----------
+
+Details sind wichtig, sie ermoeglichen genauere Beschreibung auf Wunsch des
+Spielers. Nahezu jedes Substantiv in der Beschreibung des Raums sollte eine
+Detailbeschreibung erhalten.
+Diese Details sollten mit moeglichst vielen Sinnen erfasst werden koennen,
+soweit dies sinnvoll erscheint.
+Man sollte es also auf jeden Fall anschauen koennen.
+Schriftstuecke sollte man lesen koennen.
+
+In diese Details kann man auch schoen Informationen verstecken, die der
+Spieler nicht sofort erkennen soll, sondern erst bei genauerer Untersuchnung.
+
+Auch Details von Details sollten beschrieben werden.
+
+Wie man sieht kann dadurch ein *einzelner* Raum schon *sehr* viel Zeit in
+Anspruch nehmen.
+
+Statt viele leere Raeume in kurzer Zeit aus dem Boden zu stampfen, sollte man
+sich ueberlegen, ob der gewuenschte Effekt nicht auch mit weniger Raeumen, die
+dafuer sorgfaeltig beschrieben sind, erreichbar ist.
+
+Diesen wenigen Raeumen kann man dann seine gesamte Kreativitaet widmen, und
+steht nicht ploetzlich vor dem Problem hunderten von Raeumen ein
+individuelles Outfit verpassen zu muessen.
+
+In Raeumen sollte man auch Details finden, die man mitnehmen kann, die aber
+auf den ersten Blick nicht zu erkennen sind. ->Gegenstaende
+
+c) Ausgaenge
+------------
+
+Die Ausgaenge eines Raumes sollte man im Text kurz ausfuehren.
+Man sollte beschreiben ob es sich um eine Tuer, eine Tor, ein Loch,
+ein Durchgang, eine Steige, eine Treppe, eine Leiter handelt,
+oder ob hier nur einfach eine Strasse weiterfuehrt.
+ Diese Beschreibungen foerdern das 'Aneinanderhaengen' der
+Raeume, schwaecht beispielsweise die Effekte der Segmentierung einer Strasse,
+die in real life ja *nicht* aus einzelnen Raeumen besteht.
+
+Bei besonderen Ausgaengen sollte man eine spezielle Bewegungsmeldung
+setzen. Man entfernt sich nicht einfach nach oben, sondern man steigt eine
+Leiter hoch, klettert an einem Seil empor, und so fort.
+
+Ausgaenge sollten logisch verbunden sein!
+Undurchschaubare Labyrinthe sind zwar einfach zu programmieren, fuer den
+Spieler jedoch absolut nervtoetend und langweilig.
+
+
+d) Groesse
+----------
+
+Die natuerliche Groesse eines Raums haengt im Prinzip nur von seiner Umgebung
+ab. Ein Raum in einer oeden Landschaft kann schon mal mehrere hundert Meter
+im Quadrat umfassen, waehrend ein Raum als Zimmer in einem Haus nur wenige
+Quadrameter umfasst.
+
+Groessere Raumgefuege sollten auch eine makroskopische Struktur haben, so
+dass es dem Spieler nicht so schwer faellt sich zu orientieren.
+Nicht nur Kartographen sollten eine Chance haben.
+
+e) Konsistenz
+-------------
+
+Raeume sollten sich nahtlos in ihre Umgebung einfuegen. Bevor man also einen
+neuen Raum in ein bestehendes Gefuege einbaut, sollte man die alten Raeume
+samt ihrer Details anschauen, sich ueberlegen, wie der neue Raum
+von Stil und Funktionalitaet aussehen muss, um gut in das alte Gefuege
+zu passen.
+
+Durch das alleinige Anpassen von Ausgaengen ist es nicht getan!!! Die alten
+Raeume muessen erweitert werden um Details, die sich auf den neuen Raum
+beziehen.
+Soll beispielsweise eine Baeckerei eingebaut werden, sollte man die Strasse
+vor der Baeckerei um eine Hausbeschreibung und um eine Geruch nach
+frischen Broetchen ergaenzen.
+
+Auch fuer diese Aktion sollte man sich genuegend Zeit nehmen, genauso wie
+fuer das vorherige Beschreiben des neuen Raums selbst.
+
+f) Handlungsmoeglichkeiten
+--------------------------
+
+Jeder Raum sollte fuer den Spieler nicht nur eine Art Behaeltnis oder
+Container sein, in die man den Spieler hineinstellt.
+Er sollte eine Art Spielwiese fuer den Spieler bieten.
+Man sollte sich genug Zeit nehmen, anfassbare Eintrichtung zu programmieren,
+Gegenstaende zu erschaffen, die der Spieler beispielsweise benutzen,
+oder gar stehlen kann.
+Das sollte man auch tun, wenn diese Kleinigkeiten gar nicht wichtig
+erscheinen fuer den eigentlichen Zweck des Raums.
+Der Spieler sollte auch Aktionen durchfuehren koennen, die keinen direkten
+Sinn machen, sondern nur seine Neugier befriedigen.
+
+Ein Bett sollte man machen koennen, ein Schrank oeffen koennen. In einen
+Schank sollte man Gegenstaende legen koennen. Aus einem Wasserhahn sollte
+man trinken koennen, und Wasser entnehmen koennen. Eine Vase sollte man
+mit Blumen fuellen koenne, oder Blumen sollte man aus einer Vase nehmen
+koennen.
+
+All diese beweglichen Details, machen tote Raeume lebendig.
+
+g) Inventar
+-----------
+
+Wichtiges Inventar klont man als Objekte in den Raum.
+Ebenso Menschen und Tiere. Kleine Details sollten 'mitnehmbar' sein.
+Die Raumbeschreibung sollte sich aendern, wenn so ein bewegliches
+Detail mitgenommen wurde!
+
+Haeuser sollten bewohnt aussehen! Die Einwohner sollten nicht fehlen!
+Die Einwohner sollten gegenseitig von sich wissen!
+Viele Querverweise machen das Spiel interessanter.
+(siehe Lebewesen)
+
+
+2. Lebewesen
+============
+
+a) Allgemeines
+--------------
+
+Wichtige Persoenlichkeiten sollten Namen und Titel haben.
+Sie sollten ansprechbar sein, zumindest auf Gruesse reagieren.
+
+Sie sollten auch von sich aus interessante Dinge erzaehlen, jedoch den
+Raum, in dem sie sich aufhalten nicht mit Text zuschuetten.
+
+Lebewesen sollten leben! Sie sollten schlafen, essen, trinken, reden
+und sich unter Umstaenden auch in ihrem Territorum bewegen.
+(Bsp: Bewohner eines Hauses)
+Sie sind keine Moebelstuecke, sondern LEBEWESEN!
+
+Voegel sollten zwitschern, Katzen miauen koennen, Menschen sollten
+reden koennen.
+
+Stumme Monster, die auf nichts reagieren und nur geplaettet werden wollen
+sind langweilig.
+
+Nicht die Zahlenwerte sind entscheidend, sondern die Beschreibung, die
+Athmosphaere.
+
+b) Beschreibung
+---------------
+
+Lebewesen sollten eine Beschreibung haben.
+Wie bei Raeumen kann und sollte sie wieder aufsplitten in allgemeine
+Beschreibung und Details.
+Die allgemeine Beschreibung sollte keine Lebensgeschichte des
+Wesen beinhalten, sondern hauptsaechlich sein Aeusseres beschreiben.
+Alles andere kann man das Wesen selbst erzaehlen lassen!
+
+Auch Geruch und Geraeusch sollte man setzen, falls sinnvoll.
+
+c) Umgebung
+-----------
+
+Jedes Lebewesen sollte in seine Umgebung passen. Polarbaeren gehoren ans
+Nordmeer und Wuestenfuechse in die Wueste.
+[ Motorraeder gehoeren ins Real Life ;-) ]
+
+Wenn das gewuenschte Lebewesen nicht passt, dann muss man halt
+ein Zuhause programmieren. Ein Baecker braucht eine Baeckerei, ein Bauer
+einen Bauernhof, und so fort.
+
+
+3. Gegenstaende
+===============
+
+a) Allgemeines
+--------------
+
+Gegenstaende sind im Vergleich zu Lebewesen zwar einfacher zuhandhaben,
+aber auch hier gelten aehnliche Regeln.
+
+b) Beschreibung
+---------------
+
+Gegenstaende sollten *nicht nur* eine Funktion sondern auch eine Form haben.
+Spieler sollten keine 'formlosen Tools' bekommen.
+
+Gegenstaende benoetigen eine ausfuehrliche Beschreibung, die durch Details
+ergaenzt sein sollte.
+
+Ein 'wtool' (Duesentriebs Windmachtool) sollte also besser 'Ein verzierter
+Faecher' heissen...
+
+Gegenstaende sollten Aussehen, Farbe und Form besitzen. Eventuell auch
+Geruch und Geraeusche.
+
+Alle Gegenstaende sollten Gewicht haben.
+
+Gegenstaende sollten realistische Preise haben.
+
+Gegenstaende sollten aus Materialien bestehen.
+
+Normale Gegenstaende sollten nicht 'autoloading' sein.
+
+c) Aktionen
+-----------
+
+Gegenstaende sollten benutzbar sein!
+Eine Ring sollte man anstecken koennen, eine Laterne sollte man anzuenden
+koennen. Einen Koffer sollte man oeffen und schliessen koennen...
+Lebensmittel sollte man essen koennen, kleine Gegenstaende sollte man
+mitnehmen koennen. Es sei denn, sie sind gross, sperrig und schwer.
+
+Gegenstaende sollten EINFACH benutzbar sein. Moeglichst alle gaengigen
+natuerlichen Kommandos sollten verfuegbar sein.
+
+d) Umgebung
+-----------
+
+Gegenstaende muessen in ihrer Umgebung passen. Gegenstaende sollte nicht
+einfach plump in einem Raum liegen! Als Spieler sollte man sich halbwegs
+erklaeren koennen, warum gerade SOWAS DORT herumliegt.
+
+Ein pluescheliges Schnuckelkueken gehoert beispielsweise nicht neben ein
+gefaehrliches Orklager, sondern eher auf einen Bauernhof.
+
+Auch hier gilt: Auf Konsistenz mit der Umgebung achten.
+Ein Raum sollte nur einen Gegenstand beschreiben, wenn er auch wirklich
+DA ist, und nicht gerade vom naechstbesten Spieler mitgenommen wurde.
+
+
+II. Grossprojekte
+=================
+
+An groessere Projekte sollte man sich nur ranmachen, wenn:
+
+- GENUEGEND ZEIT DAFUER VERFUEGBAR IST.
+  Ideen zu bekommen und neue Gegenden zu planen geht sehr schnell,
+  eine anstaendige Programmierung dagegen braucht meist SEHR viel
+  laenger als man anfangs denkt!
+  DESHALB: Lieber KLEINE Sachen programmieren, in ETAPPEN arbeiten.
+
+- GENUEGEND KREATIVER FREIRAUM VORHANDEN IST!
+  Man sollte sich kein Thema oder Gebiet aussuchen, dass schon zur
+  Genuege ausprogrammiert wurde, sondern NEUE Sachen programmieren.
+
+- GENUEGEND KREATIVES MATERIAL DA IST!
+  Man sollte nicht aus einer einzigen Idee heraus ein Spiel, Raetsel oder
+  eine Gilde programmieren.
+  Meist fehlt es dann spaeter an Story, und man muss waehrend der
+  Programmierung noch improvisieren.
+  Am besten ueberlegt man sich, ob die erste Idee wirklich ausbaubar ist,
+  und ob daraus was brauchbares zu programmieren ist.
+  Eine Brainstorming-Liste kann brauchbar sein.
+
+Hat man selbst nicht genug 'technisches Knowhow' oder nicht genug
+'kreative Schaffenskraft', so kann man sich mit einem anderen Coder
+zusammenschliessen. Allerdings sollte dann die Projektplanung noch viel
+sorgfaeltiger erfolgen.
+
+Groessere Projekte sollte man unbedingt mit seinem Regionsmagier absprechen
+unter Umstaenden auch mit den Erzmagiern.
+
+Auch hier gilt wieder: Das neue Projekt sollte sich moeglichst
+nahtlos in die alte Umgebung einfuegen!
+
+Passt ein Projekt nicht in eine Region, so sollte man das nicht durch
+abgesprengte Teilregionen umgehen, sondern sich die passende Region suchen,
+und diese mit 'Leben' anfuellen.
+
+Jedes neue Stueck Land, macht das Tamedhon leerer! Deshalb: Altes Land
+mitbenutzen!
+
+Schoenere Gegenden erhaelt man, wenn man fuer neue Projekte, altes
+Territorium mitbenutzt.
+Verschiedene Dinge miteinanderzuverstricken macht die ganze Sache fuer
+den Spieler interessanter.
+
+Ein Raetsel sollte moeglichst nicht komplett 'STAND ALONE' sein, sondern
+mit seiner Umgebung zumindest minimal wechselwirken.
+
+Groessere Projekte ankuendigen, damit es zu keinen Missverstaendnissen oder
+doppelten Projekten kommt.
+
+Jedes Teil, aus dem ein groesseres Projekt besteht, sollte sorgsam
+programmiert werden! Beschreibungen nicht vergessen, Details nicht
+vergessen!
+
+Besser KLEINERE Projekte und dafuer mehr DETAIL!
+Besser ALTES durch NEUES verbessern, ergaenzen, erweitern,
+statt nur neue, leere Laender bauen!
+
+Auch unwichtige Details schoen ausprogrammieren, nicht nur den
+Haupthandlungspfad ausbauen.
+
+
+III. Sourcen
+============
+
+a) Struktur
+
+Sourcen sollten lesbar sein.
+
+- Formatierung.
+  Die genaue Formatierung ist frei. Man sollte sich eine Stil aneigenen
+  und diesen konsistent durchziehen und beibehalten.
+  Ungern ist die TAB Formatierung gesehen, will sagen: Jedes File sollte
+  mit der Standardeinstellung fuer Tabs (= 8 Zeichen pro Tab) gut lesbar sein.
+- Kommentierung
+  Kommentare sollten komplexe Zusammenhaenge oder Datenstrukturen erlaeutern.
+  Standardfunktionsaufrufe oder Standardkonstrukte zu dokumentieren ist nicht
+  sinnvoll, weil dadurch die freie Sicht auf den eigentlichen Code versperrt
+  wird und diese Erklaerungen leicht in der Dokumentation nachzulesen sind.
+  Nicht dokumentierte Standardfunktionen sollten gemeldet werden.
+  Ueberdokumentieren ist auch nicht hilfreich.
+  Beschreibende Variablennamen sind sehr hilfreich fuer den Leser.
+  (Man sehe von tmp1 bis tmp129 ab...)
+- Dokumentation
+  Komplexe Objekte brauchen zusaetzlich eine Dokumentation, in der ihre
+  Funktionsweise erklaert wird und in der ihre Kommandos beschrieben werden.
+- Public/Private
+  Objekte sollten klarstellen, welche Codeteile sie anderen Objekten
+  zur Verfuegung stellen (public lfuns) und gewaehrleisten dass diese
+  auf Dauer geltend bleiben.
+  Andere Funktionsteile sollten von Aussen her nicht zugaenglich sein.
+  (private functions)
+  Moeglichst viel Code sollte versteckt sein, also private.
+  Die oeffentliche Schnittstelle (public) sollte einfach, funktionell und
+  klar sein und Zugaenge zu allen Anwendungsmoeglichkeiten bieten.
+  (Zu einem set-Befehl gehoert ein query-Befehl...)
+
+b) Quellen fuer eigenen Code.
+
+- Speziell fuer Anfaenger scheint es am leichtesten zu sein, sich bestehenden
+  Code zu kopieren und diesen leicht veraendert fuer seine Zwecke einzu-
+  setzen.
+
+  Diese Methode beinhaltet aber einige Schwachpunkte:
+  x Der Programmierer des urspruenglichen Codes koennte etwas dagegen haben,
+    dass Du sein Programm einfach kopierst oder er moechte einfach nur in-
+    formiert sein, wo sein Programm noch zum Einsatz kommt.
+  x Der Ursprungscode koennte Fehler oder veraltete Konstrukte beeinhalten,
+    die zum aktuellen Zeitpunkt nicht mehr modern sind.
+  x Du lernst die falschen Methoden zur Behandlung von Standardproblemen.
+
+- Eine alternative Methode sind die allseits beliebten "Roombuilders",
+  doch auch sie haben den gravierenden Nachteil, unschoenen, veralteteten
+  und unverstaendlichen Code zu produzieren.
+
+- Die beste, aber auch langwierigste Methode ist es, das dahinterstehende
+  Konzept zu verstehen, um so weniger kopieren zu muessen.
+  Den Code, den man selbst schreibt ist letzens immer der beste.
+  (Vielleicht nicht der beste von allen, aber der beste fuer einen selbst.)
+  Am besten schaut man verwendbare Codestrecken von erfahreneren
+  Codern an, versucht sie (mit Nachfragen...) zu verstehen und baut sie
+  in seinen Code ein.
+
+c) Fertiger Code?
+
+Jeder Coder wird irgendwann mal mit seinem Konzept fertig sein, sein Projekt
+programmiert haben, und so fort.
+
+Jetzt kommt das natuerlichste der Welt: Er muss es moeglichst vielen zeigen,
+um Bestaetigung zu erhalten.
+
+Dieses Verhalten fuehrt natuerlich zu Problemen, da (wie in unserer hektischen
+Welt ueblich) keiner da ist, der Dir zuhoeren will, und der Deine
+neuen Kreationen bewundern will.
+
+Trotzdem solltest Du nicht Spieler dazu zwingen, Deine Kreationen zu
+bewundern. Auch Coder koennen von zu aufdringlichem Umwerben um
+Aufmerksamkeit eher genervt als ermuntert sein, Dir zu zuhoeren.
+
+Viel einfacher fuehrst Du Deine neuen Kreationen ein, indem Du sie mit
+alten bekannten Dingen verflechtest, welche die Spieler schon kennen.
+Sie werden dann automatisch auch Deine neuen Kreationen erkennen
+und wuerdigen!
+Das ist zwar die lanwierigerer Methode, sie spart aber viel Nerven und
+fuehrt auf Dauer zum Erfolg.

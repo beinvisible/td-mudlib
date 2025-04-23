@@ -1,0 +1,22 @@
+KOMMANDO:
+        seelenwanderung <wohin>
+
+ARGUMENTE:
+        <wohin>  Ziel der Seelenwanderung, entweder eine Richtung oder
+                 ein anderer Spieler. Als Richtung sind auch die ueblichen
+                 Richtungskuerzel zulaessig.
+
+FUNKTION:
+        Laesst Deine Seele in eine Richtung wandern oder zu einer
+        anderen Person, mit deren Augen Du deren Umgebung wahrnimmst.
+
+KOSTEN:
+        Seelenwanderung kostet 12 Magiepunkte. Seelenwanderung Richtung ist
+        ab Spielerstufe 22 bei Tto'Jeen erlernbar. Seelenwanderung Person
+        ab Spielerstufe 26.
+
+SIEHE AUCH:
+        Gilden, Atalai, Atalai.Faehigkeiten, Trophaee, Identifiziere,
+        Schaetze, Funyuu, Tunyuu, Donnerknall, Naturwiderstand,
+        BoeserBlick, Vergifte, Gebet, Seelenwanderung, Gedankenkontrolle,
+        Schmerz, Furcht, Lebensentzug, VooDoo.

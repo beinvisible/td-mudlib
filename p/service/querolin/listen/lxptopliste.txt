@@ -1,0 +1,26 @@
+Aktualisiert: Sat Jan 11 00:38:41 2025
+
+   ___ ______________________________________________________________________
+  /   \                                                                      \
+ |  O  |          D i e   e r f o l g r e i c h s t e n   T o t e n           |
+  \___/|             Sortiert nach verlornen Erfahrungspunkten                |
+       |  Rang:  Name:          Lvl:  Prozent:    Tode:   Verlorene EP:       |
+       |                                                                      |
+       |    1.  *Arbach         (72)    100%        77       256235417        |
+       |    2.  =Kati           (54)     46%        64       119861629        |
+       |    3.  +Ron            (52)      9%        15        24924882        |
+       |    4.  =Heiwar         (53)      6%        11        16671050        |
+       |    5.  ~Hecsar         (55)      6%        31        16432372        |
+       |    6.  =Halligalli     (52)      3%        18         7783957        |
+       |    7.  =Hallgrim       (53)      3%        18         7783957        |
+       |    8.  *Van            (47)      1%         4         3904595        |
+       |    9.  +Chastity       (28)      1%        13         2706496        |
+       |   10.   Susalla        (32)      0%         4         2206448        |
+       |   11.   Euronymus      (20)      0%        10         1584659        |
+       |   12.  +Ragnar         (27)      0%         2          547207        |
+       |   13.  =Brega          (37)      0%         1            9489        |
+       |                                                                      |
+       |   * Seher     = Erzseher    + Zweitspieler    ~ Magierzweitspieler   |
+       |                                                03/2003 by Querolin   |
+       \_____________________________________________________________________/
+

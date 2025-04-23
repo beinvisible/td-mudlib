@@ -1,0 +1,19 @@
+KOMMANDO:
+        ansturm <lebewesen>
+
+ARGUMENTE:
+        <lebewesen> Ein beliebiges Lebewesen
+
+FUNKTION:
+        Mit dieser Faehigkeit stuermst Du auf Deinen Gegner zu und
+        beginnst damit den Kampf.
+
+KOSTEN:
+        Diese Faehigkeit generiert 10 Wutpunkte und ist ab Gildenstufe 3
+        erlernbar.
+
+SIEHE AUCH:
+        Gilden, Schlachtenwueter, Trete, Identifiziere, Hieb, Schaetze,
+        Ansturm, Kopfnuss, Wuerge, AugeInAuge, Kampfschrei, Regeneriere,
+        Wille, Zerfetze, Demoralisiere, Zerreisse, Schlachtruf, Koepfe,
+        Wuete

@@ -1,0 +1,92 @@
+Projektvorlage
+==============
+
+Warum eine Projektmappe?
+--------------------------
+Folgende Vorteile hat eine Projektmappe:
+
+ - beim Verschieben des Projekts reicht es eine einzige Zeile anzupassen
+   und alles funktioniert weiterhin ohne Probleme.
+
+ - thematische Gruppierung aller Dateien zu einem abgeschlossenen Areal.
+
+ - nachfolgenden Magiern wird die Wartung der Gebiete erleichtert.
+
+ - einheitliche Projektmappen foerdern die Kompatibilitaet der einzelnen
+   Projekte untereinander
+
+
+Wie sieht die Struktur eines Projektes aus?
+-------------------------------------------
+Folgende Struktur ist im Tamedhon einzuhalten:
+
+Wurzel ist /d/gebiet/magiername/projektname
+
+ - gebiet, gleichzusetzen mit dem Areal des Projektes (z.B. gidhrog)
+
+ - magiername, der name des erstellenden Magiers
+
+ - projektnahme, kurzer und trotzdem treffender Name des Projektes
+
+Weitere Unterverzeichnisse sind nach Moeglichkeit zu vermeiden.
+
+
+Was sollte wo gespeichert werden?
+---------------------------------
+Dort liegen dann folgende Dateien:
+
+def.h: eine Datei mit allen #defines und Pfadkonstanten (s.u.)
+
+npc/		- Alle NPCs, Monster, Tiere.
+room/		- Alles was ein Raum ist.
+weapon/		- Alle Waffen des Areals.
+armour/		- Alle Ruestungen und Kleidungsstuecke des Areals.
+std/		- Lokale Standardobjekte, evtl auch (Quest)master
+obj/		- Alle restlichen Objekte, die oben nicht reinpassen.
+doc/		- Konzepte, Karten, Dokumentation, ASCII-Texte
+map/		- Karten fuer den Extralogin Karte(siehe 'man karten')
+
+
+Wie sieht die def.h aus?
+------------------------
+Die def.h enthaelt in der Regel folgende Zeilen:
+-- hier abschneiden --
+#ifndef __MAGIERNAME_PROJEKTNAME_H__
+#define __MAGIERNAME_PROJEKTNAME_H__
+
+#define DIR		"/d/gebiet/magiername/projektname/"
+/* ^ --- beim Verschieben anpassen --- */
+
+#define NPC		DIR+"npc/"
+#define ARMOUR	        DIR+"armour/"
+#define WEAPON	        DIR+"weapon/"
+#define OBJ		DIR+"obj/"
+#define STD		DIR+"std/"
+#define DOC		DIR+"doc/"
+#define MAP		DIR+"map/"
+
+#endif
+-- hier abschneiden --
+
+Das aeussere klammernde #ifdef vermeidet mehrfach-includes der def.h,
+die moeglicherweise beim Laden eines Objektes entstehen kann.
+
+MAGIERNAME und PROJEKTNAME sind durch den eigenen Magiernamen und
+Projektnamen zu ersetzen.
+
+
+Was ist noch hinzuzufuegen?
+---------------------------
+Funktionsmakros wie:
+
+#define BASE(x) "/d/gebiet/magiername/projektname/"+x
+
+sind unerwuenscht und nach und nach durch adaequate Stringmakros wie:
+
+#define BASE "/d/gebiet/magiername/projektname/"
+
+zu ersetzen!
+
+Samtpfote@Tamedhon, 19. 10. 2002
+Saxxon@Tamedhon.at, 22.06.2005     Anpassung an neueste Regelungen
+

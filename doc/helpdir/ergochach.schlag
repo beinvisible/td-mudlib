@@ -1,0 +1,27 @@
+ERGOCHACH.SCHLAG
+
+KOMMANDO
+	 schlag
+	 schlag <gegner>
+
+ARGUMENTE
+	 <gegner> Ein beliebiger Gegner 
+	
+FUNKTION
+	 Als Krieger kann man, unter Anwendung dieser Fähigkeit, versuchen,
+	 seinem Opfer die Faust aufs Auge (oder sonstwohin) zu drücken.
+	 Mit einer freien Hand und 15 Magiepunkten geht das auch ganz gut.
+	 Ab Level 14 kann man dieses tun, und seinen Gegner unter Druck 
+	 setzen. 
+
+SIEHE AUCH
+
+ergochach, ergochach.flammensphäre, ergochach.berserkertum, 
+ergochach.knieschlag, ergochach.doppelschlag, ergochach.entgifte, 
+ergochach.fußtritt, ergochach.schätz, ergochach.identifiziere, 
+ergochach.zerfleische, ergochach.erwürge, ergochach.kampfschrei,
+ergochach.ramme, ergochach.wüte
+
+ÄNDERUNGEN
+
+10.01.2002 Gralkor

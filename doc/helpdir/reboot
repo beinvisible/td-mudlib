@@ -1,0 +1,39 @@
+REBOOT / ARMAGEDDON / REBOOT:
+
+	Manchmal ist es noetig, das MUD neu zu starten, bzw. auch der
+	Tamedhon-Server hat mal einen schlechten Tag und stuerzt ab.
+
+	Gluecklicherweise passiert das nur selten, allerdings verlierst Du
+	dabei einen grossen Teil Deiner Ausruestung. Waffen, Ruestungen und
+	andere Objekte verschwinden, und zwar sowohl das, was Du bei Dir
+	traegst, als auch Dinge in Raeumen und Laeden.
+
+	Du behaeltst allerdings Dein Geld, und auch der Kontostand auf der
+	Bank (sofern Du ein Konto dort hast) bleibt Dir erhalten. Ebenso
+	bleiben Dir sogenannte 'Autoload-Objekte' (auch kurz 'Autoloader'
+	genannt), meist handelt es sich hierbei um persoenliche Objekte
+	oder Belohnungen von Quests. Eine Liste dieser Autoloader erhaeltst
+	Du mit dem Befehl 'i +a' (siehe hierzu auch die Hilfeseite zu 'i').
+	Fuer die restlichen Gegenstaende bekommst Du eine kleine finanzielle
+	Entschaedigung (jedoch nicht den vollen Wert), als Startkapital, um
+	Dich wieder ausruesten zu koennen.
+
+	Bei einem geplanten Reboot bekommt man durch Armageddon 10 Minuten
+	lang die Gelegenheit, in einen Laden gebracht zu werden, wo man
+	seine Sachen gewinnbringender verkaufen kann.
+
+	Ein 'Reboot' hat also keinerlei Auswirkungen auf Deine
+	Gildenfaehigkeiten, die Hoehe Deiner Erfahrungs- oder Abenteuerpunkte
+	usw. Er fuegt Dir lediglich einen unwesentlichen materiellen Schaden
+	zu. Sollte das Tamedhon unbeabsichtigt abstuerzen ('crashen') und Du
+	bist der Meinung, dass danach irgendetwas mit Deinem Charakter nicht
+	stimmt, wende Dich bitte an einen Erzmagier, dieser wird sich der
+	Sache annehmen. Allerdings sind solche Unregelmaessigkeiten sehr
+	unwahrscheinlich.
+
+	Geplante Reboots werden in der Regel in der Zeitung angekuendigt,
+	Crashes werden ebenfalls dort vermerkt, aber natuerlich erst
+	nachtraeglich.
+
+	SIEHE AUCH:
+	"i", "behalte", "speichern", "zeitung", "uptime"

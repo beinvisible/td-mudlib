@@ -1,0 +1,22 @@
+Aktualisiert: Sat Jan 11 00:38:41 2025
+
+   ___ ______________________________________________________________________
+  /   \                                                                      \
+ |  O  |      D i e   e r f o l g r e i c h s t e n   E r g o c h a c h       |
+  \___/|              Sortiert nach erreichtem Gildenrating                   |
+       |  Rang:  Name:        Lvl:   Rasse:          Prozent:  Gildenrating:  |
+       |                                                                      |
+       |    1.  *Van           47     Mensch            100%            78%   |
+       |    2.  *Arbach        72     Ork                81%            64%   |
+       |    3.  =Brega         37     Ork                68%            53%   |
+       |    4.  +Chastity      28     Ork                63%            49%   |
+       |    5.   Danbi          1     Ork                 0%             0%   |
+       |    6.   Werdasliest    1     Ork                 0%             0%   |
+       |    7.   Nuvii          1     Ork                 0%             0%   |
+       |    8.   Damage         1     Ork                 0%             0%   |
+       |    9.   Wutiwut        1     Ork                 0%             0%   |
+       |                                                                      |
+       |   * Seher     = Erzseher    + Zweitspieler    ~ Magierzweitspieler   |
+       |                                                03/2003 by Querolin   |
+       \_____________________________________________________________________/
+

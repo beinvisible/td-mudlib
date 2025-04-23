@@ -1,0 +1,38 @@
+[ ]
+   \
+    [ ]     [ ]
+   /   \     |
+[ ]     [ ]-[ ]
+ |
+[ ]
+ |
+[ ]-[ ]-[ ]-[ ]
+             | \
+            [ ]-[ ]-[ ]
+           /
+        [ ]
+         |
+        [ ]
+[MAPID]
+unterwelteingangmap002
+[ROOMLIST]
+2,1,nische
+6,3,gang_03
+14,3,durchg02
+2,5,gang_04
+10,5,gang_02
+14,5,gang_01
+2,7,gang_05
+2,9,gang_06
+6,9,gang_07
+10,9,gang_08
+14,9,gang_09
+14,11,gang_10
+18,11,gang_11
+22,11,gang_12
+10,13,usee_01
+10,15,usee_02
+[CUR]
+[ACUR]
+[MORIGIN]
+0,0

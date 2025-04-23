@@ -1,0 +1,13 @@
+KOMMANDO:
+	dhist <nummer>
+
+ARGUMENT:
+	eine Zahl groesser gleich 0
+
+FUNKTION:
+	Ohne, oder mit 0 als Argument werden die kompletten, gespeicherten,
+	Mitteilungen an	die Daemonen angezeigt.
+	Ansonsten die <nummer> letzten Mitteilungen.
+
+SIEHE AUCH:
+drufe, daemonen.zusatz

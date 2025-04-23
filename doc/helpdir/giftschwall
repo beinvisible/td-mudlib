@@ -1,0 +1,20 @@
+KOMMANDO:
+	giftschwall
+	giftschwall <gegner>
+
+ARGUMENTE:
+	<gegner> Das arme, unschuldige Opfer, das Du umbringen möchtest.
+		 Wenn man schon im Kampf ist, muss kein Argument angegeben
+		 werden.
+
+FUNKTION:
+	Dieser Zauberspruch lässt einen Giftschwall auf das Opfer los
+	und verwundet diesen. Du brauchst zwei freie Hände, um ihn 
+	verwenden zu koennen.
+	
+	Der Spruch kostet 30 Magiepunkte und ist ab Stufe 25 erhältlich,
+	außerdem muss man Seher sein.
+
+SIEHE AUCH:
+blitz, identifiziere, schätz, leuchtelicht, faustschlag, pfeil, ausweichen,
+feuerball, schnell, transport, wirbelwind, kugelblitz, eisstrahl, zauberei

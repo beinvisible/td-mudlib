@@ -1,0 +1,68 @@
+
+MAGIERSTUFEN:
+
+        Im Tamedhon gibt es neben den Spielerstufen und Gildenstufen noch
+        die Magierstufen. Mit Ihnen kann man Zugriffsberechtigungen (zum
+        Beispiel gewisse Rubriken in der Zeitung) bestimmen. Ausserdem kann
+        man mit steigender Magierstufe neue Befehle ausfuehren, wie freie
+        Titelwahl fuer Seher oder Dateikommandos fuer Magier. Zudem steigen
+        mit steigender Magierstufe die Verpflichtungen gegenueber
+        niedrigstufigeren Spielern und dem Tamedhon.
+        
+        Die Magierstufen bedeuten im Einzelnen:
+        
+        Kuerzel Bezeichnung         Stufe   Erklaerung
+
+        s       Spieler             0       Der normale Spieler.
+        S       Seher               1       Spieler mit besonderen
+                                            Faehigkeiten.
+        l       Lehrling/Adept      10/15   Magierlehrlinge oder Magier die
+                                            aus div. Gruenden herabgestuft
+                                            wurden.
+        m       Neumagier           20      Magier mit Workroom ohne
+                                            Gesellenstueck
+        M       Vollmagier          21      Magier mit Workroom und mit
+                                            Gesellenstueck.
+        D       Regionsmitarbeiter  25      Magier mit angeschlossenem
+                                            Gesellenstueck.
+        Q       Questmagier         30      Magier mit mehreren
+                                            angeschlossen Gebieten und/oder
+                                            eine angeschlossenen
+                                            anspruchsvollen Quest.
+        X       Magier fuer
+                besondere Aufgaben  35      Obligt speziellen Aufgaben wie
+                                            Dokumentation oder aehnlichem.
+        R       Regionsmagier       40      Administrator fuer sein
+                                            zugehoeriges Gebiet und traegt
+                                            die volle Verantwortung. Er ist
+                                            ausser bei balancepflichtigen
+                                            Objekten autonom.
+        W       Weiser              50      Magier mit speziellen Aufgaben,
+                                            die ueber die Aufgaben eines X 
+                                            und R hinausgehen. Teilzeitadmin.
+        e       EMIR		    55	    Ehemalige Erzmagier (in Rente)	
+        E       Erzmagier           60      Magier die einen oder mehrere
+                                            Teile betreuen. Administratoren.
+
+        A	Archon		    90	    Ein Archon ist ein besonderer
+					    Ehrentitel fuer Erzmagier, die 
+					    groesste Heldentaten fuer das
+					    Tamedhon erfuellt haben. Sie 
+					    haben alle Rechte von 
+					    Erzmagiern, aber eben einen
+					    Ehrentitel
+
+	G       Gott               100/111  Mud-Gruender. Koennen alle
+                                            Magiertitel ernennen oder
+                                            stuerzen. Administratoren
+                                            mit etwas mehr Rechten als
+                                            Erzmagier.
+
+ANMERKUNG:
+        Zwischen diesen Stufen befinden sich keinerlei weitere Stufen. So
+        wie es auch keine 7 Euro Scheine gibt. Diese dienen als Platzhalter
+        fuer eventuell neue Stufen.
+        
+SIEHE AUCH:
+        "seher", "stufen", "magier", "konzept"
+

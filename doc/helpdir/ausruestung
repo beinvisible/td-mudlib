@@ -1,0 +1,14 @@
+KOMMANDO:
+        ausruestung
+
+ARGUMENTE:
+        keine
+
+FUNKTION:
+        Gib aus, was alles Du angezogen hast und welche Waffe Du gerade
+        gezueckt hast. Zusaetzlich wird auch fuer jeden angezogenen
+        Gegenstand dessen Zustand angezeigt.
+
+SIEHE AUCH:
+        "i", "behalte", "anzeige"
+

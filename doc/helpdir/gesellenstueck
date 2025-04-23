@@ -1,0 +1,66 @@
+GESELLENSTUECK:
+
+	Das Gesellenstueck ist eine Probearbeit, anhand derer entschieden wird, 
+	ob man in die Magierschaft aufgenommen wird, oder nicht.
+
+	Am Anfang eines jeden Gesellenstuecks steht auf jeden Fall ein
+	ausgearbeitetes Konzept und moeglichst eine ASCII-Karte, 
+	damit der Promotor nicht nur durch blosse Erzaehlungen 
+	eine Vorstellung bekommt, sondern auch etwas handfestes hat, 
+	das er gegebenenfalls der Magierschaft vorlegen kann. 
+
+	Bei der Wahl des Projektes sind der Phantasie kaum Grenzen gesetzt,
+	allerdings waere man gut beraten als Gesellenstueck zunaechst 
+	etwas kleines oder einen Teilbereich eines groesseren 
+	Projektes auszuwaehlen, um sich dann mit den erweiterten 
+	Moeglichkeiten eines Magiers knietief in die Arbeit zu stuerzen.
+
+	Moeglichkeiten fuer ein Gesellenstueck und Mindestanforderungen:
+
+	Ein Teilstueck.
+	Ein Teilbereich eines groesseren Projektes, das bereits programmiert 
+	wird, wird uebernommen - vielleicht auch ein erstes Teilstueck eines 
+	eigenen, groesseren Projektes. Wichtig hierbei ist, das der 
+	Teilbereich in sich geschlossen ist, so dass keine 'Baustellen' 
+	angeschlossen werden muessen.
+
+	Eine Quest.
+	Eine kleine Quest, die auch einiges an neuen Objekten, seien es NPC,
+	Gegenstaende und/oder Raeume, bringt.
+	Der genaue Questablauf (Komplettloesung ;) sollte in jedem Fall Teil 
+	des Konzeptes sein.
+
+	Ein Gebiet.
+	Ein Gebiet als Gesellenstueck sollte ca. 10 Raeume umfassen. Genau wie 
+	auch eine Quest sollte es moeglichst einiges an neuen Objekten bringen
+	(Gegenstaende, NPC, Raeume).
+
+	Im Allgemeinen gilt, man sollte darauf achten, dass das Gesellenstueck 
+	einen gewissen Wiederspielwert hat. Es sollten also zum Beispiel 
+	interessante, nuetzliche oder lustige NPC, Gegenstaende oder Funktionen
+	enthalten sein, die die Spieler dazu veranlassen nicht bloss einmal 
+	dort hin zu gehen um moegliche FP abzugrasen.
+
+	Das Gesellenstueck ist eine gute Moeglichkeit fuer Promotor UND 
+	Anwaerter zu pruefen, ob er fuer das Magierdasein geschaffen ist.
+	Man bedenke, mit der Magierwerdung endet die Spielzeit und beginnt 
+	der Ernst des Mudlebens, der unter anderem auch die 'Wartung' der 
+	eigenen Gebiete umfasst.
+
+	Das Gesellenstueck muss im ASCII-7-Bit-Format vorliegen.
+	Also als reiner Text und darf keine Umlaute (aber das hast Du
+	sicher, waehrend Du gespielt hast, mitbekommen).
+	
+	Als Magier musst Du Dich darum kuemmern, mit einem geeigneten 
+	FTP-Programm diese Dateien ins MUD zu bekommen.
+	Da die Magierbefehle sich an der Bourne-Shell aus der UNIX-Umgebung
+	orientieren, ist es wuenschenswert, sich da einzuarbeiten.
+	Am Besten geht das, wenn Du Dir ein BSD oder Linux als zweites
+	Betriebssystem installierst (so Du es nicht schon hast).
+	Wenn Du dort mit einem normalen Editor (vi, emacs oder joe) die
+	Raeume schreibst, hat das noch einen weiteren Vorteil, den man nie
+	unterschaetzen darf: die microsoftischen Zeilenumbrueche werden nicht 
+	in der Datei mitgespeichert, so dass Diese kleiner werden.
+	Damit gewinnt man etwas Performance im MUD.
+	Es ist zwar im Mikrosekundenbereich, aber bei den vielen Objekten
+	wirkt sich das positiv aus.

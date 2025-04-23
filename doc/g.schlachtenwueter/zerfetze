@@ -1,0 +1,19 @@
+KOMMANDO:
+        zerfetze <lebewesen>
+
+ARGUMENTE:
+        <lebewesen> Ein beliebiges Lebewesen
+
+FUNKTION:
+        Mit dieser Faehigkeit fuegst Du dem Gegner eine offene Wunde zu,
+        aus der er blutet.
+
+KOSTEN:
+        Diese Faehigkeit kostet 10 Wutpunkte und ist ab Gildenstufe 6
+        erlernbar.
+
+SIEHE AUCH:
+        Gilden, Schlachtenwueter, Trete, Identifiziere, Hieb, Schaetze,
+        Ansturm, Kopfnuss, Wuerge, AugeInAuge, Kampfschrei, Regeneriere,
+        Wille, Zerfetze, Demoralisiere, Zerreisse, Schlachtruf, Koepfe,
+        Wuete

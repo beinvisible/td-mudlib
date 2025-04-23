@@ -1,0 +1,83 @@
+Magische Gegenstaende
+
+ALLGEMEINES
+    Magische Gegenstaende sind Gegenstaende, die vorerst genau so
+    sind wie alle anderen Gegenstaende auch. Identifiziert man
+    allerdings einen magischen Gegenstand, aendert er seine
+    Eigenschaften zum Positiven oder aber auch zum Negativen.
+
+    So wird z.B. aus einem 'alten Kettenhemd' ohne besondere
+    Eigenschaften ein 'leuchtendes Kettenhemd der Staerke' welches
+    leuchtet und ausserdem noch einen Bonus auf Staerke verleiht,
+    wenn man es anzieht.
+
+    Magische Gegenstaende zerfallen nach einer gewissen Zeit und
+    man kann die Sockel mit Edelsteinen bestuecken, um sie
+    aufzuwerten.
+
+
+ANLEITUNG
+    1. Folgende Gegenstaende koennen magisch sein:
+        - Ruestungen
+        - Waffen und Wurfwaffen (weapon.c und th_weapon.c)
+        - Behaelter, Taschen, etc
+
+    2. Keine Sonderfunktionen wie zB HitFunc, DefendFunc,
+       WearFunc, reset, etc, etc einbauen!
+
+    3. Erben von  /p/MI/armour               /std/armour
+                  /p/MI/weapon      anstatt  /std/weapon
+                  /p/MI/th_weapon            /std/th_weapon
+                  /p/MI/behaelter            /std/behaelter
+
+       Gegenstaende, die aus /p/armour/* bzw /p/weapon/* erben,
+       koennen ebenfalls MIs werden.
+
+    4. AddMagic(int propab);  // im create() aufrufen
+       Je kleiner <propab>, desto wahrscheinlicher ist es ein MI.
+       Siehe: man AddMagic
+
+BEISPIEL
+    // eine Axt
+    inherit "/p/MI/weapon";
+    void create() {
+        if (!clonep(this_object())) return;
+        ::create();
+        SetProp(P_NAME, "Axt");
+        SetProp(P_NAME_ADJ, "stumpf");
+        SetProp(P_GENDER, FEMALE)
+        SetProp(P_SHORT, "Eine stumpfe Axt");
+        ...
+        ...
+        AddMagic(10);
+        // circa jede 10. Axt kann magisch werden
+        // Wert sollte zwischen 6 und 15 liegen
+    }
+
+
+
+BALANCE
+    Potentielle magische Gegenstaende muessen vor dem Anschluss
+    von der Balance abgenommen werden und ueberprueft werden,
+    ob
+        - die Wahrscheinlichkeit angemessen ist
+        - keine Wield-/Wear-/Hit-/Defend-/RemoveFunc/etc
+          ueberschrieben wird, ohne die entsprechende Funktion
+          von magicitem aufzurufen. Sonst kann es zu endlosen
+          Steigerungen von Attributen und aehnlichen Effekten
+          kommen!
+          Zum Beispiel:
+
+          void reset() {
+            object traeger;
+            magicitem::reset();   // <--- WICHTIG!
+            traeger=QueryWorn();
+            if (traeger && random(2)==1)
+              tell_object(traeger,
+                "Deine abgelatschten Stiefel stinken...\n");
+          }
+
+SIEHE AUCH:
+    AddMagic(L),
+    /p/MI/magicitem.c, /p/MI/magicitems.h
+

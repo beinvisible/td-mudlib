@@ -1,0 +1,29 @@
+ERGOCHACH.SCHÄTZ
+
+KOMMANDO
+         schätz <lebewesen>
+	 schätz <objekt>
+ 
+ARGUMENTE
+         <lebewesen> Ein beliebiges Lebewesen
+ 	 <objekt>    Ein beliebiges Objekt
+
+FUNKTION
+	 Es ist immer gut, wenn man weiß, was ein Gegner kann.
+	 Deshalb lernt der Handwerker ab Level 7 das Schätzen.
+	 Für nur 5 Magiepunkte bekommt man die benötigten 
+	 Informationen.
+	 Auch Objekte sind schätzbar. Als Seher bekommt man
+	 viele neue Eindrücke.
+
+SIEHE AUCH
+
+ergochach, ergochach.flammensphäre, ergochach.berserkertum, 
+ergochach.knieschlag, ergochach.doppelschlag, ergochach.schlag, 
+ergochach.fußtritt, ergochach.entgifte, ergochach.identifiziere, 
+ergochach.zerfleische, ergochach.erwürge, ergochach.kampfschrei,
+ergochach.ramme, ergochach.wüte 
+
+ÄNDERUNGEN
+
+18.01.2001 Gralkor

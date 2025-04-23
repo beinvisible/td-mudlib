@@ -1,0 +1,21 @@
+KOMMANDO:
+	email [<adresse> | loeschen | sichtbar | unsichtbar]
+
+ARGUMENT:
+	<adresse> die neue Adresse
+
+FUNKTION:
+	Ohne Argumente gibt email die aktuelle email-Adresse aus. Mit
+	Argument wird sie auf die neue gesetzt.
+
+	Mit den Befehl 'email loeschen' kannst Du Deine E-Mail Adresse
+	auch ganz entfernen.
+
+        Mit 'email sichtbar' machst Du Deine E-Mail Addresse fuer alle
+	Spieler (per 'finger') ersichtlich.
+
+        Mit 'email unsichtbar' koennen nur Erzmagier Deine E-Mail
+        Addresse sehen. (Dies ist die Standardeinstellung).
+
+SIEHE AUCH:
+	einstellungen

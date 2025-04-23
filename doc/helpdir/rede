@@ -1,0 +1,13 @@
+KOMMANDO:
+	rede <text>
+
+ARGUMENT:
+	eine Zeichenkette
+
+FUNKTION:
+	Die uebergebene Zeichenkette wird an alle Spieler im selben Raum
+	weitergegeben. Im Unterschied zu 'sag' verstehen nur Angehoerige
+        der gleichen Rasse das, was man sagt.
+
+SIEHE AUCH:
+        "sag", "rassen"

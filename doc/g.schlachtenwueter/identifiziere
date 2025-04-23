@@ -1,0 +1,20 @@
+KOMMANDO:
+        identifiziere <gegenstand>
+
+ARGUMENTE:
+        <gegenstand> Ein beliebiger Gegenstand, der untersucht werden soll.
+
+FUNKTION:
+        Du wendest Dein ganzes Wissen auf einen Gegenstand an. Falls der
+        Gegenstand versteckte Informationen besitzt, koennen diese damit
+        entdeckt werden.
+
+KOSTEN:
+        Diese Faehigkeit kostet keine Wut und ist ab Gildenstufe 1
+        erlernbar.
+
+SIEHE AUCH:
+        Gilden, Schlachtenwueter, Trete, Identifiziere, Hieb, Schaetze,
+        Ansturm, Kopfnuss, Wuerge, AugeInAuge, Kampfschrei, Regeneriere,
+        Wille, Zerfetze, Demoralisiere, Zerreisse, Schlachtruf, Koepfe,
+        Wuete

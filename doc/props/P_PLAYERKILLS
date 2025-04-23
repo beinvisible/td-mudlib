@@ -1,0 +1,12 @@
+NAME:
+    P_PLAYERKILLS                       "authorizedplayerkills"                 
+
+DEFINIERT IN:
+    /sys/properties.h
+
+BESCHREIBUNG:
+     Anzahl der Spieler, die dieser Spieler schon (ERLAUBT!) getoetet hat.
+     Unerlaubte Manipulation ist ein SCHWERES VERGEHEN gegen
+     die Mudregeln.
+
+SIEHE AUCH: P_KILLS

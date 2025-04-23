@@ -1,0 +1,13 @@
+Aktualisiert: Sat Jan 11 00:38:41 2025
+
+   ___ ______________________________________________________________________
+  /   \                                                                      \
+ |  O  |       D i e   b e s t e n   S c h l a c h t e n w ü t e r            |
+  \___/|              Sortiert nach erreichtem Gildenrating                   |
+       |  Rang:  Name:        Lvl:   Rasse:          Prozent:  Gildenrating:  |
+       |                                                                      |
+       |                                                                      |
+       |   * Seher     = Erzseher    + Zweitspieler    ~ Magierzweitspieler   |
+       |                                                07/2008 by Querolin   |
+       \_____________________________________________________________________/
+

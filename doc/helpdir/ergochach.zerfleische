@@ -1,0 +1,30 @@
+ERGOCHACH.ZERFLEISCHE
+
+KOMMANDO
+	 zerfleische
+	 zerfleische <gegner>
+
+ARGUMENTE
+	 <gegner> Dein armes Opfer, das Deine Zähne spüren soll.
+
+FUNKTION
+	 Mit dieser Fähigkeit stürzt man sich auf sein armes Opfer, um 
+ 	 es mit den Zähnen zu verwunden.
+	 Um das tun zu können, muss man Ork sein 
+	 (andere Rassen mit geeigneten Reißzähnen können dies allerdings 
+	  auch)
+	 und Level 5 vorweisen können.
+	 Ausserdem muss für jeden Biss eine Investition von 
+	 15 Magiepunkten vorgenommen werden.
+
+SIEHE AUCH
+
+ergochach, ergochach.flammensphäre, ergochach.berserkertum, 
+ergochach.knieschlag, ergochach.doppelschlag, ergochach.schlag, 
+ergochach.fußtritt, ergochach.schätz, ergochach.identifiziere, 
+ergochach.entgifte, ergochach.erwürge, ergochach.kampfschrei,
+ergochach.ramme, ergochach.wüte
+
+ÄNDERUNGEN
+
+10.01.2002 Gralkor

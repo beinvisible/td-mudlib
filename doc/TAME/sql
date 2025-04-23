@@ -1,0 +1,60 @@
+SQL Benutzung
+
+
+MAGIERINFOS
+	Wir benutzen hier das SQLite Framework
+	zur Datenbankarbeit. MySQL/MariaDB und Postgres
+	gibt es auch, aber der LD ist für SQLite compiliert.
+	Das reicht einfach auch völlig aus.
+
+BEISPIEL
+	Das Beispiel stammt von Aloys Fokus.
+	Gespeichert und gelesen werden soll die Meldung,
+	wie LP und MP ausgegeben werden. Siehe Abenteurerabzeichen.
+	Der LP/MP Anzeigeteil vom Fokus kommt davon.
+	
+	string meldung;
+	
+	if(!sl_open("/players/aloy/fokus.sqlite"))
+		write("DB kann nicht geöffnet werden!");
+    
+	sl_exec("CREATE TABLE IF NOT EXISTS
+		fmeldung(id INTEGER PRIMARY KEY, fmeldung TEXT);");
+	sl_exec("INSERT OR IGNORE INTO fmeldung(id,fmeldung)
+		VALUES(1,'LP:@LA/@LM::MP:@MA/@MM');");
+    
+	mixed fmeldung_ = sl_exec("SELECT * FROM fmeldung;");
+    
+	sl_close();
+    
+	meldung=fmeldung_[0][1];
+    
+	Was passiert genau?
+	Wir deklarieren die Variable "meldung" vom Typ "string".
+	Da kommt das Ergebnis rein.
+    
+	sl_open erstellt im gegebenen Pfad die Datenbankdatei.
+    
+	Dann wird eine Tabelle "fmeldung" erstellt. Aber nur,
+	wenn noch nicht vorhanden.
+	Diese Tabelle hat das Feld "id" vom Typ "INTEGER" als "PRIMARY KEY".
+	Da PK, kann es den Wert des PK nur genau EINMAL in der Tabelle geben.
+	Und als zweites Feld "fmeldung" vom Typ "TEXT".
+    
+	Das zweite sl_exec schreibt nun die Werte - Aber nur,
+	wenn noch nicht vorhanden.
+	Es kann keinen zweiten Datensatz mit einem PK von 1 geben.
+    
+	Dann wird die Tabelle "fmeldung" nach "mixed fmeldung_" gelesen.
+    
+	Datenbank schließen.
+    
+	Zum Schluss wird der Wert nach "meldung" geschrieben.
+	Die Indizes [0][1] sagen aus: 1. Datensatz, 2. Wert.
+	Dran denken, in der Informatik haben wir eine Nullzählung.
+
+AUTOR
+	Aloy
+
+SIEHE AUCH
+	sl_open, sl_exec, sl_insert_id, sl_close

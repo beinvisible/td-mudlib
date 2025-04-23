@@ -1,0 +1,14 @@
+#0:0
+properties (["wimpy":0;64,"sp":46;64,"hp_store":0;64,"poison":0;64,"drink":0;64,"food":0;64,"ghost":0;64,"frog":0;64,"hp":46;64,"xp":37500;64,"alcohol":0;64,"align":250;64,"gender":1;64,"align_string":0;64,"hp_store_percent":0;64,"mv":0;64,"sp_store_percent":0;64,"sp_store":0;64,"hands":({" mit seinen kleinen Haenden",25,"bludgeon",});64,])
+vwr 0
+age 6573
+attributes (["int":6,"str":6,"con":6,"dex":6,])
+attributes_modifier ([])
+infos (["querolin":"Querolin hat mich gebeten die Zettel hier zu verteilen.\n";"antwortet: ";0,"zettel":"Wenn Du einen Zettel haben moechtest bitte moch doch einfach um einen.\n";"meint: ";0,"\ndefault info":({"zuckt ahnungslos mit den Schultern.\n","bohrt sich unwissend in die Nase.\n","hat davon keinen Schimmer.\n","will davon gar nichts wissen.\n","verweist Dich auf jemand anders.\n","hat fuer Dich gerade keine Zeit.\n","fragt sich, ob das essbar ist.\n","meint, ob Du das nicht selber rausfinden kannst.\n","vermutet, das es wo ganz anders ist.\n","interessiert sich nicht dafuer.\n","gruebelt darueber nach, aber hat trotzdem keine Ahnung.\n",});0;0,"arbeit":"Querolin hat mich gebeten die Zettel hier zu verteilen.\n";"antwortet: ";0,"flugblatt":"Wenn Du einen Zettel haben moechtest bitte moch doch einfach um einen.\n";"meint: ";0,])
+libraries ([])
+CurrentCmd 0
+PlayerMet 1067173700
+MvArea 0
+MvDefault 0
+prev_room 0
+empfaenger ({"Querolin","Brownie","Gralkor","Ilajah","Klesk","Cairon","Ildarel","Fordus","Golgotha","Matthi","Noobi","Nargo","Mapache","Ghost","Phate","Sulifee","Leandro","Rodin","Kati","Nicodemus","Priwinn","Aton","Inwe","Draven","Kentauro","Gast2","Kristanna","Stitch","Ibak","Eek","Pastor","Gast1","Roderik","Wulf","Noob","Tammy","Asmodai","Keira","Taran","Surya","Sadrak","Serra",})

@@ -1,0 +1,40 @@
+KOMMANDO:
+	karte
+
+ARGUMENTE:
+	keine
+
+FUNKTION:
+	Mit "karte" kann man in jedem Raum, in dem es hell genug ist,
+	eine automatisch generierte Karte anzeigen lassen.
+	Die Karte zeigt dabei vom eigenen Standort aus gesehen an, in 
+	welche Richtungen man von dort gehen kann und wie es von dort 
+	weitergeht.
+	Dabei werden "geheime" Ausgänge (wie zB "zwänge durch gebüsch")
+	nicht angezeigt.
+	Ebenso werden Ausgänge, die nur unter besonderen Umständen 
+	zu benutzen sind, nicht angezeigt (das wären zB Tore, die von
+	Wachen blockiert sind, die nur mit einem Questobjekt oder ab 
+	einer gewissen Stufe betretbar sind)
+	Ebenso wird die Karte Räume, die sich auf einer anderen Ebene
+	befinden, nicht anzeigen.
+
+	Folgende Symbole sind verwendet:
+	# - eigener Standort
+	o - Raum unter offenem Himmel 
+	A - geschlossener Raum
+	L - Laden (sowohl allgemeiner Laden als auch spezielle Läden)
+	P - Poststelle
+	K - Taverne, Kneipe etc
+	G - Raum einer Gilde (sowohl die eigentlichen Gildenräume als auch
+	    Räume, die der Gilde gehören, wie dem gesamten Turm der 
+	    Bewahrer in Niobar)
+
+ACHTUNG:
+	Bitte beachten: Da die Karte bei jedem Aufruf neu generiert wird,
+	kann es, je nach Verbindungsqualität zu leichten Abweichungen 
+	kommen und auch "fehlerhafte" Anzeigen (zB wird eine Kneipe nicht 
+	korrekt erkannt oder Ähnliches) kommen.
+
+SIEHE AUCH:
+        "bewegung","ausgänge","kurz","schau"

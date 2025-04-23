@@ -1,0 +1,28 @@
+ERGOCHACH.KNIESCHLAG
+
+KOMMANDO
+	 knieschlag
+	 knieschlag <gegner>
+
+ARGUMENTE
+	 <gegner> Die bald sterben sollende Kreatur
+
+FUNKTION
+	 Mit dem Knieschlag kann ein Krieger ab Level 16 böse Schaden
+	 austeilen. Dummerweise bringt das sein Gleichgewicht so
+	 durcheinander, dass er sich auf diesen Schlag vorbereiten muss, 
+	 während er keine anderen Fähigkeiten nutzen kann. 
+	 Mit nur einem freien Fuß und 25 Magiepunkten ist der 
+	 Ergochach-Krieger dabei.
+
+SIEHE AUCH
+
+ergochach, ergochach.flammensphäre, ergochach.berserkertum, 
+ergochach.entgifte, ergochach.doppelschlag, ergochach.schlag, 
+ergochach.fußtritt, ergochach.schätz, ergochach.identifiziere, 
+ergochach.zerfleische, ergochach.erwürge, ergochach.kampfschrei,
+ergochach.ramme, ergochach.wüte
+
+ÄNDERUNGEN
+
+10.01.2002 Gralkor

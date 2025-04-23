@@ -1,0 +1,296 @@
+STUFENTITEL
+
+    Die Stufentitel sind gilden- und rassenabhaengig.
+
+    Fuer die Abenteurergilde gibt es hierbei folgende Titel:
+
+    Menschen
+    maennlich                           weiblich
+------------------------------------------------------------------------
+ 1  der hoffnungsvolle Anfaenger        die hoffnungsvolle Anfaengerin
+ 2  der Landstreicher                   die Landstreicherin
+ 3  der Streuner                        die Streunerin
+ 4  der Pfadfinder                      die Pfadfinderin
+ 5  der Kaempfer                        die Kaempferin
+ 6  der erfahrene Kaempfer              die erfahrene Kaempferin
+ 7  der Abenteurer                      die Abenteurerin
+ 8  der erfahrene Abenteurer            die erfahrene Abenteurerin
+ 9  der Haudegen                        die Mutige
+10  der Krieger                         die Kriegerin
+11  der Ritter                          die Amazone
+12  der Held                            die Heldin
+13  der Feuerbaendiger                  die Feuerbaendigerin
+14  der Beschwoerer                     die Beschwoererin
+15  der angesehene Abenteurer		die angesehene Abenteurerin
+16  der grosse Abenteurer		die grosse Abenteurerin
+17  der Hexer                           die Hexe
+18  der Prophet                         die Prophetin
+19  der angehende Seher                 die angehende Seherin
+... der Seher                           die Seherin
+
+    Elfen
+    maennlich                           weiblich
+------------------------------------------------------------------------
+ 1  der hoffnungsvolle Jungelf          die hoffnungsvolle Jungelfe
+ 2  der Blumenpfluecker                 die Blumenpflueckerin
+ 3  der Baumfreund                      die Baumfreundin
+ 4  der Gaertner                        die Gaertnerin
+ 5  der Waldlaeufer                     die Waldlaeuferin
+ 6  der Faehrtensucher                  die Faehrtensucherin
+ 7  der Pfadfinder                      die Pfadfinderin
+ 8  der Kundschafter                    die Kundschafterin
+ 9  der Jaeger                          die Jaegerin
+10  der Grosswildjaeger                 die Grosswildjaegerin
+11  der Wildnisexperte                  die Wildnisexpertin
+12  der Bogenschuetze                   die Bogenschuetzin
+13  der erfahrene Bogenschuetze         die erfahrene Bogenschuetzin
+14  der Saenger                         die Saengerin
+15  der Barde                           die Bardin
+16  der Sternensaenger                  die Sternensaengerin
+17  der Wipfellaeufer                   die Wipfellaeuferin
+18  der Sterndeuter                     die Sterndeuter
+19  der angehende Elfenseher            die angehende Elfenseherin
+... der Elfenseher                      die Elfenseherin
+
+    Zwerge
+    maennlich                           weiblich
+------------------------------------------------------------------------
+ 1  der hoffnungsvolle Jungzwerg        die hoffnungsvolle Jungzwergin
+ 2  der Minenarbeiter                   die Minenarbeiterin
+ 3  der Erzschuerfer                    die Erzschuerferin
+ 4  der Tunnelgraeber                   die Tunnelgraeberin
+ 5  der Stollenbauer                    die Stollenbauerin
+ 6  der Goldsucher                      die Goldsucherin
+ 7  der Wandergeselle                   die Wandergesellin
+ 8  der Schatzsucher                    die Schatzsucherin
+ 9  der Gesteinskundige                 die Gesteinskundige
+10  der Schmiedegeselle                 die Schmiedegesellin
+11  der Huettenkundige                  die Huettenkundige
+12  der Grobschmied                     die Grobschmiedin
+13  der Waffenschmied                   die Waffenschmiedin
+14  der Goldschmied                     die Goldschmiedin
+15  der Steinmetz                       die Steinmetzin
+16  der Diamantschleifer                die Diamantschleiferin
+17  der Juwelier                        die Juwelierin
+18  der Meisterschmied                  die Meisterschmiedin
+19  der angehende Zwergenseher          die angehende Zwergenseherin
+... der Zwergenseher                    die Zwergenseherin
+
+    Brownies
+    maennlich                           weiblich
+------------------------------------------------------------------------
+ 1  das kleine Kruemelchen              das kleine Kruemelchen
+ 2  der kleine Brownie                  die kleine Brownie
+ 3  der Brownie                         die Browniefrau
+ 4  der Beerensammler                   die Beerensammlerin
+ 5  der Pilzsammler                     die Pilzsammlerin
+ 6  der Baeckergeselle                  die Baeckergesellin
+ 7  der Wandervogel                     die Wandersfrau
+ 8  der Biertrinker                     die Biertrinkerin
+ 9  der Schmetterlingsfaenger           die Schmetterlingsfaengerin
+10  der Ameisenbaendiger                die Ameisenbaendigerin
+11  der Wurmbezwinger                   die Wurmbezwingerin
+12  der Maulwurfreiter                  die Maulwurfreiterin
+13  der Froschwuerger                   die Froschwuergerin
+14  der Brownieabenteurer               die Brownieabenteurerin
+15  der Flammenbeschwoerer              die Feuerhexe
+16  der Browniekaempfer                 die Browniekaempferin
+17  der Brownieheld                     die Brownieheldin
+18  der Kristalldrechsler               die Kristalldrechslerin
+19  der baldige Brownieseher            die baldige Brownieseherin
+... der Brownieseher                    die Brownieseherin
+
+
+    Hobbits
+    maennlich                           weiblich
+------------------------------------------------------------------------
+ 1  der hoffnungsvolle Junghobbit       das hoffungsvolle Hobbitmaedchen
+ 2  der Herumtreiber                    die Herumtreiberin
+ 3  der kleine Hobbit                   die kleine Hobbitfrau
+ 4  der pelzfuessige Hobbit             die pelzfuessige Hobbitfrau
+ 5  der Spaziergaenger                  die Spaziergaengerin
+ 6  der Wanderer                        die Wandersfrau
+ 7  der Tourist                         die Touristin
+ 8  der Reisende                        die Reisende
+ 9  der Weltreisende                    die Weltreisende
+10  der Erforscher                      die Erforscherin
+11  der Weltenbummler                   die Weltenbummlerin
+12  der Entdecker                       die Entdeckerin
+13  der Reiseleiter                     die Reiseleiterin
+14  der Nachtschwaermer                 die Nachtschwaermerin
+15  der Draufgaenger                    die Draufgaengerin
+16  der Hobbithexer                     die Hobbithexe
+17  der Hobbitprophet                   die Hobbitprophetin
+18  der Hobbitheld                      die Hobbitheldin
+19  der angehende Hobbitseher           die angehende Hobbitseherin
+... der Hobbitseher                     die Hobbitseherin
+------------------------------------------------------------------------
+Der Titel fuer Stufe 19 gilt auch fuer alle weiteren Stufen,
+solange man noch kein Seher ist. Bei der Seherwerdung (bei
+Merlin) wird der Sehertitel gesetzt, aber ab diesem Moment
+kann der Spieler seinen Titel auch selber mit dem Befehl
+"titel" setzen.
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+
+    Fuer die Atalai gibt es folgende Titel:
+
+    maennlich                           weiblich
+------------------------------------------------------------------------
+ 1  der hoffnungsvolle Jungtroll        die hoffnungsvolle Jungtrollin
+ 2  der Suppenruehrer                   die Suppenruehrerin
+ 3  der Steinklopper                    die Steinklopperin
+ 4  der Knochenschuettler               die Knochenschuettlerin
+ 5  der Hobbitfaenger                   die Hobbitfaengerin
+ 6  der Menschenverachter               die Menschenverachterin
+ 7  der Elfenjaeger                     die Elfenjaegerin
+ 8  der Zwergenvertreiber               die Zwergenvertreiberin
+ 9  der Orksucher                       die Orksucherin
+10  der Daemonenverbanner               die Daemonenverbannerin
+11  der Lebenskuenstler                 die Lebenskuenstlerin
+12  der Jungkrieger                     die Jungkriegerin
+13  der angehende Trollkrieger          die angehende Trollkriegerin
+14  der erfahrene Trollkrieger          die erfahrene Trollkriegerin
+15  der angehende Kriegshetzer          die angehende Kriegshetzerin
+16  der erfahrene Kriegshetzer          die erfahrene Kriegshetzerin
+17  der Jungdoktor                      die Jungdoktorin
+18  der angehende Hexendoktor           die angehende Hexendoktorin
+19  der erfahrene Hexendoktor           die erfahrene Hexendoktorin
+20  der angehende VooDoo-Hexer          die angehende VooDoo-Hexe
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+
+    Fuer die Bewahrer sind die Titel abhaengig von der Gildenstufe:
+
+    maennlich
+------------------------------------------------------------------------
+ 1  der Adepten-Anwaerter
+ 2  der angehende Adept
+ 3  der Adept
+ 4  der gelehrte Adept
+ 5  der Pruefungsaspirant
+ 6  der Neuzauberer
+ 7  der Zauberer
+ 8  der gelehrte Zauberer
+ 9  der Bewahrer des Rechts
+10  der Oberbewahrer des Rechts
+11  der Grossbewahrer des Rechts
+12  der Hochbewahrer des Rechts
+13  der Ordensbewahrer des Rechts
+14  der Ordensoberbewahrer des Rechts
+15  der Ordensgrossbewahrer des Rechts
+16  der Ordenshochbewahrer des Rechts
+17  der grosse Ordensbewahrer des Rechts
+18  der grosse Ordensoberbewahrer des Rechts
+19  der grosse Ordensgrossbewahrer des Rechts
+20  der grosse Ordenshochbewahrer des Rechts
+21  der Meister des Rechts
+
+    weiblich
+------------------------------------------------------------------------
+ 1: die Adepten-Anwaerterin
+ 2: die angehende Adeptin
+ 3: die Adeptin
+ 4: die gelehrte Adeptin
+ 5: die Pruefungsaspirantin
+ 6: die Neuzaubererin
+ 7: die Zaubererin
+ 8: die gelehrte Zaubererin
+ 9: die Bewahrerin des Rechts
+10: die Oberbewahrerin des Rechts
+11: die Grossbewahrerin des Rechts
+12: die Hochbewahrerin des Rechts
+13: die Ordensbewahrerin des Rechts
+14: die Ordensoberbewahrerin des Rechts
+15: die Ordensgrossbewahrerin des Rechts
+16: die Ordenshochbewahrerin des Rechts
+17: die grosse Ordensbewahrerin des Rechts
+18: die grosse Ordensoberbewahrerin des Rechts
+19: die grosse Ordensgrossbewahrerin des Rechts
+20: die grosse Ordenshochbewahrerin des Rechts
+21: die Meisterin des Rechts
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+
+     Fuer die Ergochach gibt es folgende Titel:
+
+     maennlich                           weiblich
+------------------------------------------------------------------------
+ 1  der hoffnungsvolle Jungork          die hoffnungsvolle Jungorkin
+ 2  der junge Wanderer                  die junge Wanderin
+ 3  der Sklavenaufseher                 die Sklavenaufseherin
+ 4  der Viehhirte                       die Viehhirtin
+ 5  der Viehzuechter                    die Viehzuechterin
+ 6  der Keulenschnitzer                 die Keulenschnitzerin
+ 7  der Karkushschmied                  die Karkushschmiedin
+ 8  der angesehene Orkschmied           die angesehene Orkschmiedin
+ 9  der junge Jaeger                    die junge Jaegerin
+10  der Jaeger                          die Jaegerin
+11  der grosse Jaeger                   die grosse Jaegerin
+12  der Moechtegernkrieger              die Moechtegernkriegerin
+13  der kleine Wachesteher              die kleine Wachesteherin
+14  der Orkwaechter                     die Orkwaechterin
+15  der Orkkrieger                      die Orkkriegerin
+16  der grosse Orkkrieger               die grosse Orkkriegerin
+17  der Orkadept                        die Orkadeptin
+18  der Orkpriester                     die Orkpriesterin
+19  der angehende Orkseher              die angehende Orkseherin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+
+    Fuer die Finsternis sind die Titel abhaengig von der Gildenstufe:
+
+    maennlich
+------------------------------------------------------------------------
+ 1  der Rekrut der Finsternis
+ 2  der Helfer der Finsternis
+ 3  der Verbreiter der Finsternis
+ 4  der Lehrling des dunklen Kampfes
+ 5  der Kampfperfektionist der Dunkelheit
+ 6  der Kampfmeister der Finsternis
+ 7  der Lehrling der schwarzen Magie
+ 8  der kundige der schwarzen Magie
+ 9  der Meister der schwarzen Magie
+10  der angehende FinsterKrieger
+11  der FinsterKrieger
+12  der grausame FinsterKrieger
+13  die perfekte Kampfmaschine gegen das Licht und die Oberwelt
+
+    weiblich
+------------------------------------------------------------------------
+ 1  die Rekrutin der Finsternis
+ 2  die Helferin der Finsternis
+ 3  die Verbreiterin der Finsternis
+ 4  die Lernende des dunklen Kampfes
+ 5  die Kampfperfektionistin der Finsternis
+ 6  die Kampfmeisterin der Finsternis
+ 7  die Lernende der schwarzen Magie
+ 8  die kundige der schwarzen Magie
+ 9  die Meisterin der schwarzen Magie
+10  die angehende FinsterKriegerin
+11  die FinsterKriegerin
+12  die grausame FinsterKriegerin
+13  die perfekte Kampfmaschine gegen das Licht und die Oberwelt
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+
+    Fuer die Schlachtenwueter sind die Titel abhaengig von der Gildenstufe:
+
+    maennlich                           weiblich
+------------------------------------------------------------------------
+ 1  der Halbstarke                      die Halbstarke
+ 2  der Schlaeger                       die Schlaegerin
+ 3  der Ruepel                          die Remplerin
+ 4  der Raufbold                        die Raufboldin
+ 5  der angehende Kaempfer              die angehende Kaempferin
+ 6  der Kaempfer                        die Kaempferin
+ 7  der Veteran                         die Veteranin
+ 8  der Schlachtenrufer                 die Schlachtenruferin
+ 9  der Enthaupter                      die Enthaupterin
+10  der Schlachtenwueter                die Schlachtenwueterin
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+
+SIEHE AUCH:
+	"stufen", "seher", "attribute"
+

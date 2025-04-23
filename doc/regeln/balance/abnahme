@@ -1,0 +1,39 @@
+---------------------------------------------------------------------------
+                               Vorgehen
+---------------------------------------------------------------------------
+
+Ein Magier(Projektmagier [PM]) moechte ein Projekt balancieren/testen
+lassen.
+
+Das betreffende Projekt wurde vorher vom zustaendigen Regionsmagier (RM)
+geprueft und es wurde fuer testbereit(typoarm, bugarm, vollstaendig)
+befunden. Jetzt wird es vom Balance-Erzmagier(BE) nach Aufforderung in der
+Balanceoffice eingehaengt.
+
+Der BE ernennt einen erfahrenen Balance-Spieler(BS) (oder -magier)(BM) zum
+Projektleiter. Dieser ist alleinverantwortlich fuer die Abnahme des
+Projektes. Er kann sich einen oder mehrere (optimal sind zwei!) Spieler der
+Balance ins "Team" holen, die ihn dabei unterstuetzen und teilt es dem PM
+via Mudmail mit.
+
+Die BS schauen sich das Projekt unter dem Gesichtspunkt der Balancerelevanz
+durch. Typos und Ideen sind ein Bonus, aber nicht Pflicht.
+Der BE (eventuell unterstuetzt durch einen oder mehrere BM) schaut sich den
+Code an und ueberprueft diesen.
+
+Jeder involvierte BS schreibt einen ausfuehrlichen Bericht ueber das
+getestete Projekt an alle Balancer und den Einreicher.
+
+Anschliessend baut der Einreicher die Ideen etc ein. Ist das Projekt nicht
+anschlussfaehig (bugbehaftet, schlecht beschrieben, copy'n'paste etc) kann
+es auch zurueckgewiesen werden.
+
+Ein Projekt ist genehmigt, wenn alle beauftragten BS ihren (Abschluss-)
+Bericht vorgelegt haben. Im Anschluss wendet sich die Balance an den
+Regionsmagier, der das Projekt anhaengt, es sei den es bestehen noch
+Bedenken gegen den Anschluss.
+
+Der PM reicht eine FP-Vorschlagsliste an den Erzmagier fuer Forscherpunkte
+(derzeit Querolin) und meldet Questen an den Quest-Erzmagier(Querolin).
+Erst wenn er ein Feedback bekommen hat, das die FP/QP gesetzt sind, wird
+das Gebiet angeschlossen.

@@ -1,0 +1,23 @@
+KOMMANDO:
+	i, inv, inventur
+
+ARGUMENTE:
+	+a ... Nur Autoloader anzeigen
+	-a ... Keine Autoloader anzeigen
+	+b ... Nur Objekte zeigen, die man bei "verkaufe alles" behaelt
+	-b ... Kein Objekt zeigen, das man bei "verkaufe alles" behaelt
+	-f ... Inventar nicht unterteilen oder gleiche Objekte zusammenfassen
+	+r ... Nur Ruestungen anzeigen
+	-r ... Keine Ruestungen anzeigen
+	-s ... Ausgabe alphabetisch sortieren
+	+v ... Alles zeigen, was nicht Ruestung oder Waffe ist
+	-v ... Alles zeigen, was Ruestung oder Waffe ist
+	+w ... Nur Waffen anzeigen
+	-w ... Keine Waffen anzeigen
+
+FUNKTION:
+	Gibt eine kurze Beschreibung aller Objekte, die Du bei Dir traegst.
+	Saemtliche Argumente sind auch kombinierbar.
+
+SIEHE AUCH:
+	"behalte", "anzeige", "ausruestung"

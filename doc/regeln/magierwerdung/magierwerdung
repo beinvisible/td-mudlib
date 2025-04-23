@@ -1,0 +1,98 @@
+* Die Magierwerdung *
+=====================
+
+Von der Befruchtung bis zur Geburt
+oder
+Wie werde ich _RICHTIG_ Magierpapa
+
+Voraussetungen:
+- Meine Magierstufe ist 30+
+- Ich besitze ein williges Opfer(Ein(e) Freiwillige(r) hat mich
+  gebeten, sie/ihn bei ihrer/seiner Magierwerdung zu unterstuetzen
+  und sie/ihn als Tochter/Sohn anzunehmen)
+- Die Mehrheit der aktiven Magierschaft hat zugestimmt dass der
+  Promotor(Magiervater) dieses Kind an nimmt
+
+Ab hier spreche ich von einem Adepten und dem Promotor und belasse
+es der Einfachheit halber bei der maennlichen Form.
+
+I.
+Zunaechst sollte das Gesellenstueck(GS) besprochen werden, welches der
+Adept fuer eine Magierschaft abzuliefern hat.
+
+- a)Das GS kann ein kleines Gebiet sein mit einer Miniqueste
+  b)ein groesseres Gebiet, ohne Queste, aber mit hohem Wiederspielwert
+- Das GS sollte mindestens einen Raum beinhalten, mehrere Objekte und
+  einen NPC, um dem Adepten die verschiedenen Objekte naeher zu bringen.
+- Das GS sollte zusaetzlich beinhalten: diverse Funktionen in den
+  einzelnen Objekten, um dem Adepten die Interaktion sowohl zwischen
+  Spieler und Objekt alsauch Objekt und Objekt zu vermitteln
+- Der Anschlusspunkt dieses GS sollte unbedingt mit dem zustaendigen
+  RM abgesprochen werden, ausserdem mit dem Magier, dessen Gebiet mit
+  einem moeglichen neuen Ausgang versehen werden soll.
+
+
+II.
+Als naechstes sollte das GS in 2 Textdateien abgelegt werden.
+
+- Die erste Textdatei traegt die Extension .asc und beinhaltet die Ascii-
+  Karte des GS. Diese karte sollte unbedingt eine Legende und einige
+  Informationen zur Lage des GS beinhalten zzgl. der Anschlussraeume.
+- Die 2. Textdatei endet mit .txt und sollte mit ihrem Inhalt das GS
+  ausfuehrlich beschreiben. Eine Qestbeschreibung, naehere Angaben zu
+  den Raeumen und zu den einzelnen Objekten und NPCs.
+
+
+III.
+Das GS wird der Magierschaft vorgestellt und von dieser auf Art und
+Umfang geprueft. Anschliesend wird ueber das GS abgestimmt und ggf.
+Aenderungsvorschlaege vorgebracht.
+
+
+IV.
+Der langwierigste Abschnitt beginnt: Die Umsetzung des GS. Hier bei ist
+vom Promotor vor allem darauf zu achten, dass dem Adepten der 'gute Stil'*
+schon sehr bald beigebracht wird. Ausserdem ist darauf zu achten dem
+Adepten moeglichst zeitnah mit umfassend Rat zur Seite zu stehen. Der
+Promotor sollte sich nicht darauf verlassen, dass die aktive Magierschaft
+diesen schweren Teil der Aufgaben eines Promotors uebernimmt. Es ist
+_SEIN_ ureigenster Job, fuer den Adepten da zu sein und ihn nach Leibes-
+kraeften zu unterstuetzen.
+
+V.
+Nach der Fertigstellung des Projektes wird dieses der Balance uebergeben.
+Der Promotor hat darauf zu achten, dass es sich dabei wirklich um ein
+nahezu fertiggestelltes Projekt handelt und nicht um ein paar halbfertige
+Raeume. Schliesslich kommt jetzt Punkt VI.
+
+VI.
+Nach der Uebergabe des Projektes an die Balance steht die Abstimmung der
+Magierschaft ueber den Adepten. So diese positiv ausfaellt, darf und
+sollte der Adept in den Stand eines Vollmagiers(21) erhoben werden. Ein
+letztes Vetorecht hat dabei der Promotor bei berechtigten Zweifeln an der
+Eignung des Adepten, da er sich wesentlich intensiver mit ihm beschaef-
+tigt haben sollte als alle anderen Magier.
+
+VII.
+Der Anschluss des Projektes findet nach der Balanceabnahme statt. Das
+heisst sowohl fuer den Adepten alsauch fuer den Promotor nochmals reich-
+lich Ausbesserungsarbeiten und Hilfestellung.
+
+VIII.
+Nach dem Anschluss ist es dann soweit - der Elch wird zur Jungfrau
+gekuehrt. Mit anderen Worten: Der Adept wird auf Magierlevel 25 befoer-
+dert und damit zum Regionsmitarbeiter.
+
+IX.
+Wer als Promotor glaubt, seine Arbeit waere jetzt zuende, geht fehl.
+Auch nachdem das neue Mitglied der Magierschaft nun ein angeschlossenes
+GS programmiert hat, werden sicher bei neuen Projekten auch neue Fragen
+auftauchen, die es zu beantworten gilt. Sicher wird das mit der Zeit
+weniger werden, doch als Promotor sollte man der erste sein, der seinem
+ehemaligen Schuetzling hilft.
+
+
+Saxxon@tamedhon.at
+
+*  Guter Stil: Formatierung des Quellcodes, Lesbarkeit, keine unnoetigen
+               Definitionen, keine zu rechnerlastigen Operationen

@@ -1,0 +1,27 @@
+
+ERGOCHACH.FUßTRITT
+
+KOMMANDO
+	 fußtritt
+	 fußtritt <gegner>
+ARGUMENTE
+	 <gegner> Dein unschuldiges, am Leben hängendes Opfer
+
+FUNKTION
+	 Falls der Handwerker der Ergochach den Level 12 erreicht hat,
+	 kann er sich damit wehren.
+	 So ein Tritt, der natürlich einen freien Fuß benötigt,
+	 kann dem Gegner ziemlich wehtun. Für nur 20 Magiepunkte
+	 fast geschenkt.
+
+SIEHE AUCH
+
+ergochach, ergochach.flammensphäre, ergochach.berserkertum, 
+ergochach.knieschlag,ergochach.doppelschlag, ergochach.schlag, 
+ergochach.entgifte, ergochach.schätz, ergochach.identifiziere, 
+ergochach.zerfleische, ergochach.erwürge, ergochach.kampfschrei,
+ergochach.ramme, ergochach.wüte
+
+ÄNDERUNGEN
+
+18.01.2001 Gralkor

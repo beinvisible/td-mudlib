@@ -211,7 +211,7 @@ private varargs string Message(string group, mixed article)
   if (!article) article = 0;
   else article = to_int(explode(article, ":")[0]);
 
-  if(sizeof(explode(group, ":")) == 0)
+  if(sizeof(explode(group, ":")) == 0 || sizeof(NEWSD->GetNotes(group = explode(group, ":")[0])) == 0 || sizeof(NEWSD->GetNotes(group = explode(group, ":")[0])) < article)
     return 0;
   
   text = (tmp = NEWSD->GetNotes(group = explode(group, ":")[0]))[article];

@@ -162,8 +162,15 @@ string ArticleList(string group)
   string *list, ret;
   mapping t;
   int i;
+  
+  if(sizeof(explode(group, ":")) == 0)
+    return 0;
 
   list = NEWSD->GetNotes(group = explode(group, ":")[0]);
+  
+  if(!list)
+    return 0;
+  
   t = m_allocate(0,4);
   for (i = sizeof(list)-1, ret = ""; i >= 0; i--)
   {
@@ -200,16 +207,13 @@ private varargs string Message(string group, mixed article)
   string art, *tmp2;
   mapping t;
   int i;
-  
-  if(!article)
-    return 0;
-  
-  if(!group)
-    return 0;
 
   if (!article) article = 0;
   else article = to_int(explode(article, ":")[0]);
 
+  if(sizeof(explode(group, ":")) == 0)
+    return 0;
+  
   text = (tmp = NEWSD->GetNotes(group = explode(group, ":")[0]))[article];
 
   t = m_allocate(0,4);

@@ -168,7 +168,7 @@ string ArticleList(string group)
 
   list = NEWSD->GetNotes(group = explode(group, ":")[0]);
   
-  if(!list)
+  if(!list || intp(list) || list == 0)
     return 0;
   
   t = m_allocate(0,4);

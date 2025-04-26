@@ -114,7 +114,7 @@ inherit "/std/thing/properties";
 static string *last_tell=({});
 static string last_received;
 
-#define MAX_HIST 15
+#define MAX_HIST 100
 static mixed *tellhist=({});
 static mixed *tellallhist=({});
 

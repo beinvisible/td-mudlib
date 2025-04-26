@@ -408,6 +408,7 @@ int search_what(string str, object zahl,object sauf)
     i++;
   }
   if (found>=0) return eat_food(food[i-1],zahl,sauf);
+  return 0;
 }
 
 int drink_drink(mixed drink, object zahler, object empfaenger)

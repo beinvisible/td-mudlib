@@ -50,6 +50,7 @@ float lightval = 0.0;
 
 void test_remove();
 void set_lightval(float val);
+bool get_lighted();
 
 ENVCHECKPROC
 
@@ -77,6 +78,11 @@ void create()
 void set_lightval(float val)
 {
   lightval = val;
+}
+
+bool get_lighted()
+{
+  return lighted;
 }
 
 /*

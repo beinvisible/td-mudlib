@@ -76,11 +76,11 @@
 
 #pragma strong_types
 
+#define NEED_PROTOTYPES
+
 #include <properties.h>
 #include <moving.h>
 #include <new_skills.h> //fuer P_TMP_MOVE_HOOK
-
-#define NEED_PROTOTYPES
 
 #include <thing/properties.h>
 

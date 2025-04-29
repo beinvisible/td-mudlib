@@ -25,17 +25,17 @@
 // #define TESTMUD 
 
 #ifdef TESTMUD
-#define MUDHOST "140.78.4.25"  
+#define MUDHOST "127.0.0.1"  
 #define FTPD_IP "127.0.0.1"
-#define UDPSERV "140.78.4.25"
+#define UDPSERV "127.0.0.1"
 #define MUDNAME "TD-TEST@"+__HOST_NAME__
 
 #else 
 
-#define MUDHOST "212.132.115.155"
-#define FTPD_IP "212.132.115.155"
-#define UDPSERV "212.132.115.155"
-#define MUDNAME "Tamedhon"
+#define MUDHOST "127.0.0.1"
+#define FTPD_IP "127.0.0.1"
+#define UDPSERV "127.0.0.1"
+#define MUDNAME "TD-HOMEMUD"
 
 #endif
 

@@ -22,7 +22,7 @@
 #define NATIVE
 #define NATIVE_MODE
 
-// #define TESTMUD 
+#define TESTMUD 
 
 #ifdef TESTMUD
 #define MUDHOST "127.0.0.1"  

@@ -20,7 +20,7 @@ inherit "/std/more";
 
 #define UA this_interactive()->_unparsed_args()
 
-create() {
+void create() {
   (::create());
   seteuid(getuid());
   SetProp(P_NAME, "Planeditor");
@@ -35,7 +35,7 @@ create() {
   SetProp(P_AUTOLOADOBJ, 1);
 }
 
-long() {
+varargs string long() {
   return "\
 Ein Plan- und Projekteditor. Damit kannst Du Plan und Projekt ändern, die\n\
 angezeigt werden, wenn Dich ein anderer Spieler \"fingert\".\n\
@@ -49,7 +49,7 @@ Befehle:\n\
 ";
 }
 
-init() {
+void init() {
   (::init());
   if (IS_SEER(this_player())) {
     add_action("Projekt","projekt");
@@ -59,7 +59,7 @@ init() {
   }
 }
 
-Projekt(str) {
+int Projekt(string str) {
   string old,name,filename;
   
   if (!(str=UA)) return notify_fail("Du solltest schon den Text angeben.\n");
@@ -83,7 +83,7 @@ Projekt(str) {
   return 1;
 }
 
-EditPlan(str) {
+int EditPlan(string str) {
   string old,name,filename;
   
   name=geteuid(this_player());
@@ -104,7 +104,7 @@ EditPlan(str) {
   return 1;
 }
 
-SavePlan(str) {
+int SavePlan(string str) {
   string filename;
   filename="/p/service/loco/save/plans/"+geteuid(this_player())+".plan";
   if (!str) {

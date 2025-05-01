@@ -60,6 +60,8 @@ static string *explode_files(string file) {
 string *full_path_array(string path, string user) {
   string *strs;
   int p;
+  
+  if(!path) return ({""});
 
   if(!path)
     path="/";

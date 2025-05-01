@@ -982,6 +982,10 @@ private varargs void tell_user(object to,string channel,
   if(!to)return;
   color=CAN_COL(to);
   ci=0;
+  
+  if(!stringp(channel))
+    return;
+    
   if(query_once_interactive(to))
   {
     res=to->QueryProp(P_CHANNELS)[channel];

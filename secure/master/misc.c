@@ -62,6 +62,8 @@ string *full_path_array(string path, string user) {
   int p;
   
   if(!path) return ({""});
+  
+  if(sizeof(path)==0) return ({""});
 
   if(!path)
     path="/";

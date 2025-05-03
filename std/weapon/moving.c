@@ -29,6 +29,7 @@ inherit "/std/thing/moving";
 #include <properties.h>
 #include <moving.h>
 #include <defines.h>
+#include <weapon.h>
 
 varargs int DoUnwield(int silent);
 

@@ -28,13 +28,14 @@
 
 #pragma strong_types
 
-#include <moving.h>
-#include <thing.h>
+inherit "/std/thing/moving";
 
 #define NEED_PROTOTYPES 1
+
+#include <moving.h>
+#include <thing.h>
 #include <armour.h>
 
-inherit "/std/thing/moving";
 
 /* Ruestungen muessen vor Bewegung und Zerstoerung ausgezogen werden */
 

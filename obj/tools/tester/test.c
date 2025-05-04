@@ -575,7 +575,7 @@ int search_d(object r)
 */
 
 int search_sense(object r, int sense)
-{   string re,PRE,END,WAS,*senses,s1,*zufinden,*s2,*s3,def;
+{   string re,PRE,END,WAS,*senses,s1,*zufinden,*s2,*s3,def,*uebergehen;;
     int    i,j;
     mixed  mi;
 
@@ -605,6 +605,18 @@ int search_sense(object r, int sense)
     zufinden = ({""});
 
     def = all_dets[""];
+    
+    //  Liste der zu uebergehenden Details erzeugen. Die verwendete Methode hat den
+    //  Vorteil, dass man nach einer Ergaenzung der Liste nicht das Tool neu laden
+    //  und clonen muss. Das Tool erwartet, die Liste DATAFILE im gleichen
+    //  Verzeichnis zu finden, in dem auch das Tool liegt.
+
+    s1=implode(explode(old_explode(object_name(ME),"#")[0],"/")[0..<2],"/")+"/"
+       DATAFILE;
+    if (file_size(s1)<1)
+        s1=DEFAULT_DATA;
+
+    uebergehen = regexp(regexplode(read_file(s1),"[^A-Za-z0-9ÄÖÜäöüß]"),"\\<[a-zäöüß]");
 
 // Terminaltyp des Magiers feststellen.
 
@@ -664,6 +676,10 @@ int search_sense(object r, int sense)
 // Alles klein machen.
 
     zufinden=map(s2,#'lower_case);
+    
+// Die zu uebergehenden Details rausfiltern.
+
+    zufinden=filter((zufinden-uebergehen),#'stringp);
 
 // Testen, welche Sense-Details fehlen und anzeigen
 

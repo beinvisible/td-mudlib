@@ -273,6 +273,17 @@ void RemoveSmell(mixed *keys)
       smells = m_delete(smells, keys[i]);
 }
 
+void AddSpecialSmell(mixed keys, string func)
+{
+  int i;
+  closure cl;
+ 
+  if(!(cl=symbol_function(func,this_object()))) return;
+  return AddSmell(keys,cl);
+}
+
+void RemoveSpecialSmell(mixed keys) { return RemoveSmell(keys); }
+
 void AddSound(mixed *keys, mixed descr) 
 {
   int i;
@@ -308,6 +319,17 @@ void RemoveSound(mixed *keys)
     for (i = sizeof(keys) - 1; i >= 0; i--)
       sounds = m_delete(sounds, keys[i]);
 }
+
+void AddSpecialSound(mixed keys, string func)
+{
+  int i;
+  closure cl;
+ 
+  if(!(cl=symbol_function(func,this_object()))) return;
+  return AddSound(keys,cl);
+}
+
+void RemoveSpecialSound(mixed keys) { return RemoveSound(keys); }
 
 varargs string GetSmell(mixed key, mixed race) 
 {

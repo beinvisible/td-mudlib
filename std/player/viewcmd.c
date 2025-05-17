@@ -227,10 +227,12 @@ private string getflags(string arg, int flags)
     case 'v': flags |= I_MISC << no; break;
     case 'w': flags |= I_WEAPON << no; break;
     case 'S': flags |= I_FORCE_SORT << no; break;
+    case '+': no = 0; break;
+    case '-': no = 1; break;
     default : return arg[i..i];
     }
   }
-  return arg[i..i];
+  return 0;
 }
 
 int _inventory(string str)

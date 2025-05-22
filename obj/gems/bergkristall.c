@@ -5,7 +5,7 @@ inherit "std/unit";
 #include <properties.h>
 #include <language.h>
 
-string long()
+varargs string long()
 {
   return break_string(parse_color_string("Ein wunderbar funkelnder ^WBer^N^S^Wgkr^N^Wist^N^S^Wall^N. Er reflektiert das Licht und "
     "und scheint dadurch in den verschiedensten Farben zu glänzen. Du "

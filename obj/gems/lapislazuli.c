@@ -5,7 +5,7 @@ inherit "std/unit";
 #include <properties.h>
 #include <language.h>
 
-string long()
+warargs string long()
 {
   return break_string(parse_color_string("^W^GLapislazuli^N ist ein ätzend grüner Edelstein."));
 }

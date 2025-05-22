@@ -5,7 +5,7 @@ inherit "std/unit";
 #include <properties.h>
 #include <language.h>
 
-string long()
+varargs string long()
 {
   return break_string(parse_color_string("^WDiamanten^N gelten nicht umsonst als die wertvollsten und schönsten "
     "Edelsteine. Der ^WDiamant^N funkelt und glitzert im Licht, als ob er "

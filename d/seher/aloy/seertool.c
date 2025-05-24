@@ -124,15 +124,22 @@ void init()
   
   if(sizeof(get_dir("/d/seher/haeuser/"+geteuid(this_player())+"/room"))==0)
     mkdir("/d/seher/haeuser/"+geteuid(this_player())+"/room");
+  
+  if (!IS_SEER(TP))
+  {
+     printf("Der Hammer zerstört sich aus unerklärlichen Gründen "
+        +"in deiner Hand.\n");
+     TO->remove();
+  }
 }
 
 int _checkallow()
 {
   if (!IS_SEER(TP))
   {
-     printf("Der Hammer fällt Dir aus unerklärlichen Gründen "
-        +"einfach aus der Hand.\n");
-     TO->move(ENV(TP), M_SILENT);  
+     printf("Der Hammer zerstört sich aus unerklärlichen Gründen "
+        +"in deiner Hand.\n");
+     TO->remove();  
      return 0;
   }
 

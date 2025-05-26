@@ -620,7 +620,7 @@ int _hammerlist()
    return 1;
  }
  for (i=0;i<sizeof(code);i++) {
-   text+=(sprintf(" # %-5d",i));
+   text+=(sprintf(" # %-4d",i));
 
   codedet=({})+code[i];
    switch(codedet[0]) {

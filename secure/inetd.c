@@ -845,12 +845,12 @@ varargs string send_udp(string mudname, mapping data, int expect_reply) {
                 mudname);
 
         /* Allow 8 extra chars: 3 digits + "/" + 3 digits + DELIMITER */
-        packet_arr = explode_packet(apply_host_encoding(packet, mudname),
+        packet_arr = explode_packet(packet,
             MAX_PACKET_LEN - (sizeof(header) + 8));
 
         for(i = max = sizeof(packet_arr); i--; )
             packet_arr[i] = header
-                + to_bytes((i+1) + "/" + max + DELIMITER, "ASCII")
+                + to_bytes((i+1) + "/" + max + DELIMITER, "ASCII") // always ascii
                 + packet_arr[i];
     }
 

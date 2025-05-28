@@ -374,6 +374,7 @@ inherit "/std/living/skills";
 inherit "/std/player/quests";
 inherit "/std/player/exploration";
 inherit "/std/player/soul";
+inherit "/std/player/temperatur";
 inherit "/std/more";
 inherit "/std/user_filter";
 

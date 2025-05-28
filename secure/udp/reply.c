@@ -63,6 +63,16 @@ void udp_reply(mapping data) {
 	case "ping":
 	    /* Ignore system ping replies. */
 	    return;
+    case "encoding":
+        /* a host tells us its preferred encoding */
+        INETD->update_host_encoding(data[NAME],data[DATA]);
+        return;
+    case "mud_port":
+        INETD->update_host_mud_port(data[NAME], data[DATA]);
+        return;
+    case "list":
+        INETD->update_host_queries(data[NAME], data[DATA]);
+        return;
 	default:
 	    /* Log replies to the system. (ie. No RECIPIENT) */
 	    if (data[DATA])

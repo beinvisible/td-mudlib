@@ -93,11 +93,14 @@
 
 /* --- Index macros for host arrays. --- */
 
-#define HOST_NAME	0
-#define HOST_IP		1
-#define HOST_UDP_PORT	2
-#define LOCAL_COMMANDS	3
-#define HOST_COMMANDS	4
-#define HOST_STATUS	5
+#define HOST_NAME       0
+#define HOST_IP         1
+#define HOST_UDP_PORT   2
+#define LOCAL_COMMANDS  3
+#define HOST_COMMANDS   4
+#define HOST_STATUS     5
+#define HOST_QUERIES    6
+#define HOST_MUD_PORT   7
+#define HOST_ENCODING   8
 
 #endif

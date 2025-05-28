@@ -830,25 +830,28 @@ varargs string send_udp(string mudname, mapping data, int expect_reply) {
     if (expect_reply)
         call_out("reply_time_out", REPLY_TIME_OUT, mudname + ":" + packet_id);
 
+    packet = apply_host_encoding(packet, mudname);
     if (sizeof(packet) <= MAX_PACKET_LEN)
-        packet_arr = ({ apply_host_encoding(packet, mudname) });
+        packet_arr = ({ packet });
     else {
         bytes header;
         int max;
 
         /* Be careful with the ID.  data[ID] could have been set up by RETRY */
         header = apply_host_encoding(
-            PACKET + ":" + lower_case(LOCAL_NAME) + ":" +
-            ((expect_reply || data[REQUEST] != REPLY)&& data[ID] ?
-            data[ID] : ++packet_id) + ":", mudname);
+                PACKET + ":" + lower_case(LOCAL_NAME) + ":" +
+                ((expect_reply || data[REQUEST] != REPLY)&& data[ID] ?
+                 data[ID] : ++packet_id) + ":",
+                mudname);
 
         /* Allow 8 extra chars: 3 digits + "/" + 3 digits + DELIMITER */
         packet_arr = explode_packet(apply_host_encoding(packet, mudname),
             MAX_PACKET_LEN - (sizeof(header) + 8));
 
         for(i = max = sizeof(packet_arr); i--; )
-            packet_arr[i] =
-            header + apply_host_encoding((i+1) + "/" + max + DELIMITER) + packet_arr[i];
+            packet_arr[i] = header
+                + to_bytes((i+1) + "/" + max + DELIMITER, "ASCII")
+                + packet_arr[i];
     }
 
     for(i = sizeof(packet_arr); i--; )

@@ -114,6 +114,7 @@
 #define P_WANTS_TO_LEARN        "wants_to_learn"
 #define P_AUTOLOADOBJ           "autoloadobj"
 #define P_AUTOLOAD              "autoload"
+#define P_LAST_ROOM             "last_room"
 
 // email addresse sichtbar fuer spieler?
 #define P_MAILADDR_INVIS	"email_invis"

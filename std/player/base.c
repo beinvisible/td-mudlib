@@ -2274,6 +2274,7 @@ private void move_player_to_start5(string where)
   int num;
   object gewand;
   object waffe;
+  object fband;
   string err;
   string called_from_ip, called_from_ip_name;
   mixed start_place;
@@ -2311,6 +2312,14 @@ private void move_player_to_start5(string where)
       if(QueryProp(P_NAME)[0..3] != "Gast")
       if(QueryProp(P_LAST_LOGOUT) == -1)
       {
+	catch(fband=clone_object("/p/service/tiamak/obj/fband2"));
+         if(!fband) {
+	    write(break_string(
+	    "Achtung, Freundschaftsband buggt. Bitte Magier informieren!\n"));
+         }
+         else
+           fband->move(this_player(), M_SILENT);
+        
           //dinge, die beim ersten login passieren sollen
       }
     }

@@ -597,6 +597,7 @@ void create()
   Set(P_WANTS_TO_LEARN, SAVE, F_MODE_AS);
   Set(P_CAN_FLAGS, SAVE, F_MODE_AS);
   Set(P_TESTPLAYER, SAVE, F_MODE_AS);
+  Set(P_LAST_ROOM, SAVE, F_MODE_AS);
 
   Set(P_SECOND, SAVE|SECURED, F_MODE_AS);
   Set(P_SECOND_INVIS, SAVE|SECURED, F_MODE_AS);
@@ -2279,6 +2280,7 @@ private void move_player_to_start5(string where)
   string err;
   string called_from_ip, called_from_ip_name;
   mixed start_place;
+  string last_room;
 
   if (QueryProp(P_LEVEL) == -1)
   {
@@ -2357,15 +2359,31 @@ private void move_player_to_start5(string where)
     start_place=QueryProp(P_START_HOME);
   */
   start_place=QueryProp(P_START_HOME);
+  last_room=QueryProp(P_LAST_ROOM);
+
   if (start_place && (objectp(start_place)
                       || (stringp(start_place) && start_place != "")))
   {
     if ((err=catch(move(start_place, M_GO|M_NOCHECK|M_SILENT|M_NO_SHOW)))
         || !environment())
-      err=catch(move(default_home, M_GO|M_NOCHECK|M_SILENT|M_NO_SHOW));
+    {
+        if(last_room && last_room !="")
+        {
+          err=catch(move(last_room, M_GO|M_NOCHECK|M_SILENT|M_NO_SHOW));
+        }
+        else
+          err=catch(move(default_home, M_GO|M_NOCHECK|M_SILENT|M_NO_SHOW));
+    }
   }
   else
-    err=catch(move(default_home,M_GO|M_NOCHECK|M_SILENT|M_NO_SHOW));
+  {
+    if(last_room && last_room !="")
+        {
+          err=catch(move(last_room, M_GO|M_NOCHECK|M_SILENT|M_NO_SHOW));
+        }
+        else
+          err=catch(move(default_home,M_GO|M_NOCHECK|M_SILENT|M_NO_SHOW));
+  }
   if (err) catch(move("gilden/abenteurer",M_GO|M_NOCHECK|M_SILENT|M_NO_SHOW));
   catch(ME->FinalSetup());
   load_auto_objects(autoload);

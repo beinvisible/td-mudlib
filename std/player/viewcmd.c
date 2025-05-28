@@ -78,6 +78,7 @@
 
 #include "/sys/thing/properties.h"
 #include "/sys/living/put_and_get.h"
+#include "/sys/player/temperatur.h"
 #include "/secure/questmaster.h"
 
 #include <container.h>
@@ -909,6 +910,16 @@ int _shortpinfo()
   return 1;
 }
 
+int _temperatur()
+{
+  temp_berechnung();
+  minmax_temp_return();
+  armour_temp();
+  temp_return();
+
+  return 1;
+}
+
 static mixed *_query_localcmds()
 {
   return
@@ -917,6 +928,8 @@ static mixed *_query_localcmds()
       ({"inventar","_inventory",0,0}),
       ({"ausruestung","_armours",0,0}),
       ({"ausrüstung","_armours",0,0}),
+      ({"temperatur","_temperatur",0,0}),
+      ({"temp","_temperatur",0,0}),
       ({"kurzinfo","_shortpinfo",0,0}),
       ({"kinfo","_shortpinfo",0,0}),
       ({"questbuch","_liste",0,0}),

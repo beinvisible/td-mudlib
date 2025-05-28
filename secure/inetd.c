@@ -650,44 +650,15 @@ string encode_packet(mapping data) {
     return implode(ret, DELIMITER);
 }
 
-// Funktion explode_
-// Die Funktion zerlegt den String packet in gleich lange Teilstrings
-// der Laenge len und gibt die Teilstrings als Array zurueck. Der letzte
-// Teilstring kann kuerzer sein als die anderen.
-string *explode_packet(string packet, int len) {
 
-  int ptr, m_ptr,size;
-  string *result;
+bytes *
+explode_packet(bytes packet, int len)
+{
+    if (sizeof(packet) <= len) return ({ packet });
 
-  // Variablen initialisieren
-  m_ptr=ptr=0;
-  size=sizeof(packet);
-  result=({});
-
-  // Um Arrayadditionen zu vermeiden wird vorher allokiert. Die Division 
-  // durch 0 ist nicht abgefangen, da bei len=0 was im Aufruf falch ist.
-  result=allocate((size/len+1));
-
-  while (ptr<size) {
-    result[m_ptr] = // Aktuellen Teilstring speichern
-#ifdef USE_EXTRACT
-            extract(packet,ptr,ptr+len-1);
-#else
-            packet[ptr..ptr+len-1]; 
-#endif
-    ptr+=len;// Neuen Pointer im String berechnen
-    m_ptr++; // Neuen Pointer im Mapping berechnen. Hier nutze ich eine
-             // Variable mehr als noetig, weil das billiger ist, als jedes
-             // mal ptr=m_ptr*len auszurechnen. Lieber zwei Additionen als 
-             // eine Multiplikation und eine Addtion.
-  }
-
-  // Wenn size/len aufgeht, ist das Result-Feld zu gross. Dann bleibt 
-  // ein Element leer, das wird hier gestrippt. Das ist billiger als
-  // jedesmal auszurechnen, ob size/len aufgeht.
-  return result-({0});
- 
+    return ({ packet[0..len-1] }) + explode_packet(packet[len..], len);
 }
+
 
 string * update_host_queries(string mudname, string|string * queries) {
     if (!member(hosts, mudname)) return 0;
@@ -830,9 +801,9 @@ varargs string send_udp(string mudname, mapping data, int expect_reply) {
     if (expect_reply)
         call_out("reply_time_out", REPLY_TIME_OUT, mudname + ":" + packet_id);
 
-    packet = apply_host_encoding(packet, mudname);
-    if (sizeof(packet) <= MAX_PACKET_LEN)
-        packet_arr = ({ packet });
+    bytes encoded_packet = apply_host_encoding(packet, mudname);
+    if (sizeof(encoded_packet) <= MAX_PACKET_LEN)
+        packet_arr = ({ encoded_packet });
     else {
         bytes header;
         int max;
@@ -845,7 +816,7 @@ varargs string send_udp(string mudname, mapping data, int expect_reply) {
                 mudname);
 
         /* Allow 8 extra chars: 3 digits + "/" + 3 digits + DELIMITER */
-        packet_arr = explode_packet(packet,
+        packet_arr = explode_packet(encoded_packet,
             MAX_PACKET_LEN - (sizeof(header) + 8));
 
         for(i = max = sizeof(packet_arr); i--; )

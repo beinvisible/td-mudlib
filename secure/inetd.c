@@ -114,6 +114,7 @@ void my_create() {
     hosts = ([ ]);
     received_ids = ({ });
     set_host_list();
+
     if (!this_player())
         call_out("startup", 1, 0);
 }
@@ -249,6 +250,7 @@ void startup(string *muds) {
       muds=m_indices(hosts);
     if (!sizeof(muds))
       return;
+
     string *part;
     if (sizeof(muds) > 9)
       part=muds[0..9];
@@ -477,6 +479,7 @@ void receive_udp(string sender, string packet) {
     }
 #endif
 
+    //FIXXXME tell_object(find_player("gott"), sprintf("%O", packet));
     ZDEBUG(sprintf("%O -> %.500O\n",sender, packet));
     if (
 #ifdef DELIMITER_COMPAT
@@ -661,6 +664,9 @@ explode_packet(bytes packet, int len)
 
 
 string * update_host_queries(string mudname, string|string * queries) {
+    mudname = lower_case(mudname);
+    ZDEBUG(sprintf("update_host_queries: %O\n", hosts[mudname]));
+
     if (!member(hosts, mudname)) return 0;
 
     if (stringp(queries))
@@ -685,6 +691,7 @@ string * update_host_queries(string mudname, string|string * queries) {
 }
 
 int update_host_mud_port(string mudname, string|int number) {
+    mudname = lower_case(mudname);
     if (!member(hosts, mudname)) return 0;
 
     if (stringp(number))
@@ -697,10 +704,11 @@ int update_host_mud_port(string mudname, string|int number) {
         number = 0;
     }
 
-    return hosts[mudname, HOST_MUD_PORT] = number;
+    return hosts[mudname][HOST_MUD_PORT] = number;
 }
 
 string update_host_encoding(string mudname, string encoding) {
+    mudname = lower_case(mudname);
     if (!member(hosts, mudname)) return 0;
 
     encoding = upper_case(encoding);
@@ -715,6 +723,7 @@ string update_host_encoding(string mudname, string encoding) {
 }
 
 bytes apply_host_encoding(string pkt, string mudname) {
+    if (!pkt) return 0;
     /* "TRANSLIT" requires the driver to be running with the correct
      * LANG/LC_* environment.
      * Convert Umlauts explicitly to make sure they are handled correctly 
@@ -744,9 +753,10 @@ bytes apply_host_encoding(string pkt, string mudname) {
 varargs string send_udp(string mudname, mapping data, int expect_reply) {
     mixed host_data;
     bytes *packet_arr;
-    string packet;
+    bytes packet;
     int i;
 
+    // FIXXXME tell_object(find_player("gott"), sprintf("%O", data));
     if(!stringp(mudname))
         return "";
     
@@ -791,7 +801,7 @@ varargs string send_udp(string mudname, mapping data, int expect_reply) {
         data + ([ NAME: host_data[HOST_NAME] ]);
 #endif
     }
-    if (!(packet = encode_packet(data))) {
+    if (!(packet = apply_host_encoding(encode_packet(data), mudname))) {
         if (expect_reply)
             pending_data = m_copy_delete(pending_data, mudname + ":" + packet_id);
         log_file(INETD_LOG_FILE, DATE + ": Illegal packet sent by " +
@@ -801,9 +811,8 @@ varargs string send_udp(string mudname, mapping data, int expect_reply) {
     if (expect_reply)
         call_out("reply_time_out", REPLY_TIME_OUT, mudname + ":" + packet_id);
 
-    bytes encoded_packet = apply_host_encoding(packet, mudname);
-    if (sizeof(encoded_packet) <= MAX_PACKET_LEN)
-        packet_arr = ({ encoded_packet });
+    if (sizeof(packet) <= MAX_PACKET_LEN)
+        packet_arr = ({ packet });
     else {
         bytes header;
         int max;
@@ -816,8 +825,7 @@ varargs string send_udp(string mudname, mapping data, int expect_reply) {
                 mudname);
 
         /* Allow 8 extra chars: 3 digits + "/" + 3 digits + DELIMITER */
-        packet_arr = explode_packet(encoded_packet,
-            MAX_PACKET_LEN - (sizeof(header) + 8));
+        packet_arr = explode_packet(packet, MAX_PACKET_LEN - (sizeof(header) + 8));
 
         for(i = max = sizeof(packet_arr); i--; )
             packet_arr[i] = header

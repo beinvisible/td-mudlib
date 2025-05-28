@@ -701,6 +701,14 @@ string * update_host_queries(string mudname, string|string * queries) {
     {
         queries = 0;
     }
+    else
+    {
+        // check newly learned capabilities
+        foreach (string query: queries - (host[mudname][HOST_QUERIES] || ({})))
+        {
+            send_udp(host, ([ REQUEST: "query", DATA: query ]), 1);
+        }
+    }
 
     return hosts[mudname][HOST_QUERIES] = queries;
 }

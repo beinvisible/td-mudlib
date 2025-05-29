@@ -374,6 +374,7 @@ inherit "/std/living/skills";
 inherit "/std/player/quests";
 inherit "/std/player/exploration";
 inherit "/std/player/soul";
+inherit "/std/player/temperatur";
 inherit "/std/more";
 inherit "/std/user_filter";
 
@@ -596,6 +597,7 @@ void create()
   Set(P_WANTS_TO_LEARN, SAVE, F_MODE_AS);
   Set(P_CAN_FLAGS, SAVE, F_MODE_AS);
   Set(P_TESTPLAYER, SAVE, F_MODE_AS);
+  Set(P_LAST_ROOM, SAVE, F_MODE_AS);
 
   Set(P_SECOND, SAVE|SECURED, F_MODE_AS);
   Set(P_SECOND_INVIS, SAVE|SECURED, F_MODE_AS);
@@ -2274,9 +2276,11 @@ private void move_player_to_start5(string where)
   int num;
   object gewand;
   object waffe;
+  object fband;
   string err;
   string called_from_ip, called_from_ip_name;
   mixed start_place;
+  string last_room;
 
   if (QueryProp(P_LEVEL) == -1)
   {
@@ -2311,6 +2315,14 @@ private void move_player_to_start5(string where)
       if(QueryProp(P_NAME)[0..3] != "Gast")
       if(QueryProp(P_LAST_LOGOUT) == -1)
       {
+	catch(fband=clone_object("/p/service/tiamak/obj/fband2"));
+         if(!fband) {
+	    write(break_string(
+	    "Achtung, Freundschaftsband buggt. Bitte Magier informieren!\n"));
+         }
+         else
+           fband->move(this_player(), M_SILENT);
+        
           //dinge, die beim ersten login passieren sollen
       }
     }
@@ -2347,15 +2359,31 @@ private void move_player_to_start5(string where)
     start_place=QueryProp(P_START_HOME);
   */
   start_place=QueryProp(P_START_HOME);
+  last_room=QueryProp(P_LAST_ROOM);
+
   if (start_place && (objectp(start_place)
                       || (stringp(start_place) && start_place != "")))
   {
     if ((err=catch(move(start_place, M_GO|M_NOCHECK|M_SILENT|M_NO_SHOW)))
         || !environment())
-      err=catch(move(default_home, M_GO|M_NOCHECK|M_SILENT|M_NO_SHOW));
+    {
+        if(last_room && last_room !="")
+        {
+          err=catch(move(last_room, M_GO|M_NOCHECK|M_SILENT|M_NO_SHOW));
+        }
+        else
+          err=catch(move(default_home, M_GO|M_NOCHECK|M_SILENT|M_NO_SHOW));
+    }
   }
   else
-    err=catch(move(default_home,M_GO|M_NOCHECK|M_SILENT|M_NO_SHOW));
+  {
+    if(last_room && last_room !="")
+        {
+          err=catch(move(last_room, M_GO|M_NOCHECK|M_SILENT|M_NO_SHOW));
+        }
+        else
+          err=catch(move(default_home,M_GO|M_NOCHECK|M_SILENT|M_NO_SHOW));
+  }
   if (err) catch(move("gilden/abenteurer",M_GO|M_NOCHECK|M_SILENT|M_NO_SHOW));
   catch(ME->FinalSetup());
   load_auto_objects(autoload);
@@ -3588,16 +3616,16 @@ string lalign(string str, int wid)
 }
 
 #define MUDS_BAR "\
--------------------------------------------------------------------------------"
+-----------------------------------------------------------------------------"
 
 private void format(mixed mud, mixed hosts, string output)
 {
   output += lalign(hosts[mud][HOST_NAME], 20) + "  " +
         (hosts[mud][HOST_STATUS] ?
            hosts[mud][HOST_STATUS] > 0 ?
-             "UP       " + ctime(hosts[mud][HOST_STATUS])[4..15] :
-             "DOWN     " + ctime(-hosts[mud][HOST_STATUS])[4..15]
-         : "UNKNOWN  Never accessed.") + "\n";
+             "ONLINE   " + lalign(hosts[mud][HOST_IP], 15) + "   " + (hosts[mud][HOST_ENCODING]?lalign(hosts[mud][HOST_ENCODING],7):lalign("N/A",7)) + "    " + strftime("%Y/%m/%d, %H:%M",hosts[mud][HOST_STATUS]) :
+             "OFFLINE  " + lalign(hosts[mud][HOST_IP], 15) + "   " + lalign("N/A",7) + "    " + strftime("%Y/%m/%d, %H:%M",-hosts[mud][HOST_STATUS])
+         : "N/A") +"\n";
 }
 
 static int muds() {
@@ -3605,8 +3633,8 @@ static int muds() {
   int i;
   mixed muds, output;
 
-  output = lalign("Mudname", 20) + "  Status   Last access";
-  output += "\n" + MUDS_BAR[0..sizeof(output)] + "\n";
+  output = lalign("MUD", 20) + "  Status   "+lalign("IP", 15)+"   Encoding   Last access";
+  output += "\n" + MUDS_BAR + "\n";
   muds = sort_array(m_indices(hosts = INETD->query("hosts")),#'>);
   map(muds, #'format, hosts, &output);
   More(output);

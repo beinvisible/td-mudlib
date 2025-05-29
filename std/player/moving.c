@@ -155,6 +155,7 @@ varargs int move(mixed dest, int methods, string direction,
       }
       else if (!random(2))      // sollen nicht ganz so oft kommen... 17%
         write(EXH_MSG_ME[random(sizeof(EXH_MSG_ME))]);
+     ME->SetProp(P_LAST_ROOM,object_name(environment(this_object())));
   }
   return mv;
 }

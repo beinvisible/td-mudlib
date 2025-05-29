@@ -888,7 +888,9 @@ protected int handle_external_signal(int signal)
     case SIGUSR1:
       break;
     case SIGUSR2:
+#ifdef __TLS__
       tls_refresh_certs();
+#endif
       break;
   }
 

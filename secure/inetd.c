@@ -24,6 +24,7 @@
 #include <udp.h>
 #include <wizlevels.h>
 #include <config.h>
+#include <regexp.h>
 
 /* --- Configurable definitions. --- */
 
@@ -59,6 +60,9 @@
 /* The maximum number of characters we can send in one packet.
  * You may need to reduce this, but 512 should be safe. */
 #define MAX_PACKET_LEN        1024
+
+/* Interval between pinging all known muds. */
+#define HOST_PING_INTERVAL    (1*3600)
 
 /* You shouldn't need to change anything below. */
 
@@ -110,6 +114,7 @@ void my_create() {
     hosts = ([ ]);
     received_ids = ({ });
     set_host_list();
+
     if (!this_player())
         call_out("startup", 1, 0);
 }
@@ -170,12 +175,15 @@ private mapping read_host_list(string file) {
     if (member(local_cmds,"*") != -1)
         local_cmds = local_cmds - ({ "*" }) + COMMANDS;
     
-    new_hosts[name] = ({ capitalize(fields[HOST_NAME]),
-                     fields[HOST_IP],
-                     to_int(fields[HOST_UDP_PORT]),
-                     local_cmds,
-                     old_explode(fields[HOST_COMMANDS], HOSTFILE_DEL2),
-                     UNKNOWN
+    new_hosts[name] = ({ capitalize(fields[HOST_NAME]), // HOST_NAME
+                     fields[HOST_IP], // HOST_IP
+                     to_int(fields[HOST_UDP_PORT]), // HOST_UDP_PORT
+                     local_cmds, // LOCAL_COMMANDS
+                     old_explode(fields[HOST_COMMANDS], HOSTFILE_DEL2), // HOST_COMMANDS
+                     UNKNOWN, // HOST_STATUS
+                     0, // HOST_QUERIES
+                     0, // HOST_MUD_PORT
+                     0, // HOST_ENCODING
                    });
     /*
      * Get existing host status from current active host lost as long as the
@@ -183,8 +191,12 @@ private mapping read_host_list(string file) {
      */
     if (hosts[name] &&
         hosts[name][HOST_IP] == new_hosts[name][HOST_IP] &&
-        hosts[name][HOST_UDP_PORT] == new_hosts[name][HOST_UDP_PORT])
+        hosts[name][HOST_UDP_PORT] == new_hosts[name][HOST_UDP_PORT]) {
         new_hosts[name][HOST_STATUS] = hosts[name][HOST_STATUS];
+        new_hosts[name][HOST_QUERIES] = hosts[name][HOST_QUERIES];
+        new_hosts[name][HOST_MUD_PORT] = hosts[name][HOST_MUD_PORT];
+        new_hosts[name][HOST_ENCODING] = hosts[name][HOST_ENCODING];
+    }
   }
   return new_hosts;
 }
@@ -238,16 +250,27 @@ void startup(string *muds) {
       muds=m_indices(hosts);
     if (!sizeof(muds))
       return;
+
     string *part;
     if (sizeof(muds) > 9)
       part=muds[0..9];
     else
       part=muds;
-    foreach(string mud: part) 
-      send_udp(mud, ([ REQUEST: PING ]), 1);
+    foreach(string mud: part) {
+        string *queries = ({ "list" })
+            + ( ({ "mud_port", "encoding" })
+                    & (hosts[mud][HOST_QUERIES] || ({ })) );
+
+        foreach (string query: queries)
+        {
+            send_udp(mud, ([ REQUEST: "query", DATA: query ]), 1);
+        }
+    }
     muds -= part;
     if (sizeof(muds))
       call_out(#'startup, 4, muds);
+    else // regularly ping other muds
+      call_out(#'startup, HOST_PING_INTERVAL);
 }
 
 varargs int remove(int silent)
@@ -456,6 +479,7 @@ void receive_udp(string sender, string packet) {
     }
 #endif
 
+    //FIXXXME tell_object(find_player("gott"), sprintf("%O", packet));
     ZDEBUG(sprintf("%O -> %.500O\n",sender, packet));
     if (
 #ifdef DELIMITER_COMPAT
@@ -629,51 +653,110 @@ string encode_packet(mapping data) {
     return implode(ret, DELIMITER);
 }
 
-// Funktion explode_
-// Die Funktion zerlegt den String packet in gleich lange Teilstrings
-// der Laenge len und gibt die Teilstrings als Array zurueck. Der letzte
-// Teilstring kann kuerzer sein als die anderen.
-string *explode_packet(string packet, int len) {
 
-  int ptr, m_ptr,size;
-  string *result;
+bytes *
+explode_packet(bytes packet, int len)
+{
+    if (sizeof(packet) <= len) return ({ packet });
 
-  // Variablen initialisieren
-  m_ptr=ptr=0;
-  size=sizeof(packet);
-  result=({});
+    return ({ packet[0..len-1] }) + explode_packet(packet[len..], len);
+}
 
-  // Um Arrayadditionen zu vermeiden wird vorher allokiert. Die Division 
-  // durch 0 ist nicht abgefangen, da bei len=0 was im Aufruf falch ist.
-  result=allocate((size/len+1));
 
-  while (ptr<size) {
-    result[m_ptr] = // Aktuellen Teilstring speichern
-#ifdef USE_EXTRACT
-            extract(packet,ptr,ptr+len-1);
-#else
-            packet[ptr..ptr+len-1]; 
-#endif
-    ptr+=len;// Neuen Pointer im String berechnen
-    m_ptr++; // Neuen Pointer im Mapping berechnen. Hier nutze ich eine
-             // Variable mehr als noetig, weil das billiger ist, als jedes
-             // mal ptr=m_ptr*len auszurechnen. Lieber zwei Additionen als 
-             // eine Multiplikation und eine Addtion.
-  }
+string * update_host_queries(string mudname, string|string * queries) {
+    mudname = lower_case(mudname);
+    ZDEBUG(sprintf("update_host_queries: %O\n", hosts[mudname]));
 
-  // Wenn size/len aufgeht, ist das Result-Feld zu gross. Dann bleibt 
-  // ein Element leer, das wird hier gestrippt. Das ist billiger als
-  // jedesmal auszurechnen, ob size/len aufgeht.
-  return result-({0});
- 
+    if (!member(hosts, mudname)) return 0;
+
+    if (stringp(queries))
+    {
+        queries = regexplode(queries, "[ ,:\n\|]", RE_OMIT_DELIM) - ({ "" });
+    }
+
+    if (!sizeof(queries) || member(queries, "*") != -1)
+    {
+        queries = 0;
+    }
+    else
+    {
+        // check newly learned capabilities
+        foreach (string query: queries - (hosts[mudname][HOST_QUERIES] || ({})))
+        {
+            send_udp(mudname, ([ REQUEST: "query", DATA: query ]), 1);
+        }
+    }
+
+    return hosts[mudname][HOST_QUERIES] = queries;
+}
+
+int update_host_mud_port(string mudname, string|int number) {
+    mudname = lower_case(mudname);
+    if (!member(hosts, mudname)) return 0;
+
+    if (stringp(number))
+    {
+        number = to_int(number);
+    }
+
+    if (number < 0 || number > 65535)
+    {
+        number = 0;
+    }
+
+    return hosts[mudname][HOST_MUD_PORT] = number;
+}
+
+string update_host_encoding(string mudname, string encoding) {
+    mudname = lower_case(mudname);
+    if (!member(hosts, mudname)) return 0;
+
+    encoding = upper_case(encoding);
+
+    // check if encoding is valid
+    if (catch(to_bytes("", encoding)))
+    {
+        encoding = 0;
+    }
+
+    return hosts[mudname][HOST_ENCODING] = encoding;
+}
+
+bytes apply_host_encoding(string pkt, string mudname) {
+    if (!pkt) return 0;
+    /* "TRANSLIT" requires the driver to be running with the correct
+     * LANG/LC_* environment.
+     * Convert Umlauts explicitly to make sure they are handled correctly 
+     * in any case */
+    string encoding = member(hosts, mudname) ? hosts[mudname][HOST_ENCODING] || "ASCII" : "ASCII";
+    if (strstr(encoding, "ASCII") != -1) {
+        pkt = efun::regreplace(pkt, "[äöüÄÖÜßẞ]",
+            function string (string c)
+            {
+                return ([
+                        "ä": "ae",
+                        "Ä": "AE",
+                        "ö": "oe",
+                        "Ö": "OE",
+                        "ü": "ue",
+                        "Ü": "UE",
+                        "ß": "ss",
+                        "ẞ": "SS",
+                ])[c] || "?";
+            },
+            RE_GLOBAL);
+    }
+
+    return to_bytes(pkt, encoding + "//TRANSLIT");
 }
 
 varargs string send_udp(string mudname, mapping data, int expect_reply) {
     mixed host_data;
-    string *packet_arr;
-    string packet;
+    bytes *packet_arr;
+    bytes packet;
     int i;
 
+    // FIXXXME tell_object(find_player("gott"), sprintf("%O", data));
     if(!stringp(mudname))
         return "";
     
@@ -718,7 +801,7 @@ varargs string send_udp(string mudname, mapping data, int expect_reply) {
         data + ([ NAME: host_data[HOST_NAME] ]);
 #endif
     }
-    if (!(packet = encode_packet(data))) {
+    if (!(packet = apply_host_encoding(encode_packet(data), mudname))) {
         if (expect_reply)
             pending_data = m_copy_delete(pending_data, mudname + ":" + packet_id);
         log_file(INETD_LOG_FILE, DATE + ": Illegal packet sent by " +
@@ -731,22 +814,23 @@ varargs string send_udp(string mudname, mapping data, int expect_reply) {
     if (sizeof(packet) <= MAX_PACKET_LEN)
         packet_arr = ({ packet });
     else {
-        string header;
+        bytes header;
         int max;
 
         /* Be careful with the ID.  data[ID] could have been set up by RETRY */
-        header =
-            PACKET + ":" + lower_case(LOCAL_NAME) + ":" +
-            ((expect_reply || data[REQUEST] != REPLY)&& data[ID] ?
-            data[ID] : ++packet_id) + ":";
+        header = apply_host_encoding(
+                PACKET + ":" + lower_case(LOCAL_NAME) + ":" +
+                ((expect_reply || data[REQUEST] != REPLY)&& data[ID] ?
+                 data[ID] : ++packet_id) + ":",
+                mudname);
 
         /* Allow 8 extra chars: 3 digits + "/" + 3 digits + DELIMITER */
-        packet_arr = explode_packet(packet,
-            MAX_PACKET_LEN - (sizeof(header) + 8));
+        packet_arr = explode_packet(packet, MAX_PACKET_LEN - (sizeof(header) + 8));
 
         for(i = max = sizeof(packet_arr); i--; )
-            packet_arr[i] =
-            header + (i+1) + "/" + max + DELIMITER + packet_arr[i];
+            packet_arr[i] = header
+                + to_bytes((i+1) + "/" + max + DELIMITER, "ASCII") // always ascii
+                + packet_arr[i];
     }
 
     for(i = sizeof(packet_arr); i--; )
@@ -759,7 +843,7 @@ varargs string send_udp(string mudname, mapping data, int expect_reply) {
       // uebrig, alles nicht-ASCII wegzuwerfen.
 
         if (!efun::send_udp(host_data[HOST_IP], host_data[HOST_UDP_PORT],
-                to_bytes(packet_arr[i], UDP_ENCODING)))
+                packet_arr[i]))
             return "inetd: Error in sending packet.\n";
     }
     return 0;

@@ -183,7 +183,7 @@ private mapping read_host_list(string file) {
                      UNKNOWN, // HOST_STATUS
                      0, // HOST_QUERIES
                      0, // HOST_MUD_PORT
-                     0, // HOST_ENCODING
+                     fields[HOST_IP] == "127.0.0.1" ? UDP_ENCODING : 0, // HOST_ENCODING
                    });
     /*
      * Get existing host status from current active host lost as long as the
@@ -728,23 +728,25 @@ bytes apply_host_encoding(string pkt, string mudname) {
      * LANG/LC_* environment.
      * Convert Umlauts explicitly to make sure they are handled correctly 
      * in any case */
-    string encoding = member(hosts, mudname) ? hosts[mudname][HOST_ENCODING] || "ASCII" : "ASCII";
+    string encoding = member(hosts, mudname)
+            ? hosts[mudname][HOST_ENCODING] || "ASCII" : "ASCII";
+
     if (strstr(encoding, "ASCII") != -1) {
         pkt = efun::regreplace(pkt, "[äöüÄÖÜßẞ]",
-            function string (string c)
-            {
-                return ([
-                        "ä": "ae",
-                        "Ä": "AE",
-                        "ö": "oe",
-                        "Ö": "OE",
-                        "ü": "ue",
-                        "Ü": "UE",
-                        "ß": "ss",
-                        "ẞ": "SS",
-                ])[c] || "?";
-            },
-            RE_GLOBAL);
+                function string (string c)
+                {
+                    return ([
+                            "ä": "ae",
+                            "Ä": "AE",
+                            "ö": "oe",
+                            "Ö": "OE",
+                            "ü": "ue",
+                            "Ü": "UE",
+                            "ß": "ss",
+                            "ẞ": "SS",
+                    ])[c] || "?";
+                },
+                RE_GLOBAL);
     }
 
     return to_bytes(pkt, encoding + "//TRANSLIT");
@@ -756,10 +758,9 @@ varargs string send_udp(string mudname, mapping data, int expect_reply) {
     bytes packet;
     int i;
 
-    // FIXXXME tell_object(find_player("gott"), sprintf("%O", data));
     if(!stringp(mudname))
         return "";
-    
+
     mudname = lower_case(mudname);
     if (!(host_data = hosts[mudname])) {
         string *names;
@@ -770,15 +771,15 @@ varargs string send_udp(string mudname, mapping data, int expect_reply) {
 #ifdef SEND_UDP_COMPAT
             return (string)SEND_UDP_COMPAT(mudname, data, expect_reply);
 #else
-        if (!sizeof(names))
-            return "Unbekannter Mudname: " + capitalize(mudname) + "\n";
-        else
-            return break_string("Mudname ("+capitalize(mudname)+
-            ") nicht eindeutig, es passen: "+implode(map(names,#'capitalize),", ")+
-            ".\n",78);
+            if (!sizeof(names))
+                return "Unbekannter Mudname: " + capitalize(mudname) + "\n";
+            else
+                return break_string("Mudname ("+capitalize(mudname)+
+                        ") nicht eindeutig, es passen: "+implode(map(names,#'capitalize),", ")+
+                        ".\n",78);
 #endif
     }
-    
+
     if (data[REQUEST] != PING &&
         data[REQUEST] != QUERY &&
         data[REQUEST] != REPLY &&
@@ -835,8 +836,6 @@ varargs string send_udp(string mudname, mapping data, int expect_reply) {
 
     for(i = sizeof(packet_arr); i--; )
     {
-      // string codierung = (host_data[HOST_IP] == "127.0.0.1") ? "UTF-8" : "ASCII//IGNORE"
-
       ZDEBUG(sprintf("%O <- %.500O\n",host_data[HOST_IP], packet_arr[i]));
       // Transliterationen koennten in : oder DELIMETER
       // resultieren, weswegen das (hier) nicht geht. Daher bleibt nur

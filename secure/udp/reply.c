@@ -49,7 +49,7 @@ void udp_reply(mapping data) {
     if (data[RECIPIENT]) {
         /* If recipient is a player name, pass the message to them. */
         if (stringp(data[RECIPIENT]) && (ob = find_player(data[RECIPIENT])))
-            tell_object(ob, "\n" + data[DATA]);
+            tell_object(ob, "\n" + data[DATA] + "\n");
         /* Otherwise send it to udp_reply() in the recipient. */
         else if (objectp(ob) || (ob = find_object(data[RECIPIENT])))
         {

@@ -3616,16 +3616,16 @@ string lalign(string str, int wid)
 }
 
 #define MUDS_BAR "\
--------------------------------------------------------------------------------"
+------------------------------------------------------------------------"
 
 private void format(mixed mud, mixed hosts, string output)
 {
   output += lalign(hosts[mud][HOST_NAME], 20) + "  " +
         (hosts[mud][HOST_STATUS] ?
            hosts[mud][HOST_STATUS] > 0 ?
-             "UP       " + ctime(hosts[mud][HOST_STATUS])[4..15] :
-             "DOWN     " + ctime(-hosts[mud][HOST_STATUS])[4..15]
-         : "UNKNOWN  Never accessed.") + "\n";
+             "ONLINE   " + lalign(hosts[mud][HOST_IP], 15) + "   " + (hosts[mud][HOST_ENCODING]?lalign(hosts[mud][HOST_ENCODING],7):lalign("N/A",7)) + "    " + dtime(hosts[mud][HOST_STATUS])[5..16] :
+             "OFFLINE  " + lalign(hosts[mud][HOST_IP], 15) + "   " + lalign("N/A",7) + "    " + dtime(-hosts[mud][HOST_STATUS])[5..16]
+         : "N/A") +"\n";
 }
 
 static int muds() {
@@ -3633,7 +3633,7 @@ static int muds() {
   int i;
   mixed muds, output;
 
-  output = lalign("Mudname", 20) + "  Status   Last access";
+  output = lalign("MUD", 20) + "  Status   "+lalign("IP", 15)+"   Encoding   Last access";
   output += "\n" + MUDS_BAR[0..sizeof(output)] + "\n";
   muds = sort_array(m_indices(hosts = INETD->query("hosts")),#'>);
   map(muds, #'format, hosts, &output);

@@ -731,8 +731,9 @@ bytes apply_host_encoding(string pkt, string mudname) {
      * LANG/LC_* environment.
      * Convert Umlauts explicitly to make sure they are handled correctly 
      * in any case */
-    string encoding = member(hosts, mudname)
-            ? hosts[mudname][HOST_ENCODING] || "ASCII" : "ASCII";
+    string encoding = mudname == "www" ? "UTF-8"
+        : member(hosts, mudname) ? hosts[mudname][HOST_ENCODING] || "ASCII"
+        : "ASCII";
 
     if (strstr(encoding, "ASCII") != -1) {
         pkt = efun::regreplace(pkt, "[äöüÄÖÜßẞ]",

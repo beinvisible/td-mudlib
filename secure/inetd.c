@@ -433,7 +433,10 @@ string valid_request(mapping data) {
                 data[UDP_PORT],
                 COMMANDS,
                 ({ "*" }),
-                UP
+                UP,
+                0, // HOST_QUERIES
+                0, // HOST_MUD_PORT
+                data[HOST_IP] == "127.0.0.1" ? UDP_ENCODING : 0, // HOST_ENCODING
             });
             log_file(INETD_LOG_FILE, DATE + ": New mud.\n" + data[NAME] + ":" +
             data[HOST] + ":" + data[UDP_PORT] + "\n\n");
